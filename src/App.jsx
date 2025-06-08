@@ -53,7 +53,7 @@ export default function QuizApp() {
         setSelected(null)
         setAnswered(false)
         setShowExplanation(false)
-        setTimeLeft(20)
+        setTimeLeft(60)
     }
 
     const goTo = idx => {
