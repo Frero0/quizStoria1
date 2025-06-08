@@ -44,19 +44,6 @@ h1, h2 {
   margin-bottom: 1rem;
 }
 
-/* 4) Progress bar */
-.progress-bg {
-  background: #e5e7eb; /* gray-200 */
-  height: 0.5rem;
-  border-radius: 9999px;
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-}
-.progress-fg {
-  background: #10b981; /* emerald-500 */
-  height: 100%;
-  transition: width 0.4s ease;
-}
 
 /* 5) Pulsanti */
 .btn-primary {
@@ -130,4 +117,52 @@ h1, h2 {
 /* Utility che già avevi: */
 .read-the-docs { color: #888; }
 .logo { /* ... */ }
+/* etc. */
+
+/* App.css */
+
+/* 4) Progress bar */
+.progress-bg {
+  background: #e5e7eb; /* gray-200 */
+  height: 0.5rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.progress-fg {
+  background: #10b981; /* emerald-500 */
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+/* ¶ pill numerati */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+.pill.current {
+  /* evidenzia domanda corrente */
+  border-color: #6366f1; /* indigo-500 */
+}
+.pill.correct {
+  background-color: #22c55e; /* green-500 */
+  color: white;
+}
+.pill.wrong {
+  background-color: #ef4444; /* red-500 */
+  color: white;
+}
+/* riprendi styling esistente: */
+.progress-bg { /* ... */ }
+.progress-fg { /* ... */ }
+.counter { /* ... */ }
 /* etc. */

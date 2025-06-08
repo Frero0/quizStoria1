@@ -1,18 +1,19 @@
-// src/App.jsx
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-// importa il JSON direttamente da src
 import quizDataRaw from './quiz_storia_informatica.json'
 
 export default function QuizApp() {
-    // usa subito i dati importati
+    // clona e mescola una volta sola
     const [quizData] = useState(() =>
-        // clona e mescola una volta sola
         [...quizDataRaw].sort(() => Math.random() - 0.5)
     )
     const [current, setCurrent] = useState(0)
-    const [selected, setSelected] = useState(null)
-    const [answered, setAnswered] = useState(false)
+
+    // mappa domandaIdx → opzione selezionata
+    const [selectedMap, setSelectedMap] = useState({})
+    // mappa domandaIdx → 'correct' | 'wrong'
+    const [questionStatus, setQuestionStatus] = useState({})
+
     const [score, setScore] = useState(0)
     const [mistakes, setMistakes] = useState(0)
     const [showExplanation, setShowExplanation] = useState(false)
@@ -23,37 +24,45 @@ export default function QuizApp() {
 
     // timer automatico
     useEffect(() => {
-        if (!started || answered || showExplanation) return
+        if (!started) return
+        const answered = questionStatus[current] !== undefined
+        if (answered || showExplanation) return
         if (timeLeft > 0) {
             const id = setTimeout(() => setTimeLeft(t => t - 1), 1000)
             return () => clearTimeout(id)
         }
-        // timeout -> auto-submit
         handleAnswer(null)
-    }, [timeLeft, answered, showExplanation, started])
+    }, [timeLeft, questionStatus, showExplanation, started, current])
 
     const handleAnswer = opt => {
-        if (answered) return
-        setAnswered(true)
-        setSelected(opt)
+        if (questionStatus[current] !== undefined) return
+
         const correct = quizData[current].answer
-        if (opt === correct) {
-            setScore(s => s + 1)
-        } else {
+        const isCorrect = opt === correct
+
+        // registra scelta e stato
+        setSelectedMap(m => ({ ...m, [current]: opt }))
+        setQuestionStatus(qs => ({
+            ...qs,
+            [current]: isCorrect ? 'correct' : 'wrong'
+        }))
+
+        // aggiorna punteggi
+        if (isCorrect) setScore(s => s + 1)
+        else {
             setMistakes(m => m + 1)
             setWrongAnswers(ws => [
                 ...ws,
                 { ...quizData[current], selected: opt }
             ])
         }
+
         setShowExplanation(true)
     }
 
     const resetQuestion = () => {
-        setSelected(null)
-        setAnswered(false)
-        setShowExplanation(false)
         setTimeLeft(60)
+        setShowExplanation(false)
     }
 
     const goTo = idx => {
@@ -71,8 +80,14 @@ export default function QuizApp() {
         setScore(0)
         setMistakes(0)
         setWrongAnswers([])
+        setSelectedMap({})
+        setQuestionStatus({})
         resetQuestion()
     }
+
+    // derive answered & selected locali
+    const answered = questionStatus[current] !== undefined
+    const selected = selectedMap[current] ?? null
 
     // ——— START SCREEN ———
     if (!started) {
@@ -87,10 +102,7 @@ export default function QuizApp() {
                     <h1 className="text-3xl font-bold text-purple-700 mb-4">
                         🧠 Quiz Storia dell’Informatica
                     </h1>
-                    <button
-                        onClick={() => setStarted(true)}
-                        className="btn-primary"
-                    >
+                    <button onClick={() => setStarted(true)} className="btn-primary">
                         🚀 Inizia Quiz
                     </button>
                 </motion.div>
@@ -116,9 +128,7 @@ export default function QuizApp() {
                                 key={i}
                                 className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg"
                             >
-                                <p className="font-semibold text-red-800">
-                                    {q.question}
-                                </p>
+                                <p className="font-semibold text-red-800">{q.question}</p>
                                 <p className="text-sm">
                                     ❌ Tu: {q.selected ?? 'Nessuna'} | ✔️ {q.answer}
                                 </p>
@@ -183,13 +193,27 @@ export default function QuizApp() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
             >
+                {/* domanda-pill */}
+                <div className="flex flex-wrap justify-center gap-2 mb-4">
+                    {quizData.map((_, idx) => {
+                        const status = questionStatus[idx] // 'correct'|'wrong'|undefined
+                        return (
+                            <button
+                                key={idx}
+                                onClick={() => goTo(idx)}
+                                className={`pill ${status || ''} ${
+                                    idx === current ? 'current' : ''
+                                }`}
+                            >
+                                {idx + 1}
+                            </button>
+                        )
+                    })}
+                </div>
+
                 {/* Nav & Progress */}
                 <div className="flex justify-between items-center mb-4">
-                    <button
-                        onClick={prev}
-                        disabled={current === 0}
-                        className="text-purple-600 disabled:opacity-50"
-                    >
+                    <button onClick={prev} disabled={current === 0} className="text-purple-600 disabled:opacity-50">
                         ← Precedente
                     </button>
                     <span className="font-medium">
@@ -205,11 +229,8 @@ export default function QuizApp() {
                 </div>
 
                 {/* Progress bar */}
-                <div className="w-full h-2 bg-gray-200 rounded-full mb-4 overflow-hidden">
-                    <div
-                        className="h-full bg-green-400"
-                        style={{ width: pct + '%' }}
-                    />
+                <div className="progress-bg mb-4">
+                    <div className="progress-fg" style={{ width: pct + '%' }} />
                 </div>
 
                 {/* Counters */}
@@ -219,14 +240,13 @@ export default function QuizApp() {
                     <span className="text-blue-600">⏳ {timeLeft}s</span>
                 </div>
 
-                <p className="text-center text-lg font-medium mb-6">
-                    {question}
-                </p>
+                <p className="text-center text-lg font-medium mb-6">{question}</p>
                 <ul className="space-y-3 mb-6">
                     {options.map(opt => (
                         <li key={opt}>
                             <button
                                 onClick={() => handleAnswer(opt)}
+                                disabled={answered}
                                 className={`w-full text-left px-4 py-3 rounded-xl border font-semibold transition-all duration-200 ${
                                     answered
                                         ? opt === answer
@@ -243,7 +263,6 @@ export default function QuizApp() {
                     ))}
                 </ul>
 
-                {/* Explanation */}
                 {showExplanation && (
                     <motion.div
                         className="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg mb-4"
@@ -259,17 +278,11 @@ export default function QuizApp() {
 
                 {/* Actions */}
                 <div className="flex justify-between">
-                    <button
-                        onClick={finishTest}
-                        className="btn-danger"
-                    >
+                    <button onClick={finishTest} className="btn-danger">
                         🛑 Termina Test
                     </button>
                     {showExplanation && (
-                        <button
-                            onClick={next}
-                            className="btn-primary"
-                        >
+                        <button onClick={next} className="btn-primary">
                             ➡️ Prossima Domanda
                         </button>
                     )}
