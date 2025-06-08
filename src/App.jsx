@@ -1,79 +1,80 @@
 // src/App.jsx
-import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useEffect } from 'react'
+import { motion } from 'framer-motion'
+// importa il JSON direttamente da src
+import quizDataRaw from './quiz_storia_informatica.json'
 
 export default function QuizApp() {
-    const [quizData, setQuizData] = useState([]);
-    const [current, setCurrent] = useState(0);
-    const [selected, setSelected] = useState(null);
-    const [answered, setAnswered] = useState(false);
-    const [score, setScore] = useState(0);
-    const [mistakes, setMistakes] = useState(0);
-    const [showExplanation, setShowExplanation] = useState(false);
-    const [timeLeft, setTimeLeft] = useState(20);
-    const [started, setStarted] = useState(false);
-    const [reviewMode, setReviewMode] = useState(false);
-    const [wrongAnswers, setWrongAnswers] = useState([]);
+    // usa subito i dati importati
+    const [quizData] = useState(() =>
+        // clona e mescola una volta sola
+        [...quizDataRaw].sort(() => Math.random() - 0.5)
+    )
+    const [current, setCurrent] = useState(0)
+    const [selected, setSelected] = useState(null)
+    const [answered, setAnswered] = useState(false)
+    const [score, setScore] = useState(0)
+    const [mistakes, setMistakes] = useState(0)
+    const [showExplanation, setShowExplanation] = useState(false)
+    const [timeLeft, setTimeLeft] = useState(20)
+    const [started, setStarted] = useState(false)
+    const [reviewMode, setReviewMode] = useState(false)
+    const [wrongAnswers, setWrongAnswers] = useState([])
 
-    // Carica e mescola
+    // timer automatico
     useEffect(() => {
-        fetch('/quiz_storia_informatica.json')
-            .then(r => r.json())
-            .then(data => setQuizData(data.sort(() => Math.random() - 0.5)));
-    }, []);
-
-    // Timer e auto-submit
-    useEffect(() => {
-        if (started && !answered && !showExplanation) {
-            if (timeLeft > 0) {
-                const id = setTimeout(() => setTimeLeft(t => t - 1), 1000);
-                return () => clearTimeout(id);
-            }
-            handleAnswer(null);
+        if (!started || answered || showExplanation) return
+        if (timeLeft > 0) {
+            const id = setTimeout(() => setTimeLeft(t => t - 1), 1000)
+            return () => clearTimeout(id)
         }
-    }, [timeLeft, answered, showExplanation, started]);
+        // timeout -> auto-submit
+        handleAnswer(null)
+    }, [timeLeft, answered, showExplanation, started])
 
     const handleAnswer = opt => {
-        if (answered) return;
-        setAnswered(true);
-        setSelected(opt);
-        const correct = quizData[current].answer;
+        if (answered) return
+        setAnswered(true)
+        setSelected(opt)
+        const correct = quizData[current].answer
         if (opt === correct) {
-            setScore(s => s + 1);
+            setScore(s => s + 1)
         } else {
-            setMistakes(m => m + 1);
-            setWrongAnswers(w => [...w, { ...quizData[current], selected: opt }]);
+            setMistakes(m => m + 1)
+            setWrongAnswers(ws => [
+                ...ws,
+                { ...quizData[current], selected: opt }
+            ])
         }
-        setShowExplanation(true);
-    };
+        setShowExplanation(true)
+    }
 
     const resetQuestion = () => {
-        setSelected(null);
-        setAnswered(false);
-        setShowExplanation(false);
-        setTimeLeft(20);
-    };
+        setSelected(null)
+        setAnswered(false)
+        setShowExplanation(false)
+        setTimeLeft(20)
+    }
 
     const goTo = idx => {
-        if (idx < 0) idx = 0;
-        if (idx > quizData.length) idx = quizData.length;
-        setCurrent(idx);
-        if (idx < quizData.length) resetQuestion();
-    };
-    const prev = () => goTo(current - 1);
-    const next = () => goTo(current + 1);
-    const finishTest = () => goTo(quizData.length);
+        const clamped = Math.min(Math.max(idx, 0), quizData.length)
+        setCurrent(clamped)
+        if (clamped < quizData.length) resetQuestion()
+    }
+    const prev = () => goTo(current - 1)
+    const next = () => goTo(current + 1)
+    const finishTest = () => goTo(quizData.length)
     const restartQuiz = () => {
-        setStarted(false);
-        setReviewMode(false);
-        setCurrent(0);
-        setScore(0);
-        setMistakes(0);
-        setWrongAnswers([]);
-        resetQuestion();
-    };
+        setStarted(false)
+        setReviewMode(false)
+        setCurrent(0)
+        setScore(0)
+        setMistakes(0)
+        setWrongAnswers([])
+        resetQuestion()
+    }
 
-    // --- START SCREEN ---
+    // ——— START SCREEN ———
     if (!started) {
         return (
             <div className="page-bg flex items-center justify-center min-h-screen p-4">
@@ -94,21 +95,10 @@ export default function QuizApp() {
                     </button>
                 </motion.div>
             </div>
-        );
+        )
     }
 
-    // --- LOADING ---
-    if (quizData.length === 0) {
-        return (
-            <div className="page-bg flex items-center justify-center min-h-screen p-4">
-                <motion.div className="card text-center">
-                    <p>Loading…</p>
-                </motion.div>
-            </div>
-        );
-    }
-
-    // --- REVIEW MODE ---
+    // ——— REVIEW MODE ———
     if (reviewMode) {
         return (
             <div className="page-bg flex items-center justify-center min-h-screen p-4">
@@ -122,9 +112,16 @@ export default function QuizApp() {
                         <p className="text-green-600">Nessun errore! Bravo!</p>
                     ) : (
                         wrongAnswers.map((q, i) => (
-                            <div key={i} className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg">
-                                <p className="font-semibold text-red-800">{q.question}</p>
-                                <p className="text-sm">❌ Tu: {q.selected ?? 'Nessuna'} | ✔️ {q.answer}</p>
+                            <div
+                                key={i}
+                                className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg"
+                            >
+                                <p className="font-semibold text-red-800">
+                                    {q.question}
+                                </p>
+                                <p className="text-sm">
+                                    ❌ Tu: {q.selected ?? 'Nessuna'} | ✔️ {q.answer}
+                                </p>
                                 <p className="mt-2 text-gray-700">
                                     <strong>Spiegazione:</strong> {q.explanation}
                                 </p>
@@ -136,10 +133,10 @@ export default function QuizApp() {
                     </button>
                 </motion.div>
             </div>
-        );
+        )
     }
 
-    // --- END SCREEN ---
+    // ——— END SCREEN ———
     if (current >= quizData.length) {
         return (
             <div className="page-bg flex items-center justify-center min-h-screen p-4">
@@ -149,7 +146,9 @@ export default function QuizApp() {
                     animate={{ opacity: 1, scale: 1 }}
                 >
                     <h2 className="text-3xl font-bold mb-2">🎉 Quiz Completo!</h2>
-                    <p>Punteggio: {score}/{quizData.length}</p>
+                    <p>
+                        Punteggio: {score}/{quizData.length}
+                    </p>
                     <p className="text-red-500">Errori: {mistakes}</p>
                     <div className="flex justify-center gap-4 mt-4">
                         <button onClick={restartQuiz} className="btn-primary">
@@ -157,7 +156,10 @@ export default function QuizApp() {
                         </button>
                         {wrongAnswers.length > 0 && (
                             <button
-                                onClick={() => { setReviewMode(true); setCurrent(0); }}
+                                onClick={() => {
+                                    setReviewMode(true)
+                                    goTo(0)
+                                }}
                                 className="btn-warning"
                             >
                                 🔍 Rivedi Errori
@@ -166,12 +168,12 @@ export default function QuizApp() {
                     </div>
                 </motion.div>
             </div>
-        );
+        )
     }
 
-    // --- QUIZ VIEW ---
-    const { question, options, answer, explanation } = quizData[current];
-    const pct = Math.round(((current + 1) / quizData.length) * 100);
+    // ——— MAIN QUIZ VIEW ———
+    const { question, options, answer, explanation } = quizData[current]
+    const pct = Math.round(((current + 1) / quizData.length) * 100)
 
     return (
         <div className="page-bg flex items-center justify-center min-h-screen p-4">
@@ -183,40 +185,56 @@ export default function QuizApp() {
             >
                 {/* Nav & Progress */}
                 <div className="flex justify-between items-center mb-4">
-                    <button onClick={prev} disabled={current === 0} className="text-purple-600 disabled:opacity-50">
+                    <button
+                        onClick={prev}
+                        disabled={current === 0}
+                        className="text-purple-600 disabled:opacity-50"
+                    >
                         ← Precedente
                     </button>
-                    <span className="font-medium">Domanda {current + 1}/{quizData.length}</span>
-                    <button onClick={next} disabled={current + 1 === quizData.length} className="text-purple-600 disabled:opacity-50">
+                    <span className="font-medium">
+            Domanda {current + 1}/{quizData.length}
+          </span>
+                    <button
+                        onClick={next}
+                        disabled={current + 1 === quizData.length}
+                        className="text-purple-600 disabled:opacity-50"
+                    >
                         Successiva →
                     </button>
                 </div>
-                <div className="progress-bg mb-4">
-                    <div className="progress-fg" style={{ width: pct + '%' }} />
+
+                {/* Progress bar */}
+                <div className="w-full h-2 bg-gray-200 rounded-full mb-4 overflow-hidden">
+                    <div
+                        className="h-full bg-green-400"
+                        style={{ width: pct + '%' }}
+                    />
                 </div>
 
                 {/* Counters */}
-                <div className="counter mb-4">
-                    <span>✔️ {score}</span>
-                    <span>❌ {mistakes}</span>
-                    <span>⏳ {timeLeft}s</span>
+                <div className="flex justify-center space-x-6 text-sm mb-4">
+                    <span className="text-green-600">✔️ {score}</span>
+                    <span className="text-red-500">❌ {mistakes}</span>
+                    <span className="text-blue-600">⏳ {timeLeft}s</span>
                 </div>
 
-                {/* Question */}
-                <p className="text-center text-lg font-medium mb-6">{question}</p>
+                <p className="text-center text-lg font-medium mb-6">
+                    {question}
+                </p>
                 <ul className="space-y-3 mb-6">
                     {options.map(opt => (
                         <li key={opt}>
                             <button
                                 onClick={() => handleAnswer(opt)}
-                                className={`btn-answer ${
+                                className={`w-full text-left px-4 py-3 rounded-xl border font-semibold transition-all duration-200 ${
                                     answered
                                         ? opt === answer
-                                            ? 'correct'
+                                            ? 'bg-green-200 border-green-600'
                                             : opt === selected
-                                                ? 'wrong'
-                                                : ''
-                                        : ''
+                                                ? 'bg-red-200 border-red-600'
+                                                : 'bg-gray-100 border-gray-300'
+                                        : 'hover:bg-blue-50 border-gray-200'
                                 }`}
                             >
                                 {opt}
@@ -227,23 +245,36 @@ export default function QuizApp() {
 
                 {/* Explanation */}
                 {showExplanation && (
-                    <motion.div className="explanation mb-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>
-                        <strong>Spiegazione:</strong> {explanation}
+                    <motion.div
+                        className="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg mb-4"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.2 }}
+                    >
+                        <p className="text-sm text-gray-700">
+                            <strong>Spiegazione:</strong> {explanation}
+                        </p>
                     </motion.div>
                 )}
 
                 {/* Actions */}
                 <div className="flex justify-between">
-                    <button onClick={finishTest} className="btn-danger">
+                    <button
+                        onClick={finishTest}
+                        className="btn-danger"
+                    >
                         🛑 Termina Test
                     </button>
                     {showExplanation && (
-                        <button onClick={next} className="btn-primary">
+                        <button
+                            onClick={next}
+                            className="btn-primary"
+                        >
                             ➡️ Prossima Domanda
                         </button>
                     )}
                 </div>
             </motion.div>
         </div>
-    );
+    )
 }
