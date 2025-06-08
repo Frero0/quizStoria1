@@ -16,7 +16,7 @@ export default function QuizApp() {
     const [score, setScore] = useState(0)
     const [mistakes, setMistakes] = useState(0)
     const [showExplanation, setShowExplanation] = useState(false)
-    const [timeLeft, setTimeLeft] = useState(20)
+    const [timeLeft, setTimeLeft] = useState(60)
     const [started, setStarted] = useState(false)
     const [reviewMode, setReviewMode] = useState(false)
     const [wrongAnswers, setWrongAnswers] = useState([])
