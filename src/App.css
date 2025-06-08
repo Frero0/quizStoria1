@@ -1,0 +1,133 @@
+/* App.css */
+
+/* 1) Background sfumato su tutto il body */
+body {
+  background: linear-gradient(135deg, #9393ea, #a855f7, #ec4899);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 2) Card centrale */
+.card {
+  /* Dimensione e centratura */
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+
+  /* Sfondo leggermente semi‐trasparente + glassmorphism */
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+
+  /* Bordo arrotondato & ombra profonda */
+  border-radius: 2rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+
+  /* Spaziatura interna */
+  padding: 2rem;
+
+  /* Animazione al passaggio del mouse */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+}
+
+/* 3) Titoli */
+h1, h2 {
+  color: #4c1d95; /* viola scuro */
+  margin-bottom: 1rem;
+}
+
+/* 4) Progress bar */
+.progress-bg {
+  background: #e5e7eb; /* gray-200 */
+  height: 0.5rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.progress-fg {
+  background: #10b981; /* emerald-500 */
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+/* 5) Pulsanti */
+.btn-primary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(90deg, #6366f1, #ec4899);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-warning {
+  @apply px-6 py-2 bg-yellow-400 text-gray-800 rounded-full hover:scale-105 transition-transform;
+}
+.btn-danger {
+  @apply px-6 py-2 bg-red-500 text-white rounded-full hover:scale-105 transition-transform;
+}
+
+/* 6) Contatori */
+.counter {
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.counter span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* 7) Risposta selezionata & stati */
+.btn-answer {
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.btn-answer:hover {
+  background: #f0f9ff;  /* light blue */
+}
+.btn-answer.correct {
+  background: #dcfce7;  /* green-50 */
+  border-color: #22c55e;/* green-500 */
+}
+.btn-answer.wrong {
+  background: #fee2e2;  /* red-50 */
+  border-color: #ef4444;/* red-500 */
+}
+
+/* 8) Spiegazione */
+.explanation {
+  background: #fef3c7;  /* yellow-50 */
+  border-left: 4px solid #fbbf24; /* yellow-400 */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Utility che già avevi: */
+.read-the-docs { color: #888; }
+.logo { /* ... */ }
+/* etc. */
