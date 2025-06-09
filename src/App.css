@@ -2,7 +2,12 @@
 
 /* 1) Background sfumato su tutto il body */
 body {
-  background: linear-gradient(135deg, #9393ea, #a855f7, #ec4899);
+  background: linear-gradient(
+          135deg,
+          hsl(250, 60%, 80%) 0%,
+          hsl(290, 65%, 75%) 50%,
+          hsl(330, 75%, 75%) 100%
+  );
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
   margin: 0;
@@ -19,13 +24,13 @@ body {
   width: 100%;
   margin: 2rem auto;
 
-  /* Sfondo leggermente semi‐trasparente + glassmorphism */
-  background: rgba(255, 255, 255, 0.85);
+  /* Sfondo più pieno + glassmorphism */
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
 
-  /* Bordo arrotondato & ombra profonda */
+  /* Bordo arrotondato & ombra morbida */
   border-radius: 2rem;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px rgba(5, 5, 5, 0.1);
 
   /* Spaziatura interna */
   padding: 2rem;
@@ -35,21 +40,39 @@ body {
 }
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(5, 5, 5, 0.12);
 }
 
 /* 3) Titoli */
-h1, h2 {
-  color: #4c1d95; /* viola scuro */
+h1,
+h2 {
+  color: hsl(260, 50%, 30%); /* viola smorzato */
   margin-bottom: 1rem;
 }
 
+/* 4) Progress bar */
+.progress-bg {
+  background: hsl(0, 0%, 90%);
+  height: 0.5rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.progress-fg {
+  background: hsl(145, 45%, 55%);
+  height: 100%;
+  transition: width 0.4s ease;
+}
 
 /* 5) Pulsanti */
 .btn-primary {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(90deg, #6366f1, #ec4899);
+  background: linear-gradient(
+          90deg,
+          hsl(240, 60%, 60%),
+          hsl(320, 60%, 60%)
+  );
   color: white;
   font-weight: 600;
   border: none;
@@ -59,14 +82,28 @@ h1, h2 {
 }
 .btn-primary:hover {
   transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .btn-warning {
   @apply px-6 py-2 bg-yellow-400 text-gray-800 rounded-full hover:scale-105 transition-transform;
 }
 .btn-danger {
-  @apply px-6 py-2 bg-red-500 text-white rounded-full hover:scale-105 transition-transform;
+  @apply
+  px-6 py-2
+  background: linear-gradient(
+  135deg,
+  hsl(0, 60%, 55%),
+  hsl(0, 65%, 45%)
+  );
+  color: white;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-danger:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* 6) Contatori */
@@ -82,6 +119,7 @@ h1, h2 {
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
+  color: hsl(230, 15%, 20%);
 }
 
 /* 7) Risposta selezionata & stati */
@@ -90,49 +128,29 @@ h1, h2 {
   text-align: left;
   padding: 0.75rem 1rem;
   border-radius: 1rem;
-  border: 1px solid transparent;
+  border: 1px solid hsl(0, 0%, 85%);
+  background: hsl(0, 0%, 95%);
   transition: background 0.2s ease, border-color 0.2s ease;
 }
 .btn-answer:hover {
-  background: #f0f9ff;  /* light blue */
+  background: hsl(210, 50%, 90%);
 }
 .btn-answer.correct {
-  background: #dcfce7;  /* green-50 */
-  border-color: #22c55e;/* green-500 */
+  background: hsl(120, 50%, 85%);
+  border-color: hsl(120, 60%, 45%);
 }
 .btn-answer.wrong {
-  background: #fee2e2;  /* red-50 */
-  border-color: #ef4444;/* red-500 */
+  background: hsl(0, 60%, 90%);
+  border-color: hsl(0, 60%, 50%);
 }
 
 /* 8) Spiegazione */
 .explanation {
-  background: #fef3c7;  /* yellow-50 */
-  border-left: 4px solid #fbbf24; /* yellow-400 */
+  background: hsl(50, 100%, 95%);
+  border-left: 4px solid hsl(50, 90%, 60%);
   padding: 1rem;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
-}
-
-/* Utility che già avevi: */
-.read-the-docs { color: #888; }
-.logo { /* ... */ }
-/* etc. */
-
-/* App.css */
-
-/* 4) Progress bar */
-.progress-bg {
-  background: #e5e7eb; /* gray-200 */
-  height: 0.5rem;
-  border-radius: 9999px;
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-}
-.progress-fg {
-  background: #10b981; /* emerald-500 */
-  height: 100%;
-  transition: width 0.4s ease;
 }
 
 /* ¶ pill numerati */
@@ -150,19 +168,146 @@ h1, h2 {
   transition: background-color 0.2s, border-color 0.2s;
 }
 .pill.current {
-  /* evidenzia domanda corrente */
-  border-color: #6366f1; /* indigo-500 */
+  border-color: hsl(250, 60%, 50%);
 }
 .pill.correct {
-  background-color: #22c55e; /* green-500 */
+  background-color: hsl(120, 50%, 45%);
   color: white;
 }
 .pill.wrong {
-  background-color: #ef4444; /* red-500 */
+  background-color: hsl(0, 60%, 50%);
   color: white;
 }
-/* riprendi styling esistente: */
-.progress-bg { /* ... */ }
-.progress-fg { /* ... */ }
-.counter { /* ... */ }
+
+/* Utility che già avevi: */
+.read-the-docs {
+  color: #888;
+}
+.logo {
+  /* ... */
+}
 /* etc. */
+
+/* Scrollbar per question navigator */
+.page-bg .card > .flex.overflow-x-auto {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(2, 2, 2, 0.2) transparent;
+}
+.page-bg .card > .flex.overflow-x-auto::-webkit-scrollbar {
+  height: 0.5rem;
+}
+.page-bg .card > .flex.overflow-x-auto::-webkit-scrollbar-thumb {
+  background: rgba(4, 2, 2, 0.2);
+  border-radius: 9999px;
+}
+
+
+
+
+
+
+/* ──────────────────────────────────────────────────────────────
+   DARK MODE OVERRIDES
+────────────────────────────────────────────────────────────── */
+
+.dark body {
+  /* sfondo un po’ meno saturo e più scuro ma non nero totale */
+  background: linear-gradient(
+          135deg,
+          hsl(250, 50%, 20%) 0%,
+          hsl(290, 40%, 15%) 50%,
+          hsl(330, 50%, 12%) 100%
+  );
+}
+
+.dark .card {
+  /* card leggermente più chiara rispetto allo sfondo */
+  background: rgba(30, 30, 45, 0.90);
+  color: #e0e0e0;
+}
+
+.dark h1,
+.dark h2 {
+  color: #d1c7ff;
+}
+
+.dark .progress-bg {
+  background: #373744;
+}
+
+.dark .progress-fg {
+  background: #27c497; /* emerald-500 mantiene buon contrasto */
+}
+
+.dark .counter span {
+  color: #b0b0bf;
+}
+
+.dark .btn-primary {
+  /* gradient meno saturo per il dark */
+  background: linear-gradient(90deg, hsl(240, 60%, 50%), hsl(320, 60%, 50%));
+}
+
+.dark .btn-primary:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.dark .btn-danger {
+  background: linear-gradient(135deg, hsl(0, 60%, 50%), hsl(0, 65%, 40%));
+}
+
+.dark .btn-secondary {
+  background: #555560;
+  color: #d0d0d8;
+}
+
+.dark .btn-answer {
+  background: #3a3a47;
+  border-color: #555;
+  color: #e0e0e0;
+}
+
+.dark .btn-answer:hover {
+  background: #4a4a5c;
+}
+
+.dark .btn-answer.correct {
+  background: #276e4b;
+  border-color: #1f5a3e;
+}
+
+.dark .btn-answer.wrong {
+  background: #7a2828;
+  border-color: #a33a3a;
+}
+
+.dark .explanation {
+  background: #4d4321;
+  border-left-color: #ecc94b;
+  color: #f0e5a7;
+}
+
+.dark .pill {
+  background: #2e2e3a;
+  color: #b0b0bf;
+}
+
+.dark .pill.current {
+  border-color: #8b84ff;
+  color: #fff;
+}
+
+.dark .pill.correct {
+  background: #27c497;
+  color: #fff;
+}
+
+.dark .pill.wrong {
+  background: #f56565;
+  color: #fff;
+}
+
+/* scrollbar nel dark */
+.dark .flex.overflow-x-auto::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}

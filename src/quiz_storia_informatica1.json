@@ -1,0 +1,1972 @@
+[
+  {
+    "question": "Quale di questi eventi è tra i più significativi nella storia dei linguaggi di programmazione negli anni ’40 e ’50?",
+    "options": [
+      "La nascita del linguaggio C",
+      "La formulazione degli “Initial Orders” nell’EDSAC e lo sviluppo di AUTOCODE",
+      "L’introduzione della Java Virtual Machine",
+      "Il lancio di Python"
+    ],
+    "answer": "La formulazione degli “Initial Orders” nell’EDSAC e lo sviluppo di AUTOCODE",
+    "explanation": "Negli anni ’40–’50 furono definiti gli “Initial Orders” per l’EDSAC (un’antenata delle macro-istruzioni) e fu implementato AUTOCODE, il primo vero compilatore."
+  },
+  {
+    "question": "Nella costruzione dei processori, qual è il principale utilizzo del transistor?",
+    "options": [
+      "Memorizzare istruzioni nella cache",
+      "Comprimere i segnali analogici",
+      "Interrompere o far fluire la corrente elettrica, cioè agire da interruttore",
+      "Convertire segnali digitali in analogici"
+    ],
+    "answer": "Interrompere o far fluire la corrente elettrica, cioè agire da interruttore",
+    "explanation": "Il transistor è fondamentalmente uno switch elettronico in grado di aprire o chiudere il flusso di corrente."
+  },
+  {
+    "question": "Nei processori moderni si impiegano diverse tecniche di Instruction Level Parallelism (ILP) per…",
+    "options": [
+      "Aumentare la risoluzione dei display integrati",
+      "Sfruttare il parallelismo intrinseco tra le istruzioni di un programma",
+      "Ridurre il numero di transistor sullo zuccherino di silicio",
+      "Migliorare la qualità del segnale Wi-Fi"
+    ],
+    "answer": "Sfruttare il parallelismo intrinseco tra le istruzioni di un programma",
+    "explanation": "L’ILP include strategie come pipeline dinamica, out-of-order execution e multiple issue per eseguire in parallelo istruzioni indipendenti."
+  },
+    {
+      "question": "Quali sono tra i primi esempi di Personal Computer?",
+      "options": [
+        "Apple I e IBM 5150",
+        "Olivetti Programma 101 e DATAPOINT 3300/2200",
+        "Macintosh 128k e Amiga 500",
+        "Commodore 64 e ZX Spectrum"
+      ],
+      "answer": "Olivetti Programma 101 e DATAPOINT 3300/2200",
+      "explanation": "Tra i prototipi considerati antenati del PC ci sono l'Olivetti Programma 101 (la “Perottina”) e i DATAPOINT 3300/2200."
+    },
+    {
+      "question": "Quale linguaggio, nato negli anni ’70, è considerato insieme al Simula uno dei padri dell’object oriented?",
+      "options": [
+        "Smalltalk",
+        "Pascal",
+        "COBOL",
+        "FORTRAN"
+      ],
+      "answer": "Smalltalk",
+      "explanation": "Smalltalk, sviluppato da Alan Kay negli anni ’70, e Simula sono i due linguaggi che hanno dato origine al paradigma object oriented."
+    },
+    {
+      "question": "Tra gli strumenti più diffusi, flessibili ed economici per interagire con un computer fino agli anni ’70 troviamo…",
+      "options": [
+        "Le unità a nastro magnetico",
+        "Le schede perforate",
+        "I floppy disk",
+        "I terminali grafici"
+      ],
+      "answer": "Le schede perforate",
+      "explanation": "Le schede perforate, ideate già nel XVIII secolo, sono state il mezzo di input/output standard fino agli anni ’70."
+    },
+    {
+      "question": "Negli anni ’70 e ’80 quale linguaggio, dopo un iniziale successo, iniziò a scomparire a favore del C?",
+      "options": [
+        "Pascal",
+        "Ada",
+        "Lisp",
+        "BASIC"
+      ],
+      "answer": "Pascal",
+      "explanation": "Pur molto popolare nei primi anni ’70, il Pascal entrò in declino negli anni ’80 con l’affermarsi del C."
+    },
+    {
+      "question": "Qual è il successore dell’ENIAC progettato dagli stessi inventori, ma non il primo a diventare operativo?",
+      "options": [
+        "UNIVAC I",
+        "EDVAC",
+        "Whirlwind",
+        "SSEM"
+      ],
+      "answer": "EDVAC",
+      "explanation": "L’EDVAC fu progettato dai team di Goldstine, Mauchly ed Eckert come successore dell’ENIAC, ma non fu il primo stored-program computer realmente operativo."
+    },
+    {
+      "question": "Perché la disponibilità di sistemi operativi “free” come Unix e Linux è considerata importante rispetto a sistemi proprietari come Windows e OS X?",
+      "options": [
+        "Perché costano meno",
+        "Perché possono essere studiati e modificati per creare versioni migliorate",
+        "Perché girano solo su server",
+        "Perché hanno interfacce grafiche migliori"
+      ],
+      "answer": "Perché possono essere studiati e modificati per creare versioni migliorate",
+      "explanation": "Unix e Linux, essendo Open Source, permettono di studiare e modificare il codice, favorendo la nascita di nuove distribuzioni e miglioramenti."
+    },
+    {
+      "question": "Per quale motivo il linguaggio ADA non riuscì mai a imporsi come standard?",
+      "options": [
+        "Era troppo legato all’hardware IBM",
+        "A causa della sua complessità e delle troppe caratteristiche",
+        "Perché non supportava la programmazione concorrente",
+        "Non aveva un sistema di tipi"
+      ],
+      "answer": "A causa della sua complessità e delle troppe caratteristiche",
+      "explanation": "Nonostante le grandi aspettative, ADA non si diffuse ampiamente perché risultava eccessivamente complesso e con troppe funzionalità per l’uso pratico."
+    },
+    {
+      "question": "Quali due figure hanno avuto un ruolo fondamentale nella storia dei sistemi time sharing?",
+      "options": [
+        "Ken Thompson e Dennis Ritchie",
+        "Robert Fano e Fernando Corbatò",
+        "John Backus e Harlan Herrick",
+        "Grace Hopper e Maurice Wilkes"
+      ],
+      "answer": "Robert Fano e Fernando Corbatò",
+      "explanation": "Robert Fano e Fernando Corbatò furono tra i pionieri dei sistemi time sharing, contribuendo in modo decisivo alla loro concezione e realizzazione."
+    },
+    {
+      "question": "Che cosa sarebbe dovuto fare l’Analytical Engine di Charles Babbage, con i contributi di Ada Lovelace?",
+      "options": [
+        "Eseguire calcoli trigonometrico-finanziari",
+        "Essere programmato a schede perforate",
+        "Calcolare traiettorie balistiche",
+        "Gestire memoria a tamburo rotante"
+      ],
+      "answer": "Essere programmato a schede perforate",
+      "explanation": "L’Analytical Engine di Babbage, come preconizzato da Ada Lovelace, doveva utilizzare schede perforate per la memorizzazione del programma."
+    },
+    {
+      "question": "Con l’acronimo RISC si indicano processori che…",
+      "options": [
+        "Usano istruzioni complesse di lunghezza variabile",
+        "Sono esclusivamente a 64 bit",
+        "Usano istruzioni macchina di lunghezza fissa",
+        "Non hanno pipeline"
+      ],
+      "answer": "Usano istruzioni macchina di lunghezza fissa",
+      "explanation": "Le architetture RISC (Reduced Instruction Set Computer) adottano un set di istruzioni semplici e tutte di lunghezza fissa."
+    },
+    {
+      "question": "Dove furono implementate per la prima volta le interfacce grafiche?",
+      "options": [
+        "Sul Macintosh 128k",
+        "Nel sistema Windows 1.0",
+        "Nel computer Alto della Xerox",
+        "Nel PDP-1 della DEC"
+      ],
+      "answer": "Nel computer Alto della Xerox",
+      "explanation": "Il Xerox Alto fu il primo sistema a introdurre un’interfaccia utente grafica con finestre, icone e mouse."
+    },
+    {
+      "question": "Quale tipo di memoria primaria è stato il più usato nei computer degli anni '60?",
+      "options": [
+        "Memorie a tamburo rotante",
+        "Memorie a nucleo magnetico",
+        "Mercury delay lines",
+        "Williams–Kilburn tubes"
+      ],
+      "answer": "Memorie a nucleo magnetico",
+      "explanation": "Le memorie a nucleo magnetico furono il dispositivo di memoria primaria più diffuso nei computer degli anni ’60."
+    },
+    {
+      "question": "In che modo i sistemi operativi hanno cambiato la percezione del grande pubblico dell’informatica?",
+      "options": [
+        "Hanno permesso di utilizzare solo linguaggi di alto livello",
+        "Hanno reso più facili da usare macchine sempre più sofisticate e complesse",
+        "Hanno eliminato la necessità di programmatori",
+        "Hanno reso obbligatorio l’uso delle schede perforate"
+      ],
+      "answer": "Hanno reso più facili da usare macchine sempre più sofisticate e complesse",
+      "explanation": "I sistemi operativi hanno semplificato l’interazione con l’hardware, rendendo accessibili a un pubblico più ampio computer sempre più potenti."
+    },
+    {
+      "question": "Chi ha ideato il sistema elettrico di tabulazione usato per il censimento negli Stati Uniti?",
+      "options": [
+        "Charles Babbage",
+        "George Boole",
+        "Herman Hollerith",
+        "Alan Turing"
+      ],
+      "answer": "Herman Hollerith",
+      "explanation": "Herman Hollerith inventò il tabulatore a schede perforate per automatizzare l’elaborazione dei dati del censimento USA."
+    },
+    {
+      "question": "Quale successo ebbe il sistema elettrico di tabulazione di Herman Hollerith?",
+      "options": [
+        "Permise di decifrare i messaggi di Enigma",
+        "Avviò la produzione dei primi microprocessori",
+        "Meccanizzò l’elaborazione di dati gestiti fino a quel momento a mano",
+        "Fu usato per programmare i calcolatori analogici"
+      ],
+      "answer": "Meccanizzò l’elaborazione di dati gestiti fino a quel momento a mano",
+      "explanation": "Il tabulatore di Hollerith automatizzò il trattamento dei dati demografici che prima venivano analizzati manualmente."
+    },
+    {
+      "question": "Cosa possono fare molti processori moderni grazie a tecniche di esecuzione avanzate?",
+      "options": [
+        "Eseguire un’istruzione prima di sapere se debba essere eseguita",
+        "Lavorare senza alcuna cache",
+        "Funzionare senza alimentazione elettrica",
+        "Evitare completamente la pipeline"
+      ],
+      "answer": "Eseguire un’istruzione prima di sapere se debba essere eseguita",
+      "explanation": "Tecniche come il branch prediction e l’esecuzione speculativa permettono ai processori di iniziare l’esecuzione di istruzioni senza attendere la conferma del flusso di controllo."
+    },
+    {
+      "question": "In quale secolo furono ideate le schede perforate, utilizzate fino agli anni '70 del XX secolo?",
+      "options": [
+        "XIX secolo",
+        "XVIII secolo",
+        "XX secolo",
+        "Metà del XVII secolo"
+      ],
+      "answer": "XVIII secolo",
+      "explanation": "Le schede perforate, nate nel XVIII secolo per l’automazione dei telai Jacquard, rimasero in uso fino agli anni '70."
+    },
+    {
+      "question": "I primi hard disk risalgono alla seconda metà degli anni ’50 e furono inventati da IBM.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il primo hard disk (IBM 350) fu introdotto nel 1956 da IBM come parte del sistema RAMAC."
+    },
+    {
+      "question": "I Williams–Kilburn tubes furono inizialmente testati come memorie dell’SSEM.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "I tubi di Williams–Kilburn vennero sperimentati sul Manchester Small Scale Experimental Machine (SSEM) come prima RAM a bit."
+    },
+    {
+      "question": "Le memorie a nucleo magnetico rimasero il dispositivo di memoria primaria più usato fino all’inizio degli anni ’70.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Le core memory, grazie alla loro affidabilità e velocità, furono dominanti come RAM principale fino ai primi anni ’70."
+    },
+    {
+      "question": "Lo Smalltalk è stato, insieme al Simula, il padre dei linguaggi di programmazione object-oriented.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Smalltalk (1972) e Simula (1967) introdussero i concetti fondamentali di classi, oggetti ed eredità."
+    },
+    {
+      "question": "“5th Generation Computer Systems (FGCS)” indica un programma di ricerca lanciato dal governo giapponese per progettare supercomputer basati su Prolog e inferenza logica.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il progetto FGCS (1981) mirava a creare macchine parallele usando il linguaggio Prolog come base di calcolo."
+    },
+    {
+      "question": "Il COBOL fu pensato esplicitamente per applicazioni commerciali e negli anni ’70 divenne il linguaggio più diffuso in quegli ambiti.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "COBOL, sviluppato dal CODASYL, era rivolto all’informatica di gestione e dominò il mercato degli anni ’60 e ’70."
+    },
+    {
+      "question": "Il BASIC, pensato per studenti non informatici, fu fondamentale negli anni ’70 e ’80 per diffondere una cultura informatica tra il grande pubblico.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "BASIC (1964) fu progettato per la didattica e divenne popolare sui primi microcomputer, avvicinando molti utenti al coding."
+    },
+    {
+      "question": "Nelle CPU moderne si analizzano le istruzioni per individuare quelle indipendenti da eseguire in parallelo (Instruction Level Parallelism).",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Le CPU moderne sfruttano tecniche di ILP per estrarre e eseguire in parallelo istruzioni indipendenti, aumentando il rendimento."
+    },
+    {
+      "question": "Il modello architetturale RISC, su cui si basano molti processori odierni, fu messo a punto da Hennessy e Patterson tra la fine degli anni '70 e l'inizio degli anni '80.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "John Hennessy e David Patterson definirono e sperimentarono le architetture RISC a inizio anni ’80, gettando le basi dei processori moderni."
+    },
+    {
+      "question": "I sistemi operativi si sono evoluti nel tempo per diventare sempre più semplici da usare, anche per utenti senza formazione informatica.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Dal batch fino alle GUI moderne, l’obiettivo dei sistemi operativi è stato rendere l’uso del calcolatore sempre più accessibile."
+    },
+    {
+      "question": "La disponibilità del codice sorgente di un sistema operativo ne ha permesso lo studio, la modifica e l’arricchimento delle funzionalità.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Progetti “open source” come Unix e Linux hanno beneficiato della condivisione del sorgente per crescere e diversificarsi."
+    },
+    {
+      "question": "Tra gli anni ’50, importanti sviluppi nei linguaggi furono lo Short Code di John Mauchly e i compilatori di Haskell Curry e Corrado Böhm.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Lo Short Code (1949) di Mauchly e i primi compilatori di Curry e Böhm furono tra i pionieri della traduzione automatica di codice."
+    },
+    {
+      "question": "Le architetture RISC adottano istruzioni di struttura regolare e tutte della stessa lunghezza.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Uno dei principi RISC è l’insieme di istruzioni semplice e a lunghezza fissa, per pipeline più efficaci."
+    },
+    {
+      "question": "Le architetture RISC utilizzavano originariamente istruzioni di lunghezza variabile, come nelle CISC.",
+      "options": ["Vero", "Falso"],
+      "answer": "Falso",
+      "explanation": "Al contrario, RISC adotta fin dall’origine istruzioni tutte di uguale lunghezza, a differenza delle CISC variabili."
+    },
+    {
+      "question": "Tra le macchine considerate antenate dei Personal Computer troviamo il DATAPOINT 2200 e l'Olivetti Programma 101.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il DATAPOINT 2200 e l’Olivetti Programma 101 (la “Perottina”) sono spesso citati come precursori dei PC moderni."
+    },
+    {
+      "question": "Corrado Böhm formulò dettagliatamente uno dei primi compilatori della storia dell’informatica.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Tra i contributi di Böhm ci sono la progettazione e la descrizione di uno dei primissimi compilatori."
+    },
+    {
+      "question": "Corrado Böhm descrisse su carta una delle prime tecniche per tradurre un linguaggio ad alto livello in linguaggio macchina.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Böhm pubblicò una dettagliata tecnica per la traduzione automatica da linguaggio ad alto livello a linguaggio macchina."
+    },
+    {
+      "question": "Corrado Böhm dimostrò che si può evitare l’uso del GOTO nella scrittura dei programmi.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il teorema di Böhm–Jacopini mostra che è possibile programmare senza GOTO, usando solo sequenze, selezione e iterazione."
+    },
+    {
+      "question": "L’invenzione del BIOS rese molto più facile usare lo stesso sistema operativo su computer diversi.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il BIOS (Basic Input/Output System) standardizzò l’interfaccia hardware, permettendo di portare rapidamente un OS su macchine diverse."
+    },
+    {
+      "question": "Le interfacce grafiche furono implementate per la prima volta sul sistema Alto e successivamente adottate su Macintosh 128k e Windows 9.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il primo GUI fu sul Xerox Alto; Apple lo adottò in Lisa e Macintosh 128k, poi Microsoft in Windows (anche se non esistette una versione numerata “9”)."
+    },
+    {
+      "question": "L’Analytical Engine di Babbage e il sistema elettrico di tabulazione di Hollerith furono concepiti nel XIX secolo, insieme all’algebra booleana.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Charles Babbage e Herman Hollerith operarono nel XIX sec., e lo stesso vale per George Boole con la sua “algebra”."
+    },
+    {
+      "question": "Negli anni '60 fecero la loro comparsa eventi architetturalmente importanti come l’IBM/360, il CDC 6600 di Cray, e lo schema di Tomasulo.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Questi tre elementi furono fondamentali: l’IBM/360 segnò una nuova era dei computer compatibili, Cray introdusse il primo supercomputer e Tomasulo ideò lo schema per l’esecuzione fuori ordine."
+    },
+    {
+      "question": "Negli anni '60 vennero inventati il mouse, la cache e fu lanciata la Olivetti Programma 101.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il mouse fu inventato da Engelbart, la cache cominciò ad essere studiata in quel periodo, e la Olivetti Programma 101 è del 1965."
+    },
+    {
+      "question": "Il linguaggio ADA, sviluppato tra gli anni '70 e '80, non riuscì mai a diventare un linguaggio di riferimento, nonostante le aspettative.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il linguaggio ADA fu sostenuto dal Dipartimento della Difesa USA ma non ebbe una diffusione ampia, iniziando a declinare già verso la fine degli anni '80."
+    },
+    {
+      "question": "Il linguaggio Prolog fu scelto come base per un progetto giapponese finalizzato allo sviluppo di supercomputer basati sull'inferenza logica.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Il progetto 'Fifth Generation Computer Systems' promosso dal governo giapponese puntava a usare Prolog per deduzioni logiche parallele."
+    },
+    {
+      "question": "I linguaggi di scripting general-purpose sviluppati negli anni '90 tendevano a unire prototipazione rapida, strutturazione e controllo a runtime.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Linguaggi come Python, Perl o Ruby sono esempi perfetti: dinamici, flessibili e orientati alla rapidità di sviluppo."
+    },
+    {
+      "question": "Il BASIC favoriva uno stile di programmazione caotico detto 'spaghetti code', ed è stato criticato per rendere difficile l’apprendimento corretto della programmazione.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Molti educatori ritenevano il BASIC inadatto a insegnare buone pratiche di programmazione a causa della sua struttura poco rigorosa."
+    },
+    {
+      "question": "Il BASIC e il COBOL furono linguaggi molto diffusi, ma anche criticati per non favorire uno stile di programmazione chiaro.",
+      "options": ["Vero", "Falso"],
+      "answer": "Vero",
+      "explanation": "Entrambi furono adottati largamente per la semplicità, ma vennero criticati per la loro struttura che poteva favorire pratiche scorrette."
+    },
+    {
+      "question": "Qual era l'obiettivo iniziale della Intel alla sua fondazione?",
+      "options": [
+        "Produrre memorie a semiconduttore",
+        "Progettare microprocessori",
+        "Realizzare sistemi operativi",
+        "Sviluppare interfacce grafiche"
+      ],
+      "answer": "Produrre memorie a semiconduttore",
+      "explanation": "La Intel fu fondata alla fine degli anni '60 con lo scopo di produrre memorie a semiconduttore, non microprocessori."
+    },
+    {
+      "question": "Perché Intel iniziò la produzione del primo microprocessore della storia?",
+      "options": [
+        "Su richiesta di una azienda giapponese",
+        "Per un progetto interno di ricerca",
+        "Per motivi militari",
+        "Per competere con Apple"
+      ],
+      "answer": "Su richiesta di una azienda giapponese",
+      "explanation": "Intel iniziò a progettare il primo microprocessore su commissione di una azienda giapponese, la Busicom."
+    },
+    {
+      "question": "Quale tra le seguenti affermazioni è vera riguardo alla fondazione della Intel?",
+      "options": [
+        "Non fu fondata per produrre microprocessori",
+        "Fu fondata per realizzare computer personali",
+        "Fu fondata da Steve Jobs",
+        "Fu fondata per produrre dispositivi mobili"
+      ],
+      "answer": "Non fu fondata per produrre microprocessori",
+      "explanation": "All’epoca della sua fondazione i microprocessori non esistevano ancora; Intel era focalizzata sulle memorie."
+    },
+    {
+      "question": "Quale fu uno dei primi computer con interfaccia grafica della Apple, ispirato al sistema Alto?",
+      "options": [
+        "Macintosh 128k",
+        "Apple II",
+        "Lisa",
+        "NeXT Cube"
+      ],
+      "answer": "Macintosh 128k",
+      "explanation": "Il Macintosh 128k fu il primo vero successo commerciale della Apple con interfaccia grafica, ispirato al sistema Alto."
+    },
+    {
+      "question": "Prima del Macintosh 128k, Apple aveva già tentato di lanciare un computer con interfaccia grafica?",
+      "options": [
+        "Sì, ma fu un insuccesso commerciale",
+        "No, il Macintosh fu il primo tentativo",
+        "Sì, il Lisa fu un grande successo",
+        "No, usarono interfacce testuali fino al 1990"
+      ],
+      "answer": "Sì, ma fu un insuccesso commerciale",
+      "explanation": "Il progetto Lisa fu un tentativo della Apple di introdurre le interfacce grafiche, ma non ebbe successo commerciale."
+    },
+    {
+      "question": "Quale sistema operativo usò la Apple nei suoi primi personal computer?",
+      "options": [
+        "Apple-DOS",
+        "MacOS",
+        "Unix",
+        "Windows 1.0"
+      ],
+      "answer": "Apple-DOS",
+      "explanation": "Apple-DOS era il sistema operativo usato nei primi computer Apple; le sue specifiche furono rese pubbliche per stimolare lo sviluppo di software."
+    },
+    {
+      "question": "Quale fu il contributo di Ada Lovelace allo sviluppo dell’Analytical Engine?",
+      "options": [
+        "Migliorò il progetto e propose l'uso di schede perforate",
+        "Lo costruì personalmente",
+        "Scrisse il primo sistema operativo per l’Engine",
+        "Inventò l’aritmetica binaria"
+      ],
+      "answer": "Migliorò il progetto e propose l'uso di schede perforate",
+      "explanation": "Ada Lovelace migliorò il progetto di Babbage e propose l’utilizzo delle schede perforate per programmare l’Analytical Engine."
+    },
+  {
+    "question": "Cos'è il Manchester Small Scale Experimental Machine (SSEM)?",
+    "options": [
+      "Il primo computer a programma memorizzato operativo",
+      "Il primo computer commerciale",
+      "Il primo mainframe IBM",
+      "Una calcolatrice elettronica tedesca"
+    ],
+    "answer": "Il primo computer a programma memorizzato operativo",
+    "explanation": "Il SSEM, noto anche come Baby, fu il primo computer a programma memorizzato a diventare effettivamente operativo nel 1948."
+  },
+    {
+      "question": "Qual era il ruolo del resident monitor nei sistemi batch?",
+      "correct_answer": "Integrava il lavoro del personale, facendo girare uno dopo l'altro i programmi forniti sotto forma di pacchetti di schede perforate.",
+      "wrong_answers": [
+        "Controllava i processi in tempo reale con interfaccia grafica.",
+        "Gestiva solo la stampa dei risultati dei programmi.",
+        "Funzionava solo con sistemi operativi Unix."
+      ]
+    },
+    {
+      "question": "Qual è il più vecchio sistema operativo ancora in uso, anche se sotto nomi diversi?",
+      "correct_answer": "Unix",
+      "wrong_answers": [
+        "DOS",
+        "Linux",
+        "Windows NT"
+      ]
+    },
+    {
+      "question": "Quale tra questi sistemi degli anni '60 non era un sistema timesharing ma solo multiprogrammato?",
+      "correct_answer": "OS/360 della IBM",
+      "wrong_answers": [
+        "Unix",
+        "MULTICS",
+        "Atlas"
+      ]
+    },
+    {
+      "question": "Come fu sviluppato il sistema operativo Linux?",
+      "correct_answer": "Linus Torvalds copiò l'implementazione dello Unix descritta in un libro e la adattò al suo personal computer.",
+      "wrong_answers": [
+        "Fu riscritto interamente da zero senza ispirazione Unix.",
+        "Fu commissionato da IBM come alternativa a Windows.",
+        "Fu una versione modificata di OS/360."
+      ]
+    },
+    {
+      "question": "Qual era l'idea alla base dei sistemi batch?",
+      "correct_answer": "Automatizzare il lavoro necessario per lanciare i programmi uno dopo l'altro senza intervento umano.",
+      "wrong_answers": [
+        "Creare un'interfaccia grafica per lanciare i programmi.",
+        "Consentire la connessione di più utenti contemporaneamente.",
+        "Permettere la gestione della rete in tempo reale."
+      ]
+    },
+    {
+      "question": "Perché il sistema Multics fu un insuccesso?",
+      "correct_answer": "Non disponeva di una piattaforma hardware sufficientemente performante per supportarne la complessità.",
+      "wrong_answers": [
+        "Era basato su DOS.",
+        "Non era compatibile con schede perforate.",
+        "Non supportava più utenti contemporaneamente."
+      ]
+    },
+    {
+      "question": "Chi guidò lo sviluppo del sistema MULTICS e da quale esperienza prese avvio?",
+      "correct_answer": "Robert Fano, a partire dall'esperienza del CTSS.",
+      "wrong_answers": [
+        "Linus Torvalds, a partire dall’esperienza Linux.",
+        "John McCarthy, a partire dall’esperienza UNIX.",
+        "Dennis Ritchie, a partire dall’esperienza C."
+      ]
+    },
+    {
+      "question": "In quali sistemi fu implementato il multitasking?",
+      "correct_answer": "Atlas, CISS, MULTICS e OS/360",
+      "wrong_answers": [
+        "Solo in Linux e Unix.",
+        "Solo nei sistemi Macintosh.",
+        "Solo nei linguaggi di scripting."
+      ]
+    },
+    {
+      "question": "Come venivano usate le schede perforate nei sistemi batch?",
+      "correct_answer": "Permettevano di impartire comandi come indicare il compilatore da usare e poi eseguire il programma.",
+      "wrong_answers": [
+        "Servivano solo per stampare i risultati.",
+        "Venivano usate per salvare immagini.",
+        "Erano usate per la comunicazione in rete."
+      ]
+    },
+    {
+      "question": "Il Linux può essere considerato un sistema operativo originale?",
+      "correct_answer": "No, è una riscrittura dello Unix per PC.",
+      "wrong_answers": [
+        "Sì, è stato sviluppato da zero senza influenze.",
+        "Sì, è una versione evoluta di DOS.",
+        "Sì, è un derivato del sistema MULTICS."
+      ]
+    },
+    {
+      "question": "Cosa permise la realizzazione del multitasking?",
+      "correct_answer": "La disponibilità di dispositivi di memoria di massa veloci e ad accesso diretto.",
+      "wrong_answers": [
+        "L’introduzione del linguaggio BASIC.",
+        "Lo sviluppo dei primi virus informatici.",
+        "L’invenzione del transistor."
+      ]
+    },
+    {
+      "question": "Cosa si intende con il termine 'DOS'?",
+      "correct_answer": "Un tipo di sistema operativo pensato per i primi personal computer, economici e con poche risorse hardware.",
+      "wrong_answers": [
+        "Un linguaggio di programmazione.",
+        "Una scheda di memoria magnetica.",
+        "Un compilatore multiutente."
+      ]
+    },
+    {
+      "question": "Perché Linus Torvalds sviluppò Linux?",
+      "correct_answer": "Voleva un sistema Unix che potesse essere usato con il suo personal computer.",
+      "wrong_answers": [
+        "Voleva sostituire il sistema MacOS.",
+        "Fu incaricato da Microsoft.",
+        "Lavorava su un progetto militare segreto."
+      ]
+    },
+    {
+      "question": "Quando fu formulato il concetto di multitasking e per quale scopo?",
+      "correct_answer": "Negli anni '50, per limitare le attese dovute all'uso delle periferiche di input/output.",
+      "wrong_answers": [
+        "Negli anni '70, per consentire lo sviluppo di giochi.",
+        "Negli anni '80, per migliorare la grafica.",
+        "Nel 2000, per gestire la sicurezza informatica."
+      ]
+    },
+    {
+      "question": "Chi ideò i sistemi timesharing e quando?",
+      "correct_answer": "John McCarthy, tra la fine degli anni '50 e l'inizio degli anni '60.",
+      "wrong_answers": [
+        "Linus Torvalds, negli anni '90.",
+        "Ada Lovelace, nel XIX secolo.",
+        "Robert Fano, negli anni '70."
+      ]
+    },
+    {
+      "question": "Quale programma gestiva l'esecuzione dei lavori nei sistemi batch?",
+      "correct_answer": "Uno specifico programma di pianificazione del lavoro da far fare al computer.",
+      "wrong_answers": [
+        "Un compilatore interattivo grafico.",
+        "Un interprete per linguaggi di scripting.",
+        "Una memoria magnetica autonoma."
+      ]
+    },
+    {
+      "question": "Cosa accadde negli anni '80 nel campo dei linguaggi di programmazione?",
+      "correct_answer": "Il linguaggio C si affermò definitivamente, e nacquero versioni object oriented come C++ e Objective-C.",
+      "wrong_answers": [
+        "Il FORTRAN fu sostituito dal BASIC.",
+        "Il Pascal divenne il linguaggio dominante.",
+        "L’Assembly fu abolito in ambiente universitario."
+      ]
+    },
+    {
+      "question": "Cosa comportò l'affermazione del C negli anni '80?",
+      "correct_answer": "Causò l'inizio del lento declino del Pascal.",
+      "wrong_answers": [
+        "Fece rinascere l'interesse per i linguaggi a schede perforate.",
+        "Favorì la diffusione del linguaggio Java.",
+        "Annunciò la fine dell’utilizzo dei compilatori."
+      ]
+    },
+    {
+      "question": "Chi fornì contributi fondamentali allo sviluppo dei primi linguaggi ad alto livello e dei loro compilatori negli anni '50?",
+      "options": [
+        "Grace Murray Hopper",
+        "Ada Lovelace",
+        "Dennis Ritchie",
+        "Alan Turing"
+      ],
+      "answer": "Grace Murray Hopper",
+      "explanation": "Grace Hopper fu pioniera nella creazione di compilatori e nello sviluppo del linguaggio COBOL, contribuendo enormemente alla nascita dei linguaggi ad alto livello."
+    },
+    {
+      "question": "Cosa portarono le ricerche nel campo dei compilatori negli anni '50?",
+      "options": [
+        "Allo sviluppo dei primi linguaggi ad alto livello",
+        "All’invenzione della macchina di Turing",
+        "All’eliminazione del linguaggio macchina",
+        "All’uso delle interfacce grafiche"
+      ],
+      "answer": "Allo sviluppo dei primi linguaggi ad alto livello",
+      "explanation": "Le ricerche permisero di passare da istruzioni macchina complesse a linguaggi più leggibili per l'uomo."
+    },
+    {
+      "question": "Quale linguaggio fu tra i più diffusi tra gli anni '50 e '60?",
+      "options": [
+        "FORTRAN",
+        "Python",
+        "C++",
+        "Ruby"
+      ],
+      "answer": "FORTRAN",
+      "explanation": "Il FORTRAN fu uno dei primi linguaggi ad alto livello ed è stato ampiamente usato in ambito scientifico e ingegneristico."
+    },
+    {
+      "question": "Quale linguaggio sviluppato negli anni '50 e '60 ebbe una grande diffusione negli anni '70 e '80?",
+      "options": [
+        "BASIC",
+        "Pascal",
+        "C",
+        "LISP"
+      ],
+      "answer": "BASIC",
+      "explanation": "Il BASIC fu progettato per la semplicità e divenne popolare con l'avvento dei personal computer."
+    },
+    {
+      "question": "Quale fu uno degli avanzamenti tecnologici fondamentali rispetto ai tubi a vuoto nell'industria dei computer?",
+      "options": [
+        "Il transistor",
+        "La valvola termoionica",
+        "Il relè",
+        "Il laser"
+      ],
+      "answer": "Il transistor",
+      "explanation": "Il transistor permise computer più piccoli, affidabili e veloci rispetto ai predecessori basati su tubi a vuoto."
+    },
+    {
+      "question": "Qual è il componente elettronico base dei circuiti logici che compongono le CPU moderne?",
+      "options": [
+        "Il transistor",
+        "Il condensatore",
+        "Il resistore",
+        "Il diodo"
+      ],
+      "answer": "Il transistor",
+      "explanation": "Il transistor è alla base di ogni porta logica nei microprocessori."
+    },
+    {
+      "question": "Da cosa sono composte le porte logiche nei processori moderni?",
+      "options": [
+        "Da transistor",
+        "Da relè meccanici",
+        "Da valvole termoioniche",
+        "Da interruttori manuali"
+      ],
+      "answer": "Da transistor",
+      "explanation": "I transistor sono i mattoni fondamentali per costruire le porte logiche usate nei chip."
+    },
+    {
+      "question": "Come può essere usato un transistor in un circuito elettronico?",
+      "options": [
+        "Come amplificatore o come interruttore",
+        "Come dissipatore di calore",
+        "Come antenna di ricezione",
+        "Come convertitore di tensione"
+      ],
+      "answer": "Come amplificatore o come interruttore",
+      "explanation": "Il transistor può amplificare segnali o comportarsi come un interruttore nei circuiti logici."
+    },
+    {
+      "question": "Chi ha fornito contributi fondamentali allo sviluppo dei primi linguaggi ad alto livello e dei loro compilatori negli anni '50?",
+      "options": [
+        "Grace Murray Hopper",
+        "Alan Turing",
+        "Dennis Ritchie",
+        "Niklaus Wirth"
+      ],
+      "answer": "Grace Murray Hopper",
+      "explanation": "Grace Hopper contribuì alla progettazione di linguaggi ad alto livello e compilatori, tra cui il COBOL."
+    },
+    {
+      "question": "Cosa portarono le ricerche nel campo dei compilatori negli anni '50?",
+      "options": [
+        "Allo sviluppo dei primi linguaggi ad alto livello",
+        "Alla creazione delle memorie magnetiche",
+        "All'invenzione del transistor",
+        "All’introduzione dei sistemi operativi"
+      ],
+      "answer": "Allo sviluppo dei primi linguaggi ad alto livello",
+      "explanation": "Le ricerche permisero la nascita dei linguaggi che semplificavano la programmazione rispetto al linguaggio macchina."
+    },
+    {
+      "question": "Quale linguaggio fu tra i più diffusi tra gli anni '50 e '60?",
+      "options": [
+        "FORTRAN",
+        "Python",
+        "Java",
+        "Rust"
+      ],
+      "answer": "FORTRAN",
+      "explanation": "FORTRAN fu ampiamente usato per il calcolo scientifico e ingegneristico già dalla sua nascita."
+    },
+    {
+      "question": "Quale linguaggio sviluppato negli anni '50 e '60 conobbe una maggiore diffusione negli anni '70 e '80?",
+      "options": [
+        "BASIC",
+        "C++",
+        "Ada",
+        "Prolog"
+      ],
+      "answer": "BASIC",
+      "explanation": "Il BASIC fu progettato per essere semplice e si diffuse con i primi personal computer."
+    },
+    {
+      "question": "Cosa ha rappresentato il transistor per l’informatica rispetto ai tubi a vuoto?",
+      "options": [
+        "Un avanzamento tecnologico fondamentale",
+        "Un ritorno a tecnologie più stabili",
+        "Una tecnologia obsoleta",
+        "Un sistema alternativo ai compilatori"
+      ],
+      "answer": "Un avanzamento tecnologico fondamentale",
+      "explanation": "Il transistor permise una miniaturizzazione e maggiore efficienza dei circuiti rispetto ai tubi a vuoto."
+    },
+    {
+      "question": "Qual è il componente elettronico di base per realizzare i circuiti logici delle CPU moderne?",
+      "options": [
+        "Il transistor",
+        "Il diodo",
+        "Il relè",
+        "La valvola termoionica"
+      ],
+      "answer": "Il transistor",
+      "explanation": "Il transistor è alla base di tutte le operazioni logiche eseguite dai moderni processori."
+    },
+    {
+      "question": "Da quale componente elettronico sono realizzate le porte logiche dei processori moderni?",
+      "options": [
+        "Transistor",
+        "Resistori",
+        "Condensatori",
+        "Diodi"
+      ],
+      "answer": "Transistor",
+      "explanation": "Le porte logiche moderne sono composte da reti di transistor miniaturizzati nei chip."
+    },
+  {
+    "question": "Cos'è un transistor dal punto di vista funzionale?",
+    "options": [
+      "Un amplificatore o interruttore di segnale elettrico",
+      "Un tipo di memoria permanente",
+      "Una sorgente di corrente alternata",
+      "Un sensore ottico"
+    ],
+    "answer": "Un amplificatore o interruttore di segnale elettrico",
+    "explanation": "Il transistor amplifica o interrompe il flusso di corrente, rendendolo ideale per l'elaborazione logica."
+  },
+    {
+      "question": "Quali due linguaggi, dalle caratteristiche quasi opposte, furono sviluppati negli anni '60?",
+      "options": [
+        "BASIC e ALGOL",
+        "FORTRAN e COBOL",
+        "Pascal e C++",
+        "Simula67 e Java"
+      ],
+      "answer": "BASIC e ALGOL",
+      "explanation": "Il BASIC era destinato a studenti non informatici, mentre l'ALGOL divenne uno standard per la descrizione degli algoritmi."
+    },
+    {
+      "question": "Cosa introdussero i sistemi time sharing degli anni '60 in termini di organizzazione dei file?",
+      "options": [
+        "Il sistema di cartelle e sottocartelle",
+        "Il concetto di partizione",
+        "La formattazione automatica dei dischi",
+        "L'accesso remoto ai dischi ottici"
+      ],
+      "answer": "Il sistema di cartelle e sottocartelle",
+      "explanation": "I primi sistemi time sharing implementarono l'idea di organizzare i file degli utenti in cartelle e sottocartelle."
+    },
+    {
+      "question": "Qual era l’obiettivo principale dello sviluppo del BASIC negli anni '60?",
+      "options": [
+        "Permettere a studenti non informatici di imparare a programmare",
+        "Fornire un linguaggio per lo sviluppo di sistemi embedded",
+        "Sostituire il COBOL nei calcoli scientifici",
+        "Ottimizzare le performance dei supercomputer"
+      ],
+      "answer": "Permettere a studenti non informatici di imparare a programmare",
+      "explanation": "Il BASIC fu creato per semplificare l’approccio alla programmazione da parte di studenti senza formazione tecnica."
+    },
+    {
+      "question": "Quale linguaggio ha posto le basi della programmazione Object Oriented negli anni '60?",
+      "options": [
+        "Simula67",
+        "Pascal",
+        "C",
+        "FORTRAN"
+      ],
+      "answer": "Simula67",
+      "explanation": "Simula67 introdusse concetti fondamentali per la programmazione orientata agli oggetti."
+    },
+    {
+      "question": "Chi ideò i primi sistemi time sharing e quali furono i primi esempi realizzati?",
+      "options": [
+        "John McCarthy; CTSS e MULTICS",
+        "Alan Turing; ENIAC e EDVAC",
+        "Dennis Ritchie; UNIX e MINIX",
+        "Ken Thompson; Linux e GNU"
+      ],
+      "answer": "John McCarthy; CTSS e MULTICS",
+      "explanation": "McCarthy propose l'idea di time sharing, e i primi sistemi furono CTSS e MULTICS."
+    },
+    {
+      "question": "Cosa ha reso possibile lo sviluppo di nuove funzionalità nei sistemi operativi a partire dagli anni '60?",
+      "options": [
+        "La disponibilità dei sorgenti",
+        "L’invenzione del mouse",
+        "La creazione del linguaggio Java",
+        "L’introduzione della memoria flash"
+      ],
+      "answer": "La disponibilità dei sorgenti",
+      "explanation": "Avere accesso ai sorgenti ha permesso di studiare, modificare e migliorare i sistemi operativi."
+    },
+    {
+      "question": "Quale fu una delle conseguenze dell’introduzione dei primi sistemi timesharing?",
+      "options": [
+        "La nascita dei moderni File System",
+        "L’abbandono del linguaggio macchina",
+        "La creazione di Windows",
+        "La diffusione delle reti wireless"
+      ],
+      "answer": "La nascita dei moderni File System",
+      "explanation": "I sistemi time sharing portarono alla formulazione dei principi alla base dei file system moderni."
+    },
+    {
+      "question": "Quali erano le caratteristiche dei Williams-Kilburn tubes?",
+      "options": [
+        "Memorie dinamiche volatili a lettura diretta di ogni singolo bit",
+        "Dispositivi ottici per l’archiviazione a lungo termine",
+        "Unità SSD a stato solido",
+        "Memorie magnetiche permanenti"
+      ],
+      "answer": "Memorie dinamiche volatili a lettura diretta di ogni singolo bit",
+      "explanation": "I Williams-Kilburn tubes furono un tipo iniziale di memoria a lettura casuale e volatile."
+    },
+    {
+      "question": "In che modo i sistemi time sharing influenzarono i primi personal computer?",
+      "options": [
+        "In nessun modo, a causa delle limitate risorse hardware dei primi PC",
+        "Furono fondamentali per lo sviluppo delle interfacce grafiche dei PC",
+        "Permisero l’uso di Internet nei PC",
+        "Introdussero i linguaggi ad oggetti nei PC"
+      ],
+      "answer": "In nessun modo, a causa delle limitate risorse hardware dei primi PC",
+      "explanation": "I primi personal computer non avevano risorse sufficienti per implementare sistemi operativi time sharing."
+    },
+    {
+      "question": "Qual è una delle principali critiche rivolte ai linguaggi COBOL e BASIC?",
+      "options": [
+        "Incoraggiavano uno stile di programmazione confuso e non strutturato",
+        "Non supportavano la programmazione a oggetti",
+        "Erano troppo complessi per i principianti",
+        "Non erano adatti alla programmazione scientifica"
+      ],
+      "answer": "Incoraggiavano uno stile di programmazione confuso e non strutturato",
+      "explanation": "Nonostante fossero diffusi e facili da usare, COBOL e BASIC venivano criticati per non promuovere una programmazione rigorosa."
+    },
+    {
+      "question": "Chi teorizzò per primo i sistemi time sharing e in quale periodo?",
+      "options": [
+        "John McCarthy tra il 1959 e il 1961",
+        "Alan Turing nel 1943",
+        "Dennis Ritchie nel 1972",
+        "Ken Thompson nel 1969"
+      ],
+      "answer": "John McCarthy tra il 1959 e il 1961",
+      "explanation": "John McCarthy fu il primo a teorizzare i sistemi time sharing, tra il 1959 e il 1961."
+    },
+    {
+      "question": "Quando furono implementati i primi sistemi time sharing?",
+      "options": [
+        "Nei primi anni '60",
+        "Alla fine degli anni '70",
+        "Negli anni '90",
+        "Negli anni '40"
+      ],
+      "answer": "Nei primi anni '60",
+      "explanation": "I sistemi time sharing furono implementati a partire dai primi anni '60, quasi contemporaneamente ai sistemi multitasking."
+    },
+    {
+      "question": "Quale azienda commissionò alla Intel la produzione del primo microprocessore (il 4004)?",
+      "options": [
+        "Busicom",
+        "IBM",
+        "Apple",
+        "Texas Instruments"
+      ],
+      "answer": "Busicom",
+      "explanation": "Il primo microprocessore, l’Intel 4004, fu commissionato alla Intel dalla ditta giapponese Busicom."
+    },
+    {
+      "question": "Quali sono alcune delle caratteristiche principali del linguaggio C?",
+      "options": [
+        "Efficienza, portabilità e sintesi",
+        "Elevata rigidità dei tipi e compilazione lenta",
+        "Supporto nativo alle GUI e sintassi semplice",
+        "Scrittura automatica del codice e supporto al drag & drop"
+      ],
+      "answer": "Efficienza, portabilità e sintesi",
+      "explanation": "Il C è noto per la sua sintesi, efficienza e facilità di portabilità tra diverse piattaforme."
+    },
+    {
+      "question": "Perché il linguaggio C può rendere più facile commettere errori?",
+      "options": [
+        "A causa del suo sistema di tipi poco rigidi",
+        "Perché non supporta istruzioni condizionali",
+        "Perché obbliga l’uso di codice assembler",
+        "Perché è interpretato e non compilato"
+      ],
+      "answer": "A causa del suo sistema di tipi poco rigidi",
+      "explanation": "Il sistema di tipi del C è flessibile, il che può facilitare errori di programmazione difficili da rilevare."
+    },
+    {
+      "question": "Il linguaggio C è conosciuto per:",
+      "options": [
+        "Essere usabile su qualsiasi piattaforma e permettere l’esecuzione veloce dei programmi",
+        "Essere uno dei primi linguaggi orientati agli oggetti",
+        "Essere stato sviluppato per i mainframe IBM",
+        "Essere utilizzabile solo su sistemi Unix"
+      ],
+      "answer": "Essere usabile su qualsiasi piattaforma e permettere l’esecuzione veloce dei programmi",
+      "explanation": "Il C è estremamente portabile e consente la scrittura di software veloce ed efficiente."
+    },
+    {
+      "question": "Perché il sistema MULTICS non ebbe successo?",
+      "options": [
+        "Era pesante e sovradimensionato rispetto alle macchine degli anni '60",
+        "Non supportava linguaggi ad alto livello",
+        "Fu pensato solo per mainframe IBM",
+        "Non era compatibile con l’interfaccia a schede perforate"
+      ],
+      "answer": "Era pesante e sovradimensionato rispetto alle macchine degli anni '60",
+      "explanation": "Il sistema MULTICS, pur innovativo, non riuscì ad affermarsi perché troppo complesso per l'hardware disponibile all'epoca."
+    },
+    {
+      "question": "Qual è un'importante innovazione introdotta dal sistema MULTICS?",
+      "options": [
+        "Il concetto di File System gerarchico",
+        "La programmazione orientata agli oggetti",
+        "L’elaborazione distribuita",
+        "Il multitasking preemptive"
+      ],
+      "answer": "Il concetto di File System gerarchico",
+      "explanation": "MULTICS ispirò lo sviluppo dei moderni file system gerarchici, come quelli usati in Unix e nei sistemi attuali."
+    },
+    {
+      "question": "Qual è stato il principale vantaggio dell'invenzione del BIOS?",
+      "options": [
+        "La portabilità dei sistemi operativi su hardware diversi",
+        "La possibilità di eseguire software senza compilazione",
+        "La sicurezza avanzata del boot",
+        "L’interfaccia grafica con il sistema operativo"
+      ],
+      "answer": "La portabilità dei sistemi operativi su hardware diversi",
+      "explanation": "Il BIOS, inventato da Gary Kildall, ha reso i sistemi operativi facilmente adattabili a piattaforme hardware diverse."
+    },
+    {
+      "question": "Chi inventò il BIOS, facilitando la diffusione dei sistemi operativi per PC?",
+      "options": [
+        "Gary Kildall",
+        "Dennis Ritchie",
+        "Bill Gates",
+        "Ken Thompson"
+      ],
+      "answer": "Gary Kildall",
+      "explanation": "Gary Kildall inventò il BIOS, rendendo i sistemi operativi portabili e contribuendo alla diffusione dei PC."
+    },
+    {
+      "question": "Cosa indica l'acronimo CISC?",
+      "options": [
+        "Un modello architetturale ormai sostituito dal più moderno modello RISC",
+        "Un linguaggio di programmazione orientato agli oggetti",
+        "Un sistema operativo modulare",
+        "Una tipologia di rete informatica"
+      ],
+      "answer": "Un modello architetturale ormai sostituito dal più moderno modello RISC",
+      "explanation": "Le architetture CISC sono state in parte superate dai modelli RISC, più semplici ed efficienti."
+    },
+    {
+      "question": "Quali eventi del XIX secolo sono fondamentali nella storia dell'informatica?",
+      "options": [
+        "L'Analytical Engine, l'algebra di Boole e il sistema di tabulazione di Hollerit",
+        "L’invenzione del transistor, la rete ARPANET e la creazione del linguaggio C",
+        "La nascita del BASIC e dell’ALGOL",
+        "L’avvento delle memorie a semiconduttore"
+      ],
+      "answer": "L'Analytical Engine, l'algebra di Boole e il sistema di tabulazione di Hollerit",
+      "explanation": "Questi tre elementi sono tappe fondamentali nel XIX secolo per lo sviluppo del pensiero computazionale e delle macchine di calcolo."
+    },
+    {
+      "question": "Da cosa derivano i processori moderni?",
+      "options": [
+        "Dalla rivoluzione RISC degli anni '80",
+        "Dallo sviluppo dei sistemi UNIX",
+        "Dalla creazione del linguaggio C",
+        "Dall’invenzione delle interfacce grafiche"
+      ],
+      "answer": "Dalla rivoluzione RISC degli anni '80",
+      "explanation": "La rivoluzione architetturale RISC ha influenzato in modo determinante i processori moderni, migliorandone l'efficienza."
+    },
+    {
+      "question": "Quale ruolo ha avuto il linguaggio BASIC nella diffusione dell'informatica?",
+      "options": [
+        "Fu fondamentale per la diffusione di una cultura informatica tra il grande pubblico negli anni '70 e '80",
+        "Era pensato esclusivamente per programmatori esperti",
+        "Era utilizzato solo nei mainframe IBM",
+        "Fu usato principalmente in ambito militare"
+      ],
+      "answer": "Fu fondamentale per la diffusione di una cultura informatica tra il grande pubblico negli anni '70 e '80",
+      "explanation": "Il BASIC ha permesso anche agli utenti senza competenze informatiche di avvicinarsi alla programmazione."
+    },
+    {
+      "question": "Qual è una delle principali critiche rivolte al linguaggio BASIC?",
+      "options": [
+        "Favoriva uno stile di programmazione non strutturato e confuso",
+        "Aveva un sistema di tipi troppo rigido",
+        "Era troppo complesso per utenti non esperti",
+        "Non era compatibile con i sistemi Windows"
+      ],
+      "answer": "Favoriva uno stile di programmazione non strutturato e confuso",
+      "explanation": "Criticato anche da esperti come E. Dijkstra, il BASIC incoraggiava il cosiddetto 'spaghetti code', rendendo difficile la manutenzione dei programmi."
+    },
+    {
+      "question": "Per quale motivo molti esperti informatici disprezzavano il BASIC?",
+      "options": [
+        "Perché non incoraggiava la scrittura di programmi strutturati ed eleganti",
+        "Perché era troppo costoso",
+        "Perché era disponibile solo su mainframe",
+        "Perché richiedeva l’uso di schede perforate"
+      ],
+      "answer": "Perché non incoraggiava la scrittura di programmi strutturati ed eleganti",
+      "explanation": "Il BASIC veniva spesso considerato inadatto all'insegnamento della buona programmazione."
+    },
+    {
+      "question": "Tra quali utenti si diffuse principalmente il linguaggio BASIC?",
+      "options": [
+        "Utenti senza una formazione specifica informatica",
+        "Personale militare",
+        "Professori universitari di ingegneria",
+        "Operatori di sistemi mainframe"
+      ],
+      "answer": "Utenti senza una formazione specifica informatica",
+      "explanation": "Il BASIC fu pensato per rendere la programmazione accessibile anche a studenti e utenti comuni."
+    },
+    {
+      "question": "Quale fu una conseguenza tecnica dell'invenzione del transistor negli anni '50?",
+      "options": [
+        "Permise di costruire computer più veloci e affidabili di quelli a valvole termoioniche",
+        "Permise di sviluppare le prime memorie a dischi ottici",
+        "Portò alla creazione dei primi linguaggi object-oriented",
+        "Consentì l’adozione delle interfacce grafiche"
+      ],
+      "answer": "Permise di costruire computer più veloci e affidabili di quelli a valvole termoioniche",
+      "explanation": "Il transistor rivoluzionò l'elettronica e rese i computer più compatti, rapidi e affidabili."
+    },
+    {
+      "question": "Che ruolo ha avuto l'EDVAC nella storia dell'informatica?",
+      "options": [
+        "È il computer a cui è legata la nascita del concetto di “Architettura von Neumann”",
+        "Fu il primo computer a programma memorizzato a diventare operativo",
+        "Fu il primo computer personale della storia",
+        "Introdusse il concetto di multitasking"
+      ],
+      "answer": "È il computer a cui è legata la nascita del concetto di “Architettura von Neumann”",
+      "explanation": "L’EDVAC, progettato dai creatori dell’ENIAC, è il primo esempio teorico di macchina con dati e istruzioni memorizzati nella stessa memoria."
+    },
+    {
+      "question": "L'EDVAC fu il primo computer a programma memorizzato a diventare operativo?",
+      "options": [
+        "No, non è stato il primo computer a programma memorizzato effettivamente operativo",
+        "Sì, è stato il primo a essere realizzato e messo in funzione",
+        "Sì, ma fu usato solo in ambito militare",
+        "No, perché usava ancora schede perforate"
+      ],
+      "answer": "No, non è stato il primo computer a programma memorizzato effettivamente operativo",
+      "explanation": "L'SSEM (Manchester) fu il primo computer realmente operativo con programma in memoria, anticipando l'EDVAC."
+    },
+    {
+      "question": "Per quale motivo il nome di John von Neumann è importante nella storia dell'informatica?",
+      "options": [
+        "Perché dà il nome al modello architetturale tutt'ora in uso nei computer moderni",
+        "Perché ha costruito il primo computer commerciale",
+        "Perché ha inventato il mouse",
+        "Perché ha fondato la IBM"
+      ],
+      "answer": "Perché dà il nome al modello architetturale tutt'ora in uso nei computer moderni",
+      "explanation": "L'architettura di von Neumann prevede una memoria unificata per dati e istruzioni ed è ancora oggi alla base dei computer moderni."
+    },
+    {
+      "question": "In che linguaggio fu sviluppato il sistema operativo Linux?",
+      "options": [
+        "In C, usando come riferimento 'The Design of the Unix Operating System'",
+        "In Pascal, come derivato del sistema Windows",
+        "In Java, come estensione del sistema MS-DOS",
+        "In Assembly, basandosi sul linguaggio COBOL"
+      ],
+      "answer": "In C, usando come riferimento 'The Design of the Unix Operating System'",
+      "explanation": "Linus Torvalds si ispirò al libro che descriveva Unix e utilizzò il linguaggio C per scrivere Linux."
+    },
+    {
+      "question": "Perché Linus Torvalds sviluppò il sistema operativo Linux?",
+      "options": [
+        "Per avere un sistema operativo Unix-like che girasse sul proprio personal computer",
+        "Per creare un sistema operativo compatibile con Windows",
+        "Per sviluppare un sistema operativo per supercomputer",
+        "Per implementare un sistema operativo esclusivo per Apple"
+      ],
+      "answer": "Per avere un sistema operativo Unix-like che girasse sul proprio personal computer",
+      "explanation": "Torvalds voleva un sistema simile a Unix ma compatibile con l’hardware disponibile su PC domestici."
+    },
+    {
+      "question": "Come possiamo classificare il sistema operativo Linux?",
+      "options": [
+        "È una variante dello Unix sviluppata per girare su personal computer",
+        "È un sistema operativo completamente indipendente da Unix",
+        "È un software proprietario sviluppato da Microsoft",
+        "È un linguaggio di programmazione"
+      ],
+      "answer": "È una variante dello Unix sviluppata per girare su personal computer",
+      "explanation": "Linux riprende concetti e struttura da Unix ma è stato progettato per essere libero e compatibile con PC."
+    },
+    {
+      "question": "Chi ideò l'Analytical Engine nel XIX secolo?",
+      "options": [
+        "Charles Babbage",
+        "Alan Turing",
+        "Ada Lovelace",
+        "Herman Hollerit"
+      ],
+      "answer": "Charles Babbage",
+      "explanation": "Babbage progettò l'Analytical Engine, considerato il primo modello teorico di computer general-purpose."
+    },
+    {
+      "question": "Cosa indica l'acronimo DOS nella storia dei sistemi operativi?",
+      "options": [
+        "Un sistema operativo molto semplice, progettato apposta per i primi personal computer",
+        "Un linguaggio di programmazione ad alto livello per ambienti UNIX",
+        "Un'interfaccia grafica per sistemi Linux",
+        "Un compilatore sviluppato da IBM per il mainframe 360"
+      ],
+      "answer": "Un sistema operativo molto semplice, progettato apposta per i primi personal computer",
+      "explanation": "DOS (Disk Operating System) fu creato per personal computer a risorse limitate, come l'IBM PC originale."
+    },
+    {
+      "question": "In quali sistemi operativi fu implementata la multiprogrammazione?",
+      "options": [
+        "Atlas e OS/360",
+        "Linux e Unix",
+        "Windows 3.1 e MS-DOS",
+        "CTSS e MULTICS"
+      ],
+      "answer": "Atlas e OS/360",
+      "explanation": "Atlas e OS/360 sono tra i primi sistemi ad aver implementato la multiprogrammazione per migliorare l'efficienza nell'utilizzo del processore."
+    },
+    {
+      "question": "Perché fu concepita la multiprogrammazione alla fine degli anni '50?",
+      "options": [
+        "Per evitare le attese dovute alle periferiche di input/output",
+        "Per gestire la grafica nei videogiochi",
+        "Per migliorare la qualità del suono nei sistemi audio",
+        "Per facilitare la programmazione a oggetti"
+      ],
+      "answer": "Per evitare le attese dovute alle periferiche di input/output",
+      "explanation": "La multiprogrammazione venne sviluppata per permettere al processore di continuare a lavorare anche durante le operazioni lente delle periferiche I/O."
+    },
+    {
+      "question": "Cosa rese possibile l'implementazione della multiprogrammazione?",
+      "options": [
+        "La disponibilità di dispositivi di memorizzazione di massa ad accesso diretto",
+        "L'introduzione del mouse",
+        "Lo sviluppo del linguaggio BASIC",
+        "L’uso delle schede perforate nei primi PC"
+      ],
+      "answer": "La disponibilità di dispositivi di memorizzazione di massa ad accesso diretto",
+      "explanation": "Dispositivi come dischi rigidi e nastri permettevano di gestire più programmi e dati in parallelo, rendendo possibile la multiprogrammazione."
+    },
+    {
+      "question": "Qual era una caratteristica del sistema operativo OS/360?",
+      "options": [
+        "Era un sistema operativo multitasking molto diffuso negli anni '60",
+        "Era un sistema per smartphone sviluppato dalla IBM",
+        "Era basato su architettura client-server",
+        "Supportava esclusivamente l’uso di interfacce grafiche"
+      ],
+      "answer": "Era un sistema operativo multitasking molto diffuso negli anni '60",
+      "explanation": "OS/360 fu un sistema molto innovativo per il suo tempo, supportando multiprogrammazione e multitasking su mainframe IBM."
+    },
+    {
+      "question": "Che ruolo ha avuto il linguaggio FORTRAN nella storia dei linguaggi di programmazione?",
+      "options": [
+        "Ha influenzato lo sviluppo della maggior parte dei linguaggi successivi",
+        "È stato un linguaggio esclusivo per l’intelligenza artificiale",
+        "Non ha avuto alcun impatto sullo sviluppo futuro",
+        "È stato usato solo in ambito grafico"
+      ],
+      "answer": "Ha influenzato lo sviluppo della maggior parte dei linguaggi successivi",
+      "explanation": "Il FORTRAN è stato uno dei primi linguaggi ad alto livello, ponendo le basi sintattiche e concettuali per molti linguaggi successivi."
+    },
+    {
+      "question": "Cosa potevano contenere le schede perforate nei sistemi batch?",
+      "options": [
+        "Codice dei programmi, dati di input o comandi di controllo per il resident monitor",
+        "Esclusivamente immagini e grafica",
+        "Solo file eseguibili",
+        "Solo dati audio"
+      ],
+      "answer": "Codice dei programmi, dati di input o comandi di controllo per il resident monitor",
+      "explanation": "Le schede perforate erano versatili e fondamentali nei sistemi batch per programmare, inserire dati e istruire il sistema."
+    },
+    {
+      "question": "Come venivano eseguiti i programmi nei sistemi batch?",
+      "options": [
+        "Il resident monitor eseguiva in modo autonomo tutti i programmi contenuti nelle schede perforate, uno dopo l'altro",
+        "Ogni programma doveva essere avviato manualmente da un tecnico",
+        "I programmi venivano eseguiti casualmente in base alla memoria disponibile",
+        "Ogni programma era eseguito solo su richiesta vocale"
+      ],
+      "answer": "Il resident monitor eseguiva in modo autonomo tutti i programmi contenuti nelle schede perforate, uno dopo l'altro",
+      "explanation": "L'obiettivo del resident monitor nei sistemi batch era quello di automatizzare l'esecuzione sequenziale dei programmi senza intervento umano."
+    },
+    {
+      "question": "Quale ruolo ha avuto l'ALGOL negli anni '60?",
+      "options": [
+        "Fu il linguaggio di riferimento per descrivere gli algoritmi",
+        "Fu il primo linguaggio orientato agli oggetti",
+        "Venne usato esclusivamente nei giochi",
+        "Fu progettato per l'hardware Apple Lisa"
+      ],
+      "answer": "Fu il linguaggio di riferimento per descrivere gli algoritmi",
+      "explanation": "L'ALGOL fu molto apprezzato per la sua eleganza e adottato come standard per la descrizione algoritmica."
+    },
+    {
+      "question": "Quale linguaggio definì per primo i concetti di call by value, by name e by reference?",
+      "options": [
+        "ALGOL",
+        "FORTRAN",
+        "COBOL",
+        "Pascal"
+      ],
+      "answer": "ALGOL",
+      "explanation": "ALGOL fu il primo linguaggio a formalizzare questi concetti fondamentali per il passaggio dei parametri."
+    },
+    {
+      "question": "Quale linguaggio introdusse l’uso dei blocchi di istruzioni e la notazione Backus-Naur per la sintassi?",
+      "options": [
+        "ALGOL",
+        "BASIC",
+        "Ada",
+        "C"
+      ],
+      "answer": "ALGOL",
+      "explanation": "ALGOL introdusse innovazioni importanti nella struttura e nella formalizzazione dei linguaggi."
+    },
+    {
+      "question": "Quale distinzione introdusse per primo l’ALGOL nella sintassi dei linguaggi?",
+      "options": [
+        "Simboli distinti per uguaglianza e assegnamento",
+        "Utilizzo di linguaggio macchina",
+        "Forme di commento multilinea",
+        "Uso di interfacce grafiche per la programmazione"
+      ],
+      "answer": "Simboli distinti per uguaglianza e assegnamento",
+      "explanation": "ALGOL fu il primo a distinguere concettualmente e sintatticamente tra uguaglianza logica e assegnamento."
+    },
+    {
+      "question": "Come descrisse Tony Hoare il linguaggio ALGOL?",
+      "options": [
+        "Così avanti nei tempi da essere migliore anche della maggior parte dei suoi successori",
+        "Un linguaggio eccessivamente semplice per l’uso scientifico",
+        "Adatto solo per studenti di liceo",
+        "Un linguaggio privo di struttura formale"
+      ],
+      "answer": "Così avanti nei tempi da essere migliore anche della maggior parte dei suoi successori",
+      "explanation": "Tony Hoare elogiò l'ALGOL per la sua eleganza e innovatività."
+    },
+    {
+      "question": "Quali computer Apple furono considerati un fallimento commerciale?",
+      "options": [
+        "Apple III e Lisa",
+        "Macintosh 128k e iMac G3",
+        "Apple II e Newton",
+        "Macintosh Classic e PowerBook"
+      ],
+      "answer": "Apple III e Lisa",
+      "explanation": "Apple III soffriva di problemi hardware, mentre Lisa era troppo costoso per il mercato."
+    },
+    {
+      "question": "Che tipo di sistema operativo utilizzavano i primi modelli Apple?",
+      "options": [
+        "Un semplice DOS",
+        "UNIX",
+        "Multics",
+        "Windows Embedded"
+      ],
+      "answer": "Un semplice DOS",
+      "explanation": "I primi modelli Apple utilizzavano un Disk Operating System (Apple DOS) molto semplice."
+    },
+    {
+      "question": "Da cosa trasse ispirazione Apple per i suoi sistemi operativi con interfaccia grafica?",
+      "options": [
+        "Dai progetti della Xerox",
+        "Dal sistema UNIX",
+        "Dal linguaggio COBOL",
+        "Dall’interfaccia dei mainframe IBM"
+      ],
+      "answer": "Dai progetti della Xerox",
+      "explanation": "Apple prese ispirazione dai laboratori Xerox PARC, dove nacquero molte innovazioni in ambito GUI."
+    },
+    {
+      "question": "Cosa si può affermare della Apple prima del successo del Macintosh 128k?",
+      "options": [
+        "Aveva già prodotto e venduto alcuni personal computer, alcuni dei quali furono insuccessi commerciali",
+        "Non aveva ancora lanciato alcun computer",
+        "Aveva prodotto solo periferiche per mainframe",
+        "Era specializzata in software per videogiochi"
+      ],
+      "answer": "Aveva già prodotto e venduto alcuni personal computer, alcuni dei quali furono insuccessi commerciali",
+      "explanation": "Prima del successo del Macintosh, Apple aveva lanciato modelli come Apple III e Lisa, risultati fallimenti sul mercato."
+    },
+    {
+      "question": "Perché il costrutto GOTO è spesso criticato nella programmazione?",
+      "options": [
+        "Perché è considerato una delle principali cause della scrittura di programmi non strutturati",
+        "Perché consente l'accesso diretto alla memoria",
+        "Perché rende i programmi troppo lenti",
+        "Perché richiede troppa memoria"
+      ],
+      "answer": "Perché è considerato una delle principali cause della scrittura di programmi non strutturati",
+      "explanation": "L’uso del GOTO rende difficile la comprensione del flusso di un programma, favorendo uno stile caotico e poco leggibile."
+    },
+    {
+      "question": "Quali caratteristiche accomunano i linguaggi di scripting general purpose sviluppati negli anni '90?",
+      "options": [
+        "Sono spesso interpretati, permettono una prototipizzazione rapida, sono strutturati e in alcuni casi orientati agli oggetti",
+        "Sono compilati e adatti solo allo sviluppo di driver di periferica",
+        "Sono esclusivamente procedurali e compilati",
+        "Non supportano la programmazione ad oggetti né l’uso interattivo"
+      ],
+      "answer": "Sono spesso interpretati, permettono una prototipizzazione rapida, sono strutturati e in alcuni casi orientati agli oggetti",
+      "explanation": "I linguaggi di scripting degli anni '90 sono stati progettati per essere flessibili, facili da usare e potenti per compiti diversi, come Python o Perl."
+    },
+    {
+      "question": "Quali linguaggi furono progettati negli anni '70?",
+      "options": [
+        "Pascal, C e Prolog",
+        "ALGOL, BASIC e Lisp",
+        "Java, Python e Ruby",
+        "COBOL, Ada e Smalltalk"
+      ],
+      "answer": "Pascal, C e Prolog",
+      "explanation": "Negli anni '70 vennero sviluppati linguaggi fondamentali come Pascal (Wirth), C (Kernighan & Ritchie) e Prolog (Kowalski e Colmerauer)."
+    },
+    {
+      "question": "Quali due linguaggi furono particolarmente criticati per il loro impatto negativo sull'apprendimento della programmazione?",
+      "options": [
+        "COBOL e BASIC",
+        "Java e Python",
+        "FORTRAN e Lisp",
+        "C e Pascal"
+      ],
+      "answer": "COBOL e BASIC",
+      "explanation": "Il COBOL fu criticato per la sua applicabilità ristretta al mondo commerciale, mentre il BASIC per il suo incoraggiamento a scrivere codice disorganizzato."
+    },
+    {
+      "question": "Perché il linguaggio Java è considerato altamente portabile?",
+      "options": [
+        "Perché utilizza il bytecode, un codice intermedio eseguito dalla Java Virtual Machine",
+        "Perché viene compilato direttamente in linguaggio macchina",
+        "Perché è scritto in C",
+        "Perché viene tradotto in linguaggio assembly"
+      ],
+      "answer": "Perché utilizza il bytecode, un codice intermedio eseguito dalla Java Virtual Machine",
+      "explanation": "Il bytecode permette di eseguire Java su qualunque piattaforma con una JVM compatibile, rendendolo estremamente portabile."
+    },
+    {
+      "question": "Quale fu uno degli usi iniziali del linguaggio Java?",
+      "options": [
+        "Scrivere applicazioni scaricabili via Internet da eseguire nel browser",
+        "Realizzare sistemi operativi per personal computer",
+        "Scrivere driver per periferiche hardware",
+        "Costruire database distribuiti"
+      ],
+      "answer": "Scrivere applicazioni scaricabili via Internet da eseguire nel browser",
+      "explanation": "Java fu inizialmente pensato per realizzare applet che potessero essere scaricate insieme alle pagine web ed eseguite localmente."
+    },
+    {
+      "question": "Dove fu sviluppato il sistema operativo Unix?",
+      "options": [
+        "Ai laboratori Bell, dopo il ritiro dal progetto MULTICS",
+        "Presso l’MIT durante lo sviluppo del CTSS",
+        "All’Università di Stanford nel contesto del progetto ARPANET",
+        "Nei laboratori Apple per sostituire Lisa OS"
+      ],
+      "answer": "Ai laboratori Bell, dopo il ritiro dal progetto MULTICS",
+      "explanation": "Unix nacque come iniziativa interna ai Bell Labs dopo l’abbandono del complesso progetto MULTICS."
+    },
+    {
+      "question": "Quale vantaggio portò la riscrittura del sistema Unix in linguaggio C?",
+      "options": [
+        "Favorì lo studio, la comprensione e la portabilità su hardware diversi",
+        "Permise di aggiungere una GUI",
+        "Lo rese compatibile con sistemi Windows",
+        "Lo rese compatibile solo con mainframe IBM"
+      ],
+      "answer": "Favorì lo studio, la comprensione e la portabilità su hardware diversi",
+      "explanation": "Scrivere Unix in C lo rese più facilmente trasportabile e comprensibile, contribuendo enormemente alla sua diffusione."
+    },
+    {
+      "question": "Come si diffuse inizialmente il sistema Unix?",
+      "options": [
+        "Fu distribuito gratuitamente alle università e centri di ricerca, pagando solo la spedizione",
+        "Fu venduto in pacchetti commerciali agli utenti domestici",
+        "Fu incluso nei computer Apple Lisa",
+        "Fu sviluppato da Microsoft per i primi PC"
+      ],
+      "answer": "Fu distribuito gratuitamente alle università e centri di ricerca, pagando solo la spedizione",
+      "explanation": "La distribuzione libera di Unix (esclusi i costi di nastro e spedizione) ne facilitò la diffusione accademica."
+    },
+    {
+      "question": "Chi fu Ada Byron, contessa di Lovelace?",
+      "options": [
+        "Tradusse e commentò l’articolo di Federico Menabrea sull’Analytical Engine",
+        "Scrisse il primo programma in C",
+        "Inventò l’algoritmo dell’ordinamento a bolle",
+        "Sviluppò il linguaggio FORTRAN"
+      ],
+      "answer": "Tradusse e commentò l’articolo di Federico Menabrea sull’Analytical Engine",
+      "explanation": "Ada Lovelace è ricordata per il suo commento e ampliamento dell’articolo sul progetto di Babbage, l’Analytical Engine."
+    },
+    {
+      "question": "Quali linguaggi furono sviluppati negli anni '60 con obiettivi differenti?",
+      "options": [
+        "ALGOL e BASIC",
+        "C e Prolog",
+        "Pascal e Smalltalk",
+        "COBOL e Java"
+      ],
+      "answer": "ALGOL e BASIC",
+      "explanation": "L’ALGOL fu pensato per la descrizione formale degli algoritmi, mentre il BASIC fu ideato per studenti non informatici."
+    },
+    {
+      "question": "Quale innovazione architetturale avvenne negli anni '70?",
+      "options": [
+        "Il debutto dei primi microprocessori su singola fetta di silicio e la nascita della Apple",
+        "L'invenzione della macchina a schede perforate",
+        "La costruzione del primo computer ottico",
+        "L’introduzione dei tubi Williams-Kilburn come memoria principale"
+      ],
+      "answer": "Il debutto dei primi microprocessori su singola fetta di silicio e la nascita della Apple",
+      "explanation": "Negli anni '70, la miniaturizzazione portò alla realizzazione di microprocessori compatti e fu fondata Apple."
+    },
+    {
+      "question": "Perché John von Neumann è considerato una figura centrale nella storia dell'informatica?",
+      "options": [
+        "Perché ha descritto un'architettura in cui dati e programmi condividono la memoria principale",
+        "Perché ha progettato il primo computer commerciale della storia",
+        "Perché ha fondato la prima azienda di software",
+        "Perché ha costruito il primo linguaggio di programmazione"
+      ],
+      "answer": "Perché ha descritto un'architettura in cui dati e programmi condividono la memoria principale",
+      "explanation": "Von Neumann contribuì a descrivere l'architettura che prevede la condivisione della memoria tra dati e istruzioni, ancora oggi alla base dei moderni computer."
+    },
+    {
+      "question": "A quale documento contribuì John von Neumann nella storia dell'informatica?",
+      "options": [
+        "Alla stesura del report sull'architettura del primo computer a programma memorizzato",
+        "Alla progettazione del linguaggio Pascal",
+        "All’analisi delle reti informatiche TCP/IP",
+        "Alla scrittura del manuale di UNIX"
+      ],
+      "answer": "Alla stesura del report sull'architettura del primo computer a programma memorizzato",
+      "explanation": "Von Neumann contribuì alla formalizzazione dell’architettura dei computer a programma memorizzato, descrivendone i principi fondamentali."
+    },
+    {
+      "question": "Cosa caratterizza l'architettura dei computer nota come modello von Neumann?",
+      "options": [
+        "Dati e programmi condividono la stessa memoria principale",
+        "Ogni istruzione è di lunghezza fissa",
+        "Il codice viene compilato in linguaggio assembly",
+        "Il sistema è progettato per reti distribuite"
+      ],
+      "answer": "Dati e programmi condividono la stessa memoria principale",
+      "explanation": "Il modello von Neumann è basato sull'idea che istruzioni e dati siano memorizzati insieme nella stessa memoria primaria."
+    },
+    {
+      "question": "Quale caratteristica rendeva il linguaggio Pascal utile per evitare errori nei programmi?",
+      "options": [
+        "L’uso di un sistema di tipi ricco ma rigido",
+        "L’assenza del costrutto GOTO",
+        "L’esecuzione tramite interprete",
+        "Il supporto nativo alla programmazione a oggetti"
+      ],
+      "answer": "L’uso di un sistema di tipi ricco ma rigido",
+      "explanation": "Il Pascal aveva un sistema di tipi progettato per aiutare i programmatori a evitare errori durante la scrittura del codice."
+    },
+    {
+      "question": "Perché il linguaggio Pascal era facilmente trasportabile tra piattaforme diverse?",
+      "options": [
+        "Perché utilizzava un codice oggetto virtuale chiamato P-code",
+        "Perché era stato scritto in Java",
+        "Perché era interpretato in tempo reale",
+        "Perché si basava sull’assembly universale"
+      ],
+      "answer": "Perché utilizzava un codice oggetto virtuale chiamato P-code",
+      "explanation": "Il P-code permetteva di scrivere una volta e compilare per molte piattaforme, favorendo la portabilità del linguaggio Pascal."
+    },
+    {
+      "question": "Negli anni '70, quale ruolo ebbe il linguaggio Pascal?",
+      "options": [
+        "Fu uno dei linguaggi di riferimento, come lo era stato l'Algol negli anni '60",
+        "Sostituì il FORTRAN nei calcoli scientifici",
+        "Fu utilizzato solo come linguaggio didattico",
+        "Fu rifiutato in ambito accademico"
+      ],
+      "answer": "Fu uno dei linguaggi di riferimento, come lo era stato l'Algol negli anni '60",
+      "explanation": "Il Pascal fu molto influente negli anni '70, sia in ambito accademico che professionale, diventando un linguaggio di riferimento come l’ALGOL lo era stato nel decennio precedente."
+    },
+    {
+      "question": "In che modo il Pascal incoraggiava la scrittura di programmi esenti da errori?",
+      "options": [
+        "Attraverso un sistema di tipatura molto rigoroso",
+        "Grazie a un'interfaccia grafica integrata",
+        "Utilizzando un sistema interpretato con debugger avanzato",
+        "Semplificando il controllo dei flussi I/O"
+      ],
+      "answer": "Attraverso un sistema di tipatura molto rigoroso",
+      "explanation": "Il Pascal adottava un sistema di tipi molto severo per aiutare i programmatori a scrivere codice sicuro e privo di errori."
+    },
+    {
+      "question": "A quale sistema operativo è legato il nome di Robert Fano?",
+      "options": [
+        "Multics",
+        "Unix",
+        "Linux",
+        "CTSS"
+      ],
+      "answer": "Multics",
+      "explanation": "Robert Fano fu una figura chiave nello sviluppo del sistema Multics, da cui nacquero concetti fondamentali come il moderno file system."
+    },
+    {
+      "question": "Quale sistema operativo nacque dopo il Multics grazie al lavoro di Ritchie e Thompson?",
+      "options": [
+        "Unix",
+        "Linux",
+        "CP/M",
+        "MS-DOS"
+      ],
+      "answer": "Unix",
+      "explanation": "Unix fu sviluppato nei Bell Labs da Ritchie e Thompson come sistema più semplice ispirato al Multics."
+    },
+    {
+      "question": "Quale linguaggio era considerato il riferimento per la descrizione degli algoritmi negli anni '60?",
+      "options": [
+        "Algol",
+        "Fortran",
+        "Cobol",
+        "Pascal"
+      ],
+      "answer": "Algol",
+      "explanation": "Negli anni '60 l’Algol era il linguaggio più usato per descrivere algoritmi, grazie alla sua eleganza e precisione sintattica."
+    },
+    {
+      "question": "Quale linguaggio era preferito per lo sviluppo di applicazioni scientifiche negli anni '60?",
+      "options": [
+        "Fortran",
+        "Cobol",
+        "Algol",
+        "BASIC"
+      ],
+      "answer": "Fortran",
+      "explanation": "Il Fortran era il linguaggio più diffuso in ambito scientifico per via delle sue capacità di calcolo numerico."
+    },
+    {
+      "question": "Quale linguaggio era usato principalmente per le applicazioni commerciali negli anni '60?",
+      "options": [
+        "Cobol",
+        "Fortran",
+        "Pascal",
+        "BASIC"
+      ],
+      "answer": "Cobol",
+      "explanation": "Il Cobol fu progettato specificamente per il mondo del business e veniva usato in applicazioni commerciali."
+    },
+    {
+      "question": "Qual è l’ordine cronologico corretto dei primi linguaggi orientati agli oggetti?",
+      "options": [
+        "Simula67, Smalltalk, Java",
+        "Smalltalk, Java, Simula67",
+        "Java, Smalltalk, Simula67",
+        "Simula67, Java, Smalltalk"
+      ],
+      "answer": "Simula67, Smalltalk, Java",
+      "explanation": "Il Simula67 fu il primo linguaggio a introdurre il concetto di oggetto, seguito da Smalltalk e infine dal successo di Java."
+    },
+    {
+      "question": "Chi progettò il linguaggio Smalltalk?",
+      "options": [
+        "Alan Kay",
+        "Dennis Ritchie",
+        "Niklaus Wirth",
+        "Bjarne Stroustrup"
+      ],
+      "answer": "Alan Kay",
+      "explanation": "Alan Kay è l’ideatore di Smalltalk, uno dei primi linguaggi pienamente orientati agli oggetti."
+    },
+    {
+      "question": "Quale linguaggio orientato agli oggetti ha avuto il maggior successo?",
+      "options": [
+        "Java",
+        "Smalltalk",
+        "C++",
+        "Simula67"
+      ],
+      "answer": "Java",
+      "explanation": "Java è considerato il linguaggio object-oriented di maggior successo per la sua diffusione e portabilità."
+    },
+    {
+      "question": "Quale condizione tecnica ha reso possibile l’implementazione del multitasking?",
+      "options": [
+        "La disponibilità di hard disk",
+        "L’invenzione dei linguaggi ad alto livello",
+        "L’uso del BIOS",
+        "Lo sviluppo delle CPU multi-core"
+      ],
+      "answer": "La disponibilità di hard disk",
+      "explanation": "Il multitasking diventò possibile quando si resero disponibili memorie di massa ad accesso diretto come gli hard disk."
+    },
+    {
+      "question": "A chi si deve l’idea dei sistemi operativi time sharing?",
+      "options": [
+        "John McCarthy",
+        "Alan Turing",
+        "Dennis Ritchie",
+        "Ken Thompson"
+      ],
+      "answer": "John McCarthy",
+      "explanation": "John McCarthy teorizzò i sistemi time sharing alla fine degli anni '50 per condividere le risorse dei computer tra più utenti."
+    },
+    {
+      "question": "Qual è stato il primo sistema operativo time sharing?",
+      "options": [
+        "CTSS",
+        "Unix",
+        "MULTICS",
+        "OS/360"
+      ],
+      "answer": "CTSS",
+      "explanation": "Il CTSS fu il primo sistema operativo time sharing, sviluppato al MIT come prototipo sperimentale."
+    },
+    {
+      "question": "Cosa caratterizza le architetture RISC rispetto alle CISC?",
+      "options": [
+        "Usano istruzioni semplici e di dimensione costante",
+        "Supportano solo software Unix-like",
+        "Richiedono compilatori specifici per ogni programma",
+        "Funzionano solo su sistemi embedded"
+      ],
+      "answer": "Usano istruzioni semplici e di dimensione costante",
+      "explanation": "L’architettura RISC si basa sull’uso di istruzioni semplici e tutte della stessa lunghezza per massimizzare l’efficienza."
+    },
+    {
+      "question": "Quale tipo di memoria primaria era usato nei computer degli anni '50?",
+      "options": [
+        "Memorie a nucleo magnetico",
+        "DRAM",
+        "Dischi SSD",
+        "Memorie Flash"
+      ],
+      "answer": "Memorie a nucleo magnetico",
+      "explanation": "Le Magnetic Core Memory erano il tipo di memoria primaria più diffuso negli anni '50, anche se oggi sono obsolete."
+    },
+    {
+      "question": "Chi ideò il sistema operativo CP/M e cosa lo rendeva facilmente trasportabile su piattaforme diverse?",
+      "options": [
+        "Gary Kildall; il BIOS riscrivibile",
+        "Bill Gates; l'interprete BASIC integrato",
+        "Steve Wozniak; la compatibilità con Apple-DOS",
+        "Ken Thompson; l'uso del linguaggio C"
+      ],
+      "answer": "Gary Kildall; il BIOS riscrivibile",
+      "explanation": "Gary Kildall ideò il CP/M, che poteva essere adattato a nuovi hardware riscrivendo solo il BIOS."
+    },
+    {
+      "question": "Per quale motivo la IBM non adottò il sistema CP/M nel suo primo personal computer?",
+      "options": [
+        "Non riuscì a concludere un accordo con Gary Kildall",
+        "Il CP/M non supportava il linguaggio C",
+        "Il sistema era troppo costoso da integrare",
+        "Bill Gates ne deteneva i diritti esclusivi"
+      ],
+      "answer": "Non riuscì a concludere un accordo con Gary Kildall",
+      "explanation": "La IBM, non riuscendo a concludere un accordo con Kildall, si rivolse a Microsoft per ottenere un sistema operativo alternativo."
+    },
+    {
+      "question": "Cosa si intende con il termine 'codice non strutturato'?",
+      "options": [
+        "Codice con uso estensivo di GOTO e salti non controllati",
+        "Codice privo di commenti e documentazione",
+        "Codice scritto senza usare alcun compilatore",
+        "Codice che non può essere eseguito su sistemi UNIX"
+      ],
+      "answer": "Codice con uso estensivo di GOTO e salti non controllati",
+      "explanation": "Il codice non strutturato è tipicamente scritto con GOTO e test non organizzati, rendendo difficile la lettura e la manutenzione."
+    },
+    {
+      "question": "Chi dimostrò che ogni programma può essere scritto senza GOTO, usando solo sequenze, selezioni e iterazioni?",
+      "options": [
+        "Corrado Bohm e Giuseppe Jacobini",
+        "Edsger Dijkstra e Alan Turing",
+        "Bill Gates e Steve Wozniak",
+        "Dennis Ritchie e Brian Kernighan"
+      ],
+      "answer": "Corrado Bohm e Giuseppe Jacobini",
+      "explanation": "Bohm e Jacobini dimostrarono matematicamente che qualsiasi algoritmo può essere espresso senza l’uso del GOTO."
+    },
+    {
+      "question": "Quali linguaggi favorivano la scrittura di spaghetti code secondo Edsger Dijkstra?",
+      "options": [
+        "Basic e Fortran",
+        "Pascal e Algol",
+        "Java e C++",
+        "Lisp e Prolog"
+      ],
+      "answer": "Basic e Fortran",
+      "explanation": "Basic e Fortran, nei loro primi anni, non incoraggiavano una struttura logica ordinata, favorendo l’uso di GOTO."
+    },
+    {
+      "question": "Chi fondò la Apple e da quale modello riprese ispirazione il Macintosh?",
+      "options": [
+        "Steve Jobs e Steve Wozniak; ispirato al sistema Alto della Xerox",
+        "Bill Gates e Paul Allen; ispirato al CP/M",
+        "Alan Kay e Steve Jobs; ispirato al Lisa",
+        "Dennis Ritchie e Ken Thompson; ispirato all’Unix V7"
+      ],
+      "answer": "Steve Jobs e Steve Wozniak; ispirato al sistema Alto della Xerox",
+      "explanation": "Jobs e Wozniak fondarono Apple, e il Macintosh prese spunto dalle idee del sistema grafico sviluppato da Xerox con il progetto Alto."
+    },
+    {
+      "question": "Quale azienda superò Apple nel mercato dei personal computer nella prima metà degli anni '80?",
+      "options": [
+        "IBM",
+        "Microsoft",
+        "Commodore",
+        "Atari"
+      ],
+      "answer": "IBM",
+      "explanation": "Nonostante i primi successi, Apple fu superata in quel periodo da IBM, che lanciò il suo personal computer con grande successo."
+    },
+    {
+      "question": "Cosa caratterizza le architetture CISC rispetto alle RISC?",
+      "options": [
+        "Istruzioni complesse e di lunghezza variabile",
+        "Uso esclusivo di linguaggi ad oggetti",
+        "Assenza di gestione della memoria",
+        "Supporto solo per sistemi operativi Unix"
+      ],
+      "answer": "Istruzioni complesse e di lunghezza variabile",
+      "explanation": "Le architetture CISC utilizzano istruzioni complesse, spesso di lunghezza variabile, mentre le RISC puntano sulla semplicità e regolarità delle istruzioni."
+    },
+    {
+      "question": "Cosa introdussero le architetture RISC all'inizio degli anni '80?",
+      "options": [
+        "Istruzioni semplici, uniformi e ottimizzate per velocità",
+        "Memorie magnetiche dinamiche",
+        "Compatibilità nativa con linguaggio COBOL",
+        "Un’interfaccia grafica nei processori"
+      ],
+      "answer": "Istruzioni semplici, uniformi e ottimizzate per velocità",
+      "explanation": "Le architetture RISC si affermarono per la loro semplicità e rapidità, grazie all’uso di istruzioni di lunghezza fissa e facili da eseguire."
+    },
+    {
+      "question": "Qual è stato il primo computer a programma memorizzato effettivamente costruito?",
+      "options": [
+        "SSEM",
+        "ENIAC",
+        "EDVAC",
+        "UNIVAC"
+      ],
+      "answer": "SSEM",
+      "explanation": "Il SSEM (Small Scale Experimental Machine) fu il primo computer a programma memorizzato effettivamente costruito, nel 1948."
+    },
+    {
+      "question": "Chi concepì l'idea di computer a programma memorizzato nel progetto EDVAC?",
+      "options": [
+        "Goldstine e Von Neumann",
+        "Mauchly e Eckert",
+        "Turing e Wilkes",
+        "Hoare e Backus"
+      ],
+      "answer": "Goldstine e Von Neumann",
+      "explanation": "L'idea fu formalizzata nel report di Von Neumann sul progetto EDVAC, al quale contribuì anche Goldstine."
+    },
+    {
+      "question": "Per quale scopo fu originariamente costruito il SSEM?",
+      "options": [
+        "Per testare un nuovo tipo di memoria inventato da Williams e Kilburn",
+        "Per sviluppare il linguaggio Fortran",
+        "Per sostituire l’ENIAC nel calcolo balistico",
+        "Per gestire il primo sistema operativo multitasking"
+      ],
+      "answer": "Per testare un nuovo tipo di memoria inventato da Williams e Kilburn",
+      "explanation": "Il SSEM fu creato principalmente per testare i Williams-Kilburn tubes, un tipo innovativo di memoria."
+    },
+    {
+      "question": "Qual è considerato il primo linguaggio fondamentale nella storia dell’informatica?",
+      "options": [
+        "Fortran",
+        "Algol",
+        "Cobol",
+        "Assembly"
+      ],
+      "answer": "Fortran",
+      "explanation": "Il Fortran è considerato il primo linguaggio fondamentale, sviluppato per applicazioni scientifiche e tecniche."
+    },
+    {
+      "question": "Com’era strutturato il linguaggio Fortran?",
+      "options": [
+        "Non strutturato",
+        "Completamente orientato agli oggetti",
+        "Fortemente tipizzato e modulare",
+        "Basato su regole logiche e inferenziali"
+      ],
+      "answer": "Non strutturato",
+      "explanation": "Il Fortran, nelle sue prime versioni, era un linguaggio non strutturato."
+    },
+    {
+      "question": "Quale linguaggio era preferito per la descrizione formale degli algoritmi negli anni '60?",
+      "options": [
+        "Algol",
+        "Cobol",
+        "Fortran",
+        "Basic"
+      ],
+      "answer": "Algol",
+      "explanation": "L’Algol fu usato come linguaggio di riferimento per descrivere algoritmi grazie alla sua sintassi rigorosa."
+    },
+    {
+      "question": "Quale linguaggio era preferito per applicazioni commerciali e amministrative negli anni '60?",
+      "options": [
+        "Cobol",
+        "Algol",
+        "Basic",
+        "Fortran"
+      ],
+      "answer": "Cobol",
+      "explanation": "Il Cobol fu sviluppato per essere usato da utenti non programmatori nel mondo delle applicazioni gestionali."
+    },
+    {
+      "question": "Quali dispositivi elettronici furono usati prima per costruire circuiti logici nei processori?",
+      "options": [
+        "Tubi a vuoto",
+        "Transistor",
+        "Circuiti integrati",
+        "Microprocessori"
+      ],
+      "answer": "Tubi a vuoto",
+      "explanation": "I tubi a vuoto furono i primi componenti elettronici usati per costruire computer, prima dell’avvento dei transistor."
+    },
+    {
+      "question": "Quali vantaggi avevano i transistor rispetto ai tubi a vuoto?",
+      "options": [
+        "Più piccoli e consumavano meno corrente",
+        "Più facili da programmare",
+        "Potevano immagazzinare più dati",
+        "Erano basati su architetture RISC"
+      ],
+      "answer": "Più piccoli e consumavano meno corrente",
+      "explanation": "I transistor erano più efficienti, piccoli e affidabili rispetto ai tubi a vuoto, e hanno rivoluzionato l'elettronica."
+    },
+    {
+      "question": "A quale progetto è legata la figura di John von Neumann?",
+      "options": [
+        "EDVAC",
+        "SSEM",
+        "ENIAC",
+        "UNIVAC"
+      ],
+      "answer": "EDVAC",
+      "explanation": "Von Neumann contribuì alla formalizzazione dell’architettura dell’EDVAC, il primo progetto con programma memorizzato."
+    },
+    {
+      "question": "Che tipo di memoria usava il progetto EDVAC?",
+      "options": [
+        "Mercury delay lines",
+        "Williams-Kilburn tubes",
+        "Core magnetici",
+        "DRAM"
+      ],
+      "answer": "Mercury delay lines",
+      "explanation": "Il progetto EDVAC prevedeva l’uso delle Mercury delay lines come dispositivo di memoria."
+    },
+    {
+      "question": "Quale tipo di memoria fu usato nel SSEM?",
+      "options": [
+        "Williams-Kilburn tubes",
+        "Mercury delay lines",
+        "ROM",
+        "Hard Disk magnetico"
+      ],
+      "answer": "Williams-Kilburn tubes",
+      "explanation": "Il SSEM fu progettato proprio per testare i Williams-Kilburn tubes, uno dei primi tipi di memoria RAM."
+    }
+
+]
