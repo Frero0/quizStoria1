@@ -1,112 +1,159 @@
-/* App.css */
-
-/* 1) Background sfumato su tutto il body */
-body {
-  background: linear-gradient(
-          135deg,
-          hsl(250, 60%, 80%) 0%,
-          hsl(290, 65%, 75%) 50%,
-          hsl(330, 75%, 75%) 100%
-  );
-  font-family: 'Inter', sans-serif;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+/* App.css - Versione Rielaborata e Ottimizzata */
+.quiz-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-/* 2) Card centrale */
-.card {
-  /* Dimensione e centratura */
-  max-width: 600px;
   width: 100%;
-  margin: 2rem auto;
-
-  /* Sfondo più pieno + glassmorphism */
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-
-  /* Bordo arrotondato & ombra morbida */
-  border-radius: 2rem;
-  box-shadow: 0 10px 25px rgba(5, 5, 5, 0.1);
-
-  /* Spaziatura interna */
-  padding: 2rem;
-
-  /* Animazione al passaggio del mouse */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(5, 5, 5, 0.12);
 }
 
-/* 3) Titoli */
-h1,
-h2 {
-  color: hsl(260, 50%, 30%); /* viola smorzato */
+.main-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
 }
 
-/* 4) Progress bar */
+.dark .main-title {
+  color: hsl(250, 80%, 95%);
+}
+/* 1) IMPOSTAZIONI GLOBALI E BACKGROUND */
+body {
+  background: linear-gradient(135deg, hsl(250, 60%, 80%), hsl(290, 65%, 75%), hsl(330, 75%, 75%));
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem; /* Aggiunto padding per evitare che la card tocchi i bordi su schermi piccoli */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* 2) CARD CENTRALE */
+.card {
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border-radius: 1.5rem; /* Angoli leggermente più dolci */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* 3) TITOLI */
+h1,
+h2 {
+  color: hsl(260, 50%, 30%);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* 4) PROGRESS BAR */
 .progress-bg {
-  background: hsl(0, 0%, 90%);
+  background: hsl(240, 20%, 92%);
   height: 0.5rem;
-  border-radius: 9999px;
+  border-radius: 999px;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }
+
 .progress-fg {
-  background: hsl(145, 45%, 55%);
+  background: linear-gradient(90deg, hsl(145, 55%, 50%), hsl(160, 60%, 45%));
   height: 100%;
-  transition: width 0.4s ease;
+  transition: width 0.5s ease-in-out;
 }
 
-/* 5) Pulsanti */
-.btn-primary {
+/* 5) BOTTONI - Stile di Base Unificato */
+.btn {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: linear-gradient(
-          90deg,
-          hsl(240, 60%, 60%),
-          hsl(320, 60%, 60%)
-  );
-  color: white;
+  padding: 0.8rem 1.6rem;
   font-weight: 600;
   border: none;
-  border-radius: 9999px;
+  border-radius: 9999px; /* Forma a pillola */
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
-.btn-primary:hover {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.btn:active {
+  transform: translateY(-1px) scale(0.98);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bottoni Specifici */
+.btn-primary {
+  background: linear-gradient(90deg, hsl(245, 70%, 65%), hsl(290, 70%, 65%));
+  color: white;
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, hsl(0, 80%, 65%), hsl(0, 85%, 60%));
+  color: white;
 }
 
 .btn-warning {
-  @apply px-6 py-2 bg-yellow-400 text-gray-800 rounded-full hover:scale-105 transition-transform;
+  background-color: hsl(45, 100%, 60%);
+  color: hsl(45, 50%, 20%);
 }
-.btn-danger {
-  @apply
-  px-6 py-2
-  background: linear-gradient(
-  135deg,
-  hsl(0, 60%, 55%),
-  hsl(0, 65%, 45%)
-  );
-  color: white;
-  border-radius: 9999px;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.btn-danger:hover {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+.btn-warning:hover {
+  background-color: hsl(45, 100%, 55%);
 }
 
-/* 6) Contatori */
+.btn-secondary {
+  background-color: hsl(240, 10%, 88%);
+  color: hsl(240, 10%, 30%);
+}
+.btn-secondary:hover {
+  background-color: hsl(240, 10%, 80%);
+}
+
+
+/* 6) BOTTONI DI RISPOSTA */
+.btn-answer {
+  width: 100%;
+  text-align: left;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid hsl(220, 20%, 88%);
+  background: white;
+  color: hsl(220, 15%, 25%);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.btn-answer:hover {
+  background: hsl(210, 50%, 95%);
+  border-color: hsl(210, 50%, 70%);
+  transform: translateY(-2px);
+}
+.btn-answer.correct {
+  background: hsl(120, 60%, 92%);
+  border-color: hsl(120, 60%, 60%);
+  color: hsl(120, 70%, 20%);
+  font-weight: 600;
+}
+.btn-answer.wrong {
+  background: hsl(0, 70%, 94%);
+  border-color: hsl(0, 70%, 65%);
+  color: hsl(0, 80%, 30%);
+  font-weight: 600;
+}
+
+
+/* 7) CONTATORE PUNTEGGIO */
 .counter {
   font-size: 0.9rem;
   font-weight: 500;
@@ -114,204 +161,237 @@ h2 {
   justify-content: center;
   gap: 1.5rem;
   margin-bottom: 1.5rem;
+  color: hsl(240, 15%, 40%);
 }
 .counter span {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  color: hsl(230, 15%, 20%);
+  gap: 0.35rem;
 }
 
-/* 7) Risposta selezionata & stati */
-.btn-answer {
-  width: 100%;
-  text-align: left;
-  padding: 0.75rem 1rem;
-  border-radius: 1rem;
-  border: 1px solid hsl(0, 0%, 85%);
-  background: hsl(0, 0%, 95%);
-  transition: background 0.2s ease, border-color 0.2s ease;
-}
-.btn-answer:hover {
-  background: hsl(210, 50%, 90%);
-}
-.btn-answer.correct {
-  background: hsl(120, 50%, 85%);
-  border-color: hsl(120, 60%, 45%);
-}
-.btn-answer.wrong {
-  background: hsl(0, 60%, 90%);
-  border-color: hsl(0, 60%, 50%);
-}
-
-/* 8) Spiegazione */
+/* 8) SPIEGAZIONE */
 .explanation {
-  background: hsl(50, 100%, 95%);
-  border-left: 4px solid hsl(50, 90%, 60%);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
+  background: hsl(48, 100%, 96%);
+  border-left: 4px solid hsl(48, 90%, 60%);
+  padding: 1rem 1.2rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin: 1.5rem 0;
+  color: hsl(48, 80%, 25%);
 }
 
-/* ¶ pill numerati */
-.pill {
-  display: inline-flex;
+
+/* 9) NAVIGAZIONE DOMANDE (BOTTONI ROTONDI) */
+.question-nav-container {
+  display: flex;
+  overflow-x: auto; /* Abilita lo scroll orizzontale se necessario */
+  padding-bottom: 1rem; /* Spazio per la scrollbar per non sovrapporsi */
+  margin-bottom: 1rem;
+
+  /* Stile della scrollbar (sottile e discreta) */
+  scrollbar-width: thin;
+  scrollbar-color: hsl(240, 10%, 80%) transparent;
+}
+.question-nav-container::-webkit-scrollbar {
+  height: 6px;
+}
+.question-nav-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+.question-nav-container::-webkit-scrollbar-thumb {
+  background-color: hsl(240, 10%, 80%);
+  border-radius: 10px;
+}
+.question-nav-container::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(240, 10%, 70%);
+}
+
+.question-nav {
+  display: flex; /* Contenitore interno per i bottoni */
+  gap: 0.75rem; /* Spazio tra i bottoni */
+}
+
+.question-pill {
+  flex-shrink: 0;
+  width: 1.75rem;      /* Aumentato leggermente per dare più spazio */
+  height: 1.75rem;     /* Aumentato leggermente per dare più spazio */
+  border-radius: 100%; /* Riportato a 50% per un aspetto perfettamente rotondo */
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 9999px;
-  border: 2px solid transparent;
-  cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 0.875rem; /* Riportato alla dimensione originale per chiarezza */
   font-weight: 600;
-  transition: background-color 0.2s, border-color 0.2s;
+  cursor: pointer;
+  transform: scale(0.9);
+  border: 2px solid hsl(220, 15%, 85%);
+  background-color: hsl(220, 20%, 96%);
+  color: hsl(220, 15%, 40%);
+  transition: all 0.2s ease-in-out;
 }
-.pill.current {
-  border-color: hsl(250, 60%, 50%);
+.question-pill:hover {
+  transform: scale(0.95); /* Ridotto l'entità della scala all'hover */
+  border-color: hsl(250, 60%, 60%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.pill.correct {
-  background-color: hsl(120, 50%, 45%);
+
+.question-pill.current {
+  background-color: hsl(250, 60%, 55%);
   color: white;
+  border-color: hsl(250, 60%, 55%);
+  transform: scale(0.95); /* Ridotto anche qui per coerenza */
+  box-shadow: 0 5px 15px rgba(88, 63, 212, 0.4);
 }
-.pill.wrong {
-  background-color: hsl(0, 60%, 50%);
+.question-pill.answered.correct {
+  background-color: hsl(145, 60%, 45%);
   color: white;
+  border-color: hsl(145, 60%, 45%);
 }
-
-/* Utility che già avevi: */
-.read-the-docs {
-  color: #888;
-}
-.logo {
-  /* ... */
-}
-/* etc. */
-
-/* Scrollbar per question navigator */
-.page-bg .card > .flex.overflow-x-auto {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(2, 2, 2, 0.2) transparent;
-}
-.page-bg .card > .flex.overflow-x-auto::-webkit-scrollbar {
-  height: 0.5rem;
-}
-.page-bg .card > .flex.overflow-x-auto::-webkit-scrollbar-thumb {
-  background: rgba(4, 2, 2, 0.2);
-  border-radius: 9999px;
+.question-pill.answered.wrong {
+  background-color: hsl(0, 80%, 60%);
+  color: white;
+  border-color: hsl(0, 80%, 60%);
 }
 
 
-
-
-
-
-/* ──────────────────────────────────────────────────────────────
-   DARK MODE OVERRIDES
-────────────────────────────────────────────────────────────── */
+/* ────────────────────────────────────────────────────────── */
+/* DARK MODE                          */
+/* ────────────────────────────────────────────────────────── */
 
 .dark body {
-  /* sfondo un po’ meno saturo e più scuro ma non nero totale */
-  background: linear-gradient(
-          135deg,
-          hsl(250, 50%, 20%) 0%,
-          hsl(290, 40%, 15%) 50%,
-          hsl(330, 50%, 12%) 100%
-  );
+  background: linear-gradient(135deg, hsl(250, 30%, 18%), hsl(280, 25%, 15%), hsl(330, 30%, 12%));
 }
 
 .dark .card {
-  /* card leggermente più chiara rispetto allo sfondo */
-  background: rgba(30, 30, 45, 0.90);
-  color: #e0e0e0;
+  background: rgba(35, 35, 50, 0.9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  color: hsl(240, 20%, 90%);
 }
 
 .dark h1,
 .dark h2 {
-  color: #d1c7ff;
+  color: hsl(250, 80%, 90%);
 }
 
 .dark .progress-bg {
-  background: #373744;
+  background: hsl(240, 10%, 25%);
 }
-
 .dark .progress-fg {
-  background: #27c497; /* emerald-500 mantiene buon contrasto */
+  background: linear-gradient(90deg, hsl(145, 60%, 50%), hsl(160, 65%, 45%));
 }
 
-.dark .counter span {
-  color: #b0b0bf;
+.dark .counter {
+  color: hsl(240, 15%, 70%);
 }
 
+/* Bottoni Dark Mode */
+.dark .btn:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
 .dark .btn-primary {
-  /* gradient meno saturo per il dark */
-  background: linear-gradient(90deg, hsl(240, 60%, 50%), hsl(320, 60%, 50%));
+  background: linear-gradient(90deg, hsl(245, 60%, 60%), hsl(290, 60%, 60%));
 }
-
-.dark .btn-primary:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-}
-
 .dark .btn-danger {
-  background: linear-gradient(135deg, hsl(0, 60%, 50%), hsl(0, 65%, 40%));
+  background: linear-gradient(135deg, hsl(0, 70%, 55%), hsl(0, 75%, 50%));
 }
-
+.dark .btn-warning {
+  background-color: hsl(45, 80%, 55%);
+  color: hsl(45, 50%, 15%);
+}
 .dark .btn-secondary {
-  background: #555560;
-  color: #d0d0d8;
+  background-color: hsl(240, 10%, 30%);
+  color: hsl(240, 10%, 90%);
+}
+.dark .btn-secondary:hover {
+  background-color: hsl(240, 10%, 40%);
 }
 
+/* Bottoni Risposta Dark Mode */
 .dark .btn-answer {
-  background: #3a3a47;
-  border-color: #555;
-  color: #e0e0e0;
+  background-color: hsl(240, 10%, 22%);
+  border-color: hsl(240, 10%, 35%);
+  color: hsl(240, 20%, 90%);
 }
-
 .dark .btn-answer:hover {
-  background: #4a4a5c;
+  background: hsl(240, 10%, 28%);
+  border-color: hsl(240, 10%, 50%);
 }
-
 .dark .btn-answer.correct {
-  background: #276e4b;
-  border-color: #1f5a3e;
+  background: hsl(120, 40%, 25%);
+  border-color: hsl(120, 40%, 40%);
+  color: hsl(120, 50%, 90%);
 }
-
 .dark .btn-answer.wrong {
-  background: #7a2828;
-  border-color: #a33a3a;
+  background: hsl(0, 40%, 28%);
+  border-color: hsl(0, 40%, 45%);
+  color: hsl(0, 50%, 90%);
 }
 
 .dark .explanation {
-  background: #4d4321;
-  border-left-color: #ecc94b;
-  color: #f0e5a7;
+  background: hsl(48, 50%, 20%);
+  border-left-color: hsl(48, 80%, 55%);
+  color: hsl(48, 80%, 85%);
 }
 
-.dark .pill {
-  background: #2e2e3a;
-  color: #b0b0bf;
+/* Navigazione Domande Dark Mode */
+.dark .question-nav-container {
+  scrollbar-color: hsl(240, 10%, 30%) transparent;
+}
+.dark .question-nav-container::-webkit-scrollbar-thumb {
+  background-color: hsl(240, 10%, 30%);
+}
+.dark .question-nav-container::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(240, 10%, 40%);
 }
 
-.dark .pill.current {
-  border-color: #8b84ff;
-  color: #fff;
+.dark .question-pill {
+  background-color: hsl(240, 10%, 20%);
+  border-color: hsl(240, 10%, 35%);
+  color: hsl(240, 15%, 70%);
+}
+.dark .question-pill:hover {
+  border-color: hsl(250, 70%, 70%);
+}
+.dark .question-pill.current {
+  background-color: hsl(250, 70%, 65%);
+  border-color: hsl(250, 70%, 65%);
+  color: white;
+  box-shadow: 0 5px 15px rgba(121, 98, 242, 0.3);
+}
+.dark .question-pill.answered.correct {
+  background-color: hsl(145, 60%, 40%);
+  border-color: hsl(145, 60%, 40%);
+}
+.dark .question-pill.answered.wrong {
+  background-color: hsl(0, 70%, 55%);
+  border-color: hsl(0, 70%, 55%);
 }
 
-.dark .pill.correct {
-  background: #27c497;
-  color: #fff;
+/* 10) THEME SWITCHER */
+.theme-switcher {
+  position: fixed; /* Posizione fissa rispetto alla finestra */
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem; /* Emoji più grande */
+  transition: all 0.2s ease;
+  z-index: 1000;
 }
 
-.dark .pill.wrong {
-  background: #f56565;
-  color: #fff;
+.theme-switcher:hover {
+  transform: scale(1.1) rotate(15deg);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* scrollbar nel dark */
-.dark .flex.overflow-x-auto::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.btn-secondary {
-  @apply px-6 py-2 bg-gray-300 text-gray-800 rounded-full hover:bg-gray-400 transition-colors;
+.dark .theme-switcher {
+  background: rgba(40, 40, 55, 0.7);
+  border-color: rgba(255, 255, 255, 0.1);
 }
