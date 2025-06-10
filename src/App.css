@@ -1,4 +1,4 @@
-/* App.css - Versione Rielaborata e Ottimizzata (con fix responsività card) */
+/* App.css - Versione Rielaborata e Ottimizzata (con fix responsività card per mobile verticale) */
 
 /* --- GENERALI E MOBILE-FIRST (Stili predefiniti per schermi piccoli) --- */
 
@@ -11,7 +11,7 @@ body {
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
   margin: 0;
-  padding: 1rem; /* Padding globale per non toccare i bordi */
+  padding: 0.75rem; /* RIDOTTO: Padding globale per non toccare i bordi */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,13 +42,13 @@ body {
 /* 2) CARD CENTRALE - STILI MOBILE-FIRST */
 .card {
   width: 100%; /* Prende tutta la larghezza disponibile su mobile */
-  max-width: calc(100% - 2rem); /* Assicura che non superi la larghezza del viewport meno il padding del body */
-  margin: 1rem auto; /* Margine per distaccarsi dai bordi dello schermo su mobile */
+  max-width: calc(100% - 1.5rem); /* AGGIORNATO: Assicura che non superi la larghezza del viewport meno il padding del body (0.75rem * 2) */
+  margin: 0.75rem auto; /* RIDOTTO: Margine per distaccarsi dai bordi dello schermo su mobile */
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(12px);
   border-radius: 1rem; /* Angoli più piccoli per mobile */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Ombra meno pronunciata per mobile */
-  padding: 1.5rem; /* Padding ridotto per mobile */
+  padding: 1.25rem; /* RIDOTTO: Padding ridotto per mobile */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-sizing: border-box; /* Cruciale per includere padding e border nella width */
 }
@@ -411,13 +411,13 @@ h2 {
 }
 
 /* ========================================================== */
-/* MEDIA QUERIES PER LA RESPONSIVITÀ (CON MIN-WIDTH)         */
+/* MEDIA QUERIES PER LA RESPONSIVITÀ (MIN-WIDTH)         */
 /* ========================================================== */
 
-/* Tablet e schermi più grandi (min-width: 576px) - Corrisponde a 'sm' in Tailwind */
+/* Tablet e schermi più grandi (min-width: 576px) */
 @media (min-width: 576px) {
   body {
-    padding: 1.5rem; /* Aumenta il padding del body per schermi più grandi */
+    padding: 1rem; /* AGGIORNATO: Rimuovi il padding extra che avevamo aggiunto per mobile */
   }
 
   .main-title {
@@ -519,7 +519,7 @@ h2 {
   }
 }
 
-/* Desktop e schermi molto grandi (min-width: 992px) - Corrisponde a 'lg' in Tailwind */
+/* Desktop e schermi molto grandi (min-width: 992px) */
 @media (min-width: 992px) {
   h1, h2 {
     font-size: 2rem;
