@@ -395,3 +395,130 @@ h2 {
   background: rgba(40, 40, 55, 0.7);
   border-color: rgba(255, 255, 255, 0.1);
 }
+
+/* ========================================================== */
+/* MEDIA QUERIES PER LA RESPONSIVITÀ                          */
+/* ========================================================== */
+
+/* Per schermi più piccoli di 768px (es. smartphone e tablet in verticale) */
+@media (max-width: 768px) {
+  body {
+    padding: 0.5rem; /* Riduci il padding del body */
+  }
+
+  .main-title {
+    font-size: 1.75rem; /* Riduci la dimensione del titolo principale */
+    margin-bottom: 0.75rem;
+  }
+
+  .card {
+    margin: 1rem auto; /* Riduci il margine superiore/inferiore della card */
+    padding: 1.5rem; /* Riduci il padding della card */
+    border-radius: 1rem; /* Angoli leggermente meno arrotondati */
+  }
+
+  h1,
+  h2 {
+    font-size: 1.25rem; /* Riduci la dimensione dei titoli h1, h2 */
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    padding: 0.7rem 1.4rem; /* Riduci il padding dei bottoni base */
+    font-size: 0.9rem; /* Riduci la dimensione del testo dei bottoni */
+  }
+
+  .btn-answer {
+    padding: 0.7rem 1rem; /* Riduci il padding dei bottoni di risposta */
+    font-size: 0.9rem; /* Riduci la dimensione del testo */
+    margin-bottom: 0.5rem;
+  }
+
+  .counter {
+    font-size: 0.8rem; /* Riduci la dimensione del testo del contatore */
+    gap: 1rem; /* Riduci lo spazio tra gli elementi del contatore */
+  }
+
+  .explanation {
+    padding: 0.8rem 1rem; /* Riduci il padding della spiegazione */
+    margin: 1rem 0;
+  }
+
+  .question-nav-container {
+    padding-bottom: 0.5rem; /* Riduci il padding della scrollbar */
+    margin-bottom: 0.75rem;
+  }
+
+  .question-nav {
+    gap: 0.5rem; /* Riduci lo spazio tra i bottoni di navigazione */
+  }
+
+  .question-pill {
+    width: 1.5rem;   /* Riduci la dimensione dei pallini */
+    height: 1.5rem;
+    font-size: 0.75rem; /* Riduci la dimensione del testo nei pallini */
+    transform: scale(1); /* Rimuovi la scala iniziale, o impostala a 1 */
+  }
+
+  .question-pill:hover {
+    transform: scale(1.05); /* Scala leggermente all'hover */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .question-pill.current {
+    transform: scale(1.1); /* Scala leggermente per l'attuale */
+    box-shadow: 0 3px 10px rgba(88, 63, 212, 0.3);
+  }
+
+  .theme-switcher {
+    bottom: 1rem;
+    right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* Per schermi ancora più piccoli (es. smartphone in verticale stretto) */
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 1.5rem; /* Riduci ulteriormente il titolo */
+  }
+
+  .card {
+    padding: 1rem; /* Padding minimo per la card */
+  }
+
+  h1,
+  h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .btn-answer {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .question-pill {
+    width: 1.3rem; /* Ancora più piccoli */
+    height: 1.3rem;
+    font-size: 0.7rem; /* Ancora più piccoli */
+  }
+  .question-nav {
+    gap: 0.4rem; /* Riduci lo spazio tra i bottoni di navigazione */
+  }
+
+  .theme-switcher {
+    bottom: 0.75rem;
+    right: 0.75rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.9rem;
+  }
+}
