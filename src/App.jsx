@@ -102,28 +102,52 @@ export default function QuizApp() {
     if (!started) {
         return (
             <ScreenWrapper>
-                <h1 className="text-3xl font-bold mb-4">🧠 Quiz Storia dell’Informatica I Parte</h1>
+                <h1 className="text-3xl font-bold mb-4">🧠 Quiz Storia dell’Informatica</h1>
                 <button onClick={() => setStarted(true)} className="btn-primary">🚀 Inizia Quiz</button>
                 <ThemeSwitcher theme={theme} setTheme={setTheme} />
             </ScreenWrapper>
         )
     }
 
+    // —— REVIEW
     if (reviewMode) {
         return (
             <ScreenWrapper>
-                <h2 className="text-xl font-bold mb-4">📘 Revisione Errori</h2>
+                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                    <span className="text-2xl">📘</span>
+                    Revisione Errori
+                </h2>
+
                 <ul className="space-y-4">
                     {wrongAnswers.map((item, idx) => (
                         <li key={idx} className="bg-red-100 p-4 rounded shadow">
-                            <p className="font-semibold">❌ {item.question}</p>
+                            <p className="font-semibold text-red-700">❌ {item.question}</p>
                             <p><strong>Tua risposta:</strong> {item.selected || 'Nessuna'}</p>
                             <p><strong>Corretta:</strong> {item.answer}</p>
-                            <p><strong>Spiegazione:</strong> {item.explanation}</p>
+                            <p className="mt-2"><strong>Spiegazione:</strong> {item.explanation}</p>
                         </li>
                     ))}
                 </ul>
-                <button onClick={restartQuiz} className="btn-primary mt-4">🔁 Ricomincia</button>
+
+                <div className="flex justify-center gap-4 mt-6">
+                    <button
+                        onClick={restartQuiz}
+                        className="btn-primary"
+                    >
+                        🔄 Ricomincia
+                    </button>
+
+                    <button
+                        onClick={() => {
+                            setReviewMode(false);     // esci dalla review
+                            setCurrent(quizData.length); // mostra riepilogo finale
+                        }}
+                        className="btn-secondary"
+                    >
+                        ← Torna al riepilogo
+                    </button>
+                </div>
+
                 <ThemeSwitcher theme={theme} setTheme={setTheme} />
             </ScreenWrapper>
         )
