@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import quizDataRaw from './quiz_storia_informatica1.json'
 
 export default function QuizApp() {
-    // dati e stati
     const [quizData] = useState(() => [...quizDataRaw].sort(() => Math.random() - 0.5))
     const [current, setCurrent] = useState(0)
     const [selected, setSelected] = useState(null)
@@ -17,13 +16,11 @@ export default function QuizApp() {
     const [reviewMode, setReviewMode] = useState(false)
     const [wrongAnswers, setWrongAnswers] = useState([])
     const [theme, setTheme] = useState('light')
-    const [times, setTimes] = useState([]) // durate per domanda
+    const [times, setTimes] = useState([])
     const [questionStart, setQuestionStart] = useState(null)
 
-    // timer e misurazione durata
     useEffect(() => {
         if (started && !answered && !showExplanation) {
-            // segnalo inizio domanda
             if (questionStart === null) setQuestionStart(Date.now())
             if (timeLeft > 0) {
                 const id = setTimeout(() => setTimeLeft(t => t - 1), 1000)
@@ -37,7 +34,6 @@ export default function QuizApp() {
         if (answered) return
         setAnswered(true)
         setSelected(opt)
-        // calcolo durata
         setTimes(ts => [...ts, (Date.now() - questionStart) / 1000])
         setQuestionStart(null)
 
@@ -77,18 +73,20 @@ export default function QuizApp() {
         resetQuestion()
     }
 
+    const reviewErrors = () => {
+        setReviewMode(true)
+    }
+
     const avgTime = times.length
         ? (times.reduce((a, b) => a + b, 0) / times.length).toFixed(1)
         : 0
     const pctCorrect = ((score / quizData.length) * 100).toFixed(0)
 
     const navRange = () => {
-        const span = 22                // quante pill visibili
-        const half = Math.floor(span/2) // 11
-        // spostiamo l’inizio in modo da centrare current
+        const span = 22
+        const half = Math.floor(span / 2)
         let start = current - half
         if (start < 0) start = 0
-        // se siamo verso la fine, raddrizziamo lo slice
         if (start + span > quizData.length) {
             start = Math.max(0, quizData.length - span)
         }
@@ -97,35 +95,40 @@ export default function QuizApp() {
             .map((_, i) => start + i)
     }
 
-    // Theme toggle
     useEffect(() => {
         document.documentElement.className = theme
     }, [theme])
 
-    // —— START
     if (!started) {
         return (
             <ScreenWrapper>
-                <h1 className="text-3xl font-bold mb-4">🧠 Quiz Storia dell’Informatica</h1>
+                <h1 className="text-3xl font-bold mb-4">🧠 Quiz Storia dell’Informatica I Parte</h1>
                 <button onClick={() => setStarted(true)} className="btn-primary">🚀 Inizia Quiz</button>
                 <ThemeSwitcher theme={theme} setTheme={setTheme} />
             </ScreenWrapper>
         )
     }
 
-    // —— REVIEW
     if (reviewMode) {
         return (
             <ScreenWrapper>
                 <h2 className="text-xl font-bold mb-4">📘 Revisione Errori</h2>
-                {/* ... */}
+                <ul className="space-y-4">
+                    {wrongAnswers.map((item, idx) => (
+                        <li key={idx} className="bg-red-100 p-4 rounded shadow">
+                            <p className="font-semibold">❌ {item.question}</p>
+                            <p><strong>Tua risposta:</strong> {item.selected || 'Nessuna'}</p>
+                            <p><strong>Corretta:</strong> {item.answer}</p>
+                            <p><strong>Spiegazione:</strong> {item.explanation}</p>
+                        </li>
+                    ))}
+                </ul>
                 <button onClick={restartQuiz} className="btn-primary mt-4">🔁 Ricomincia</button>
                 <ThemeSwitcher theme={theme} setTheme={setTheme} />
             </ScreenWrapper>
         )
     }
 
-    // —— END SCREEN con statistiche
     if (current >= quizData.length) {
         return (
             <ScreenWrapper>
@@ -134,19 +137,19 @@ export default function QuizApp() {
                 <p>❌ Sbagliate: {mistakes}</p>
                 <p>⏱️ Tempo medio: {avgTime}s/q</p>
                 <div className="flex gap-4 mt-4">
-                    <button onClick={restartQuiz} className="btn-primary">Ricomincia</button>
+                    <button onClick={restartQuiz} className="btn-primary">🔁 Ricomincia</button>
+                    <button onClick={reviewErrors} className="btn-secondary">📘 Rivedi Errori</button>
                 </div>
                 <ThemeSwitcher theme={theme} setTheme={setTheme} />
             </ScreenWrapper>
         )
     }
 
-    // —— MAIN VIEW
     const { question, options, answer, explanation } = quizData[current]
     const pct = Math.round(((current + 1) / quizData.length) * 100)
+
     return (
         <ScreenWrapper>
-            {/* Question Navigator */}
             <div className="flex overflow-x-auto space-x-2 mb-4 px-2">
                 {navRange().map(i => {
                     const isCorrect = quizData[i].answer === (wrongAnswers.find(w => w.question === quizData[i].question)?.selected ?? quizData[i].answer)
@@ -171,19 +174,16 @@ export default function QuizApp() {
                 })}
             </div>
 
-            {/* nav & progress */}
             <div className="flex justify-between items-center mb-4">
                 <button onClick={prev} disabled={current === 0} className="text-purple-600 disabled:opacity-50">← Precedente</button>
                 <span className="font-medium">Domanda {current + 1}/{quizData.length}</span>
                 <button onClick={next} disabled={current + 1 === quizData.length} className="text-purple-600 disabled:opacity-50">Successiva →</button>
             </div>
 
-            {/* progress bar */}
             <div className="progress-bg mb-4">
                 <div className="progress-fg" style={{ width: pct + '%' }} />
             </div>
 
-            {/* counters */}
             <div className="counter mb-4">
                 <span>✔️ {score}</span><span>❌ {mistakes}</span><span>⏳ {timeLeft}s</span>
             </div>
@@ -220,18 +220,16 @@ export default function QuizApp() {
     )
 }
 
-// wrapper di layout
 function ScreenWrapper({ children }) {
     return (
         <div className="page-bg flex flex-col items-center justify-center min-h-screen p-4">
-            <motion.div className="card w-full max-w-2xl" initial={{ opacity:0, scale:0.95 }} animate={{ opacity:1, scale:1 }} transition={{ duration:0.4 }}>
+            <motion.div className="card w-full max-w-2xl" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.4 }}>
                 {children}
             </motion.div>
         </div>
     )
 }
 
-// switch light/dark
 function ThemeSwitcher({ theme, setTheme }) {
     return (
         <button
