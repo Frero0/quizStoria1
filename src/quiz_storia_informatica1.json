@@ -477,165 +477,201 @@
   },
     {
       "question": "Qual era il ruolo del resident monitor nei sistemi batch?",
-      "correct_answer": "Integrava il lavoro del personale, facendo girare uno dopo l'altro i programmi forniti sotto forma di pacchetti di schede perforate.",
-      "wrong_answers": [
+      "options": [
+        "Integrava il lavoro del personale, facendo girare uno dopo l'altro i programmi forniti sotto forma di pacchetti di schede perforate.",
         "Controllava i processi in tempo reale con interfaccia grafica.",
         "Gestiva solo la stampa dei risultati dei programmi.",
         "Funzionava solo con sistemi operativi Unix."
-      ]
+      ],
+      "answer": "Integrava il lavoro del personale, facendo girare uno dopo l'altro i programmi forniti sotto forma di pacchetti di schede perforate.",
+      "explanation": "Il resident monitor era un programma di sistema che gestiva in batch l’esecuzione dei job: caricava pacchetti di schede perforate e li eseguiva uno dopo l’altro senza intervento umano."
     },
     {
       "question": "Qual è il più vecchio sistema operativo ancora in uso, anche se sotto nomi diversi?",
-      "correct_answer": "Unix",
-      "wrong_answers": [
+      "options": [
+        "Unix",
         "DOS",
         "Linux",
         "Windows NT"
-      ]
+      ],
+      "answer": "Unix",
+      "explanation": "Unix, nato nei Bell Labs nei primi anni ’70, è tuttora alla base di molti OS moderni (da macOS a Android) ed esiste sotto numerose varianti."
     },
     {
       "question": "Quale tra questi sistemi degli anni '60 non era un sistema timesharing ma solo multiprogrammato?",
-      "correct_answer": "OS/360 della IBM",
-      "wrong_answers": [
+      "options": [
+        "OS/360 della IBM",
         "Unix",
         "MULTICS",
         "Atlas"
-      ]
+      ],
+      "answer": "OS/360 della IBM",
+      "explanation": "IBM OS/360 supportava solo multiprogrammazione batch; il timesharing venne introdotto in altri sistemi come CTSS e MULTICS."
     },
     {
       "question": "Come fu sviluppato il sistema operativo Linux?",
-      "correct_answer": "Linus Torvalds copiò l'implementazione dello Unix descritta in un libro e la adattò al suo personal computer.",
-      "wrong_answers": [
+      "options": [
+        "Linus Torvalds copiò l'implementazione dello Unix descritta in un libro e la adattò al suo personal computer.",
         "Fu riscritto interamente da zero senza ispirazione Unix.",
         "Fu commissionato da IBM come alternativa a Windows.",
         "Fu una versione modificata di OS/360."
-      ]
+      ],
+      "answer": "Linus Torvalds copiò l'implementazione dello Unix descritta in un libro e la adattò al suo personal computer.",
+      "explanation": "Torvalds si basò sui concetti di Unix visti in Minix e 'The Design of the Unix Operating System' per creare Linux come OS Unix-like."
     },
     {
       "question": "Qual era l'idea alla base dei sistemi batch?",
-      "correct_answer": "Automatizzare il lavoro necessario per lanciare i programmi uno dopo l'altro senza intervento umano.",
-      "wrong_answers": [
+      "options": [
+        "Automatizzare il lavoro necessario per lanciare i programmi uno dopo l'altro senza intervento umano.",
         "Creare un'interfaccia grafica per lanciare i programmi.",
         "Consentire la connessione di più utenti contemporaneamente.",
         "Permettere la gestione della rete in tempo reale."
-      ]
+      ],
+      "answer": "Automatizzare il lavoro necessario per lanciare i programmi uno dopo l'altro senza intervento umano.",
+      "explanation": "Nei sistemi batch, un monitor residente leggeva sequenze di schede perforate e gestiva automaticamente l’esecuzione dei programmi."
     },
     {
       "question": "Perché il sistema Multics fu un insuccesso?",
-      "correct_answer": "Non disponeva di una piattaforma hardware sufficientemente performante per supportarne la complessità.",
-      "wrong_answers": [
+      "options": [
+        "Non disponeva di una piattaforma hardware sufficientemente performante per supportarne la complessità.",
         "Era basato su DOS.",
         "Non era compatibile con schede perforate.",
         "Non supportava più utenti contemporaneamente."
-      ]
+      ],
+      "answer": "Non disponeva di una piattaforma hardware sufficientemente performante per supportarne la complessità.",
+      "explanation": "Multics era troppo pesante per gli hardware degli anni ’60: richiedeva CPU e memoria più potenti di quelle disponibili."
     },
     {
       "question": "Chi guidò lo sviluppo del sistema MULTICS e da quale esperienza prese avvio?",
-      "correct_answer": "Robert Fano, a partire dall'esperienza del CTSS.",
-      "wrong_answers": [
+      "options": [
+        "Robert Fano, a partire dall'esperienza del CTSS.",
         "Linus Torvalds, a partire dall’esperienza Linux.",
         "John McCarthy, a partire dall’esperienza UNIX.",
         "Dennis Ritchie, a partire dall’esperienza C."
-      ]
+      ],
+      "answer": "Robert Fano, a partire dall'esperienza del CTSS.",
+      "explanation": "Il progetto MULTICS, guidato da Robert Fano al MIT, ereditò idee di timesharing da CTSS all’MIT."
     },
     {
       "question": "In quali sistemi fu implementato il multitasking?",
-      "correct_answer": "Atlas, CISS, MULTICS e OS/360",
-      "wrong_answers": [
+      "options": [
+        "Atlas, CISS, MULTICS e OS/360",
         "Solo in Linux e Unix.",
         "Solo nei sistemi Macintosh.",
         "Solo nei linguaggi di scripting."
-      ]
+      ],
+      "answer": "Atlas, CISS, MULTICS e OS/360",
+      "explanation": "Negli anni ’60-’70 vari OS introdussero multitasking: Atlas, CISS, MULTICS e anche IBM OS/360 Multiprogramming."
     },
     {
       "question": "Come venivano usate le schede perforate nei sistemi batch?",
-      "correct_answer": "Permettevano di impartire comandi come indicare il compilatore da usare e poi eseguire il programma.",
-      "wrong_answers": [
+      "options": [
+        "Permettevano di impartire comandi come indicare il compilatore da usare e poi eseguire il programma.",
         "Servivano solo per stampare i risultati.",
         "Venivano usate per salvare immagini.",
         "Erano usate per la comunicazione in rete."
-      ]
+      ],
+      "answer": "Permettevano di impartire comandi come indicare il compilatore da usare e poi eseguire il programma.",
+      "explanation": "Le schede perforate contenevano sia il codice sia istruzioni di controllo per il monitor residente, ad es. quale compilatore invocare."
     },
     {
       "question": "Il Linux può essere considerato un sistema operativo originale?",
-      "correct_answer": "No, è una riscrittura dello Unix per PC.",
-      "wrong_answers": [
+      "options": [
+        "No, è una riscrittura dello Unix per PC.",
         "Sì, è stato sviluppato da zero senza influenze.",
         "Sì, è una versione evoluta di DOS.",
         "Sì, è un derivato del sistema MULTICS."
-      ]
+      ],
+      "answer": "No, è una riscrittura dello Unix per PC.",
+      "explanation": "Linux replica i principi di Unix su hardware PC, perciò non è un progetto completamente originale."
     },
     {
       "question": "Cosa permise la realizzazione del multitasking?",
-      "correct_answer": "La disponibilità di dispositivi di memoria di massa veloci e ad accesso diretto.",
-      "wrong_answers": [
+      "options": [
+        "La disponibilità di dispositivi di memoria di massa veloci e ad accesso diretto.",
         "L’introduzione del linguaggio BASIC.",
         "Lo sviluppo dei primi virus informatici.",
         "L’invenzione del transistor."
-      ]
+      ],
+      "answer": "La disponibilità di dispositivi di memoria di massa veloci e ad accesso diretto.",
+      "explanation": "Solo con drum e dischi ad accesso diretto i sistemi potevano caricare rapidamente più programmi in memoria."
     },
     {
-      "question": "Cosa si intende con il termine 'DOS'?",
-      "correct_answer": "Un tipo di sistema operativo pensato per i primi personal computer, economici e con poche risorse hardware.",
-      "wrong_answers": [
+      "question": "Cosa si intende con il termine \"DOS\"?",
+      "options": [
+        "Un tipo di sistema operativo pensato per i primi personal computer, economici e con poche risorse hardware.",
         "Un linguaggio di programmazione.",
         "Una scheda di memoria magnetica.",
         "Un compilatore multiutente."
-      ]
+      ],
+      "answer": "Un tipo di sistema operativo pensato per i primi personal computer, economici e con poche risorse hardware.",
+      "explanation": "DOS (Disk Operating System) era un OS minimale per PC con risorse limitate, gestiva file su floppy e disco fisso."
     },
     {
       "question": "Perché Linus Torvalds sviluppò Linux?",
-      "correct_answer": "Voleva un sistema Unix che potesse essere usato con il suo personal computer.",
-      "wrong_answers": [
+      "options": [
+        "Voleva un sistema Unix che potesse essere usato con il suo personal computer.",
         "Voleva sostituire il sistema MacOS.",
         "Fu incaricato da Microsoft.",
         "Lavorava su un progetto militare segreto."
-      ]
+      ],
+      "answer": "Voleva un sistema Unix che potesse essere usato con il suo personal computer.",
+      "explanation": "Torvalds cercava un ambiente Unix-like per il suo PC Amiga, così iniziò a scrivere Linux nel 1991."
     },
     {
       "question": "Quando fu formulato il concetto di multitasking e per quale scopo?",
-      "correct_answer": "Negli anni '50, per limitare le attese dovute all'uso delle periferiche di input/output.",
-      "wrong_answers": [
+      "options": [
+        "Negli anni '50, per limitare le attese dovute all'uso delle periferiche di input/output.",
         "Negli anni '70, per consentire lo sviluppo di giochi.",
         "Negli anni '80, per migliorare la grafica.",
         "Nel 2000, per gestire la sicurezza informatica."
-      ]
+      ],
+      "answer": "Negli anni '50, per limitare le attese dovute all'uso delle periferiche di input/output.",
+      "explanation": "Il multitasking fu pensato già negli anni ’50 per far svolgere al CPU altri compiti durante le attese I/O."
     },
     {
       "question": "Chi ideò i sistemi timesharing e quando?",
-      "correct_answer": "John McCarthy, tra la fine degli anni '50 e l'inizio degli anni '60.",
-      "wrong_answers": [
+      "options": [
+        "John McCarthy, tra la fine degli anni '50 e l'inizio degli anni '60.",
         "Linus Torvalds, negli anni '90.",
         "Ada Lovelace, nel XIX secolo.",
         "Robert Fano, negli anni '70."
-      ]
+      ],
+      "answer": "John McCarthy, tra la fine degli anni '50 e l'inizio degli anni '60.",
+      "explanation": "McCarthy teorizzò il timesharing come modalità di condivisione interattiva del computer già a partire dal 1959."
     },
     {
       "question": "Quale programma gestiva l'esecuzione dei lavori nei sistemi batch?",
-      "correct_answer": "Uno specifico programma di pianificazione del lavoro da far fare al computer.",
-      "wrong_answers": [
+      "options": [
+        "Uno specifico programma di pianificazione del lavoro da far fare al computer.",
         "Un compilatore interattivo grafico.",
         "Un interprete per linguaggi di scripting.",
         "Una memoria magnetica autonoma."
-      ]
+      ],
+      "answer": "Uno specifico programma di pianificazione del lavoro da far fare al computer.",
+      "explanation": "Il monitor residente (batch scheduler) organizzava la coda di job automatizzando l’avvio dei programmi."
     },
     {
       "question": "Cosa accadde negli anni '80 nel campo dei linguaggi di programmazione?",
-      "correct_answer": "Il linguaggio C si affermò definitivamente, e nacquero versioni object oriented come C++ e Objective-C.",
-      "wrong_answers": [
+      "options": [
+        "Il linguaggio C si affermò definitivamente, e nacquero versioni object oriented come C++ e Objective-C.",
         "Il FORTRAN fu sostituito dal BASIC.",
         "Il Pascal divenne il linguaggio dominante.",
         "L’Assembly fu abolito in ambiente universitario."
-      ]
+      ],
+      "answer": "Il linguaggio C si affermò definitivamente, e nacquero versioni object oriented come C++ e Objective-C.",
+      "explanation": "Negli anni ’80 C divenne il linguaggio di riferimento e furono creati i suoi derivati OO (C++, Objective-C)."
     },
     {
       "question": "Cosa comportò l'affermazione del C negli anni '80?",
-      "correct_answer": "Causò l'inizio del lento declino del Pascal.",
-      "wrong_answers": [
+      "options": [
+        "Causò l'inizio del lento declino del Pascal.",
         "Fece rinascere l'interesse per i linguaggi a schede perforate.",
         "Favorì la diffusione del linguaggio Java.",
         "Annunciò la fine dell’utilizzo dei compilatori."
-      ]
+      ],
+      "answer": "Causò l'inizio del lento declino del Pascal.",
+      "explanation": "Con la popolarità di C, Pascal—che aveva dominato gli anni ’70—iniziò a perdere spazio nel decennio seguente."
     },
     {
       "question": "Chi fornì contributi fondamentali allo sviluppo dei primi linguaggi ad alto livello e dei loro compilatori negli anni '50?",
