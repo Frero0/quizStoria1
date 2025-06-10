@@ -144,9 +144,11 @@ export default function QuizApp() {
         return (
             <ScreenWrapper>
                 <h1 className="text-3xl font-bold mb-4">🧠 Quiz Storia dell'Informatica</h1>
-                <button onClick={() => setStarted(true)} className="btn btn-primary">
-                    🚀 Inizia Quiz
-                </button>
+                <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6 w-full"> {/* Aggiunta classi per responsività */}
+                    <button onClick={() => setStarted(true)} className="btn btn-primary">
+                        🚀 Inizia Quiz
+                    </button>
+                </div>
                 <ThemeSwitcher theme={theme} setTheme={setTheme} />
             </ScreenWrapper>
         );
@@ -166,7 +168,7 @@ export default function QuizApp() {
                         </li>
                     ))}
                 </ul>
-                <div className="flex justify-center gap-4 mt-6">
+                <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6"> {/* Aggiunta classi per responsività */}
                     <button onClick={restartQuiz} className="btn btn-primary">
                         🔄 Ricomincia
                     </button>
@@ -186,7 +188,7 @@ export default function QuizApp() {
                 <p>✅ Corrette: {score} ({pctCorrect}%)</p>
                 <p>❌ Sbagliate: {mistakes}</p>
                 <p>⏱️ Tempo medio: {avgTime}s/q</p>
-                <div className="flex gap-4 mt-6">
+                <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center"> {/* Aggiunta classi per responsività */}
                     <button onClick={restartQuiz} className="btn btn-primary">
                         🔁 Ricomincia
                     </button>
@@ -288,17 +290,17 @@ export default function QuizApp() {
                 </motion.div>
             )}
 
-            <div className="flex justify-between items-center mt-6">
+            <div className="flex flex-col sm:flex-row justify-between items-center mt-6"> {/* Aggiunta classi per responsività */}
                 <button onClick={finishTest} className="btn btn-danger">
                     🛑 Termina
                 </button>
                 {showExplanation && current < quizData.length - 1 && (
-                    <button onClick={next} className="btn btn-primary">
+                    <button onClick={next} className="btn btn-primary mt-4 sm:mt-0"> {/* Aggiunta classe per margine su mobile */}
                         Prossima ➡️
                     </button>
                 )}
                 {showExplanation && current === quizData.length - 1 && (
-                    <button onClick={finishTest} className="btn btn-primary">
+                    <button onClick={finishTest} className="btn btn-primary mt-4 sm:mt-0"> {/* Aggiunta classe per margine su mobile */}
                         Vai ai Risultati
                     </button>
                 )}
@@ -311,7 +313,7 @@ export default function QuizApp() {
 function ScreenWrapper({ children }) {
     return (
         <motion.div
-            className="card w-full max-w-2xl"
+            className="card w-full max-w-2xl" // max-w-2xl si comporterà bene con le media query che abbiamo in App.css
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.3, ease: 'easeOut' }}
