@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import quizDataRaw from './quiz_macro_economia.json';
+import quizDataRaw from './quiz_micro_economia.json';
 import './App.css'; // Assicurati che questo importi il nuovo CSS che ti ho fornito
 
 export default function QuizApp() {
@@ -143,7 +143,7 @@ export default function QuizApp() {
     if (!started) {
         return (
             <ScreenWrapper>
-                <h1 className="text-3xl font-bold mb-4">🧠 Quiz Macro Economia , vai Stefi! </h1>
+                <h1 className="text-3xl font-bold mb-4">🧠 Quiz Microeconomia  </h1>
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6 w-full"> {/* Aggiunta classi per responsività */}
                     <button onClick={() => setStarted(true)} className="btn btn-primary">
                         🚀 Inizia Quiz

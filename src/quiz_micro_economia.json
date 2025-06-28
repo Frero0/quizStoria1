@@ -1,0 +1,1046 @@
+[
+  {
+    "question": "Perché un monopolio ha un costo sociale?",
+    "options": [
+      "Perché parte del surplus del consumatore va al governo per via delle tasse",
+      "Perché parte del surplus del produttore va al governo per via delle tasse",
+      "Perché parte del surplus del consumatore va al produttore",
+      "Perché il surplus totale sul mercato è inferiore rispetto alla concorrenza perfetta"
+    ],
+    "answer": "Perché il surplus totale sul mercato è inferiore rispetto alla concorrenza perfetta",
+    "explanation": "Il monopolio riduce la quantità prodotta rispetto alla concorrenza perfetta, causando una perdita secca di benessere (deadweight loss), cioè una parte del surplus totale che non va né al consumatore né al produttore."
+  },
+  {
+    "question": "Se l’elasticità della domanda al prezzo è pari a 1,2 in valore assoluto, un aumento del prezzo che effetto ha sul ricavo totale?",
+    "options": [
+      "Il ricavo totale resta invariato",
+      "Non ci sono elementi sufficienti per rispondere",
+      "Il ricavo totale aumenta",
+      "Il ricavo totale diminuisce"
+    ],
+    "answer": "Il ricavo totale diminuisce",
+    "explanation": "Con elasticità > 1, la domanda è elastica: un aumento del prezzo porta a una diminuzione della quantità domandata proporzionalmente maggiore, riducendo il ricavo totale."
+  },
+  {
+    "question": "Se l’elasticità della domanda al prezzo è pari a 0,4 in valore assoluto, un aumento del prezzo che effetto ha sul ricavo totale?",
+    "options": [
+      "Il ricavo totale aumenta",
+      "Il ricavo totale resta invariato",
+      "Il ricavo totale diminuisce",
+      "Non ci sono elementi sufficienti per rispondere"
+    ],
+    "answer": "Il ricavo totale aumenta",
+    "explanation": "Con elasticità < 1, la domanda è anelastica: un aumento del prezzo provoca una diminuzione della quantità inferiore in proporzione, facendo aumentare il ricavo totale."
+  },
+  {
+    "question": "Se l’elasticità della domanda al reddito è pari a -0,8 il bene si definisce:",
+    "options": [
+      "Sostituto",
+      "Normale",
+      "Complementare",
+      "Inferiore"
+    ],
+    "answer": "Inferiore",
+    "explanation": "Un bene è definito 'inferiore' se la sua domanda diminuisce all’aumentare del reddito; ciò si riflette in un’elasticità al reddito negativa."
+  },
+  {
+    "question": "Se l’elasticità incrociata è pari a -0,6 i beni si definiscono:",
+    "options": [
+      "Normali",
+      "Sostituti",
+      "Complementari",
+      "Inferiori"
+    ],
+    "answer": "Complementari",
+    "explanation": "L’elasticità incrociata negativa indica che all’aumentare del prezzo di un bene, la domanda per l’altro diminuisce: ciò accade con beni complementari, che vengono consumati insieme."
+  },
+  {
+    "question": "La curva di domanda di un bene pubblico:",
+    "options": [
+      "È la somma verticale delle curve di domanda individuali",
+      "Si ottiene sommando le disponibilità a pagare di tutti i consumatori",
+      "Ha generalmente un’inclinazione negativa",
+      "Sono vere tutte le altre risposte"
+    ],
+    "answer": "Sono vere tutte le altre risposte",
+    "explanation": "Per i beni pubblici, le curve di domanda si sommano verticalmente (disponibilità a pagare per quantità fissa), e hanno inclinazione negativa; tutte le affermazioni sono corrette."
+  },
+  {
+    "question": "Se il prezzo di un bene aumenta e la domanda diminuisce poco, si tratta di un bene:",
+    "options": [
+      "Con domanda elastica",
+      "Con domanda perfettamente elastica",
+      "Con domanda anelastica",
+      "Con domanda perfettamente anelastica"
+    ],
+    "answer": "Con domanda anelastica",
+    "explanation": "Quando la quantità domandata cambia poco in risposta a un cambiamento di prezzo, si parla di domanda anelastica: tipico di beni necessari o senza sostituti."
+  },
+  {
+    "question": "Cosa indica un’elasticità della domanda pari a 0?",
+    "options": [
+      "La domanda è infinita",
+      "La domanda è perfettamente anelastica",
+      "La domanda è perfettamente elastica",
+      "La quantità domandata varia proporzionalmente al prezzo"
+    ],
+    "answer": "La domanda è perfettamente anelastica",
+    "explanation": "Un’elasticità pari a zero indica che la quantità domandata resta invariata al variare del prezzo: è il caso della domanda perfettamente anelastica."
+  },
+    {
+      "question": "Ci sono due imprese, A e B, che producono un bene identico. Entrambe hanno un costo marginale costante C=50 e competono secondo il modello di Bertrand. Cosa succede se il costo marginale di A sale a 80?",
+      "options": [
+        "B aumenta il prezzo a un valore di pochissimo inferiore a 80 e A esce dal mercato",
+        "A aumenta il prezzo a un valore non inferiore a 80 e vende una quantità inferiore a B",
+        "A aumenta il prezzo a un valore inferiore a 80 e B esce dal mercato",
+        "B aumenta il prezzo a un valore di pochissimo inferiore a 80 e vende una quantità inferiore ad A"
+      ],
+      "answer": "B aumenta il prezzo a un valore di pochissimo inferiore a 80 e A esce dal mercato",
+      "explanation": "Nel modello di Bertrand con beni omogenei, il prezzo viene fissato poco al di sopra del costo marginale più basso. Se il costo di A aumenta, B può alzare il prezzo appena sotto 80, accaparrandosi tutto il mercato e spingendo A fuori."
+    },
+    {
+      "question": "Quale dei seguenti fatti sposta la curva di domanda verso destra (cioè verso l’alto)?",
+      "options": [
+        "Un aumento del reddito dei consumatori, se il bene è inferiore",
+        "Una riduzione del reddito dei consumatori, se il bene è inferiore",
+        "Una riduzione del numero di imprese sul mercato",
+        "Un aumento del prezzo del bene"
+      ],
+      "answer": "Una riduzione del reddito dei consumatori, se il bene è inferiore",
+      "explanation": "Nel caso di beni inferiori, al diminuire del reddito aumenta la domanda, e quindi la curva si sposta verso destra."
+    },
+    {
+      "question": "Quale delle seguenti condizioni è necessaria affinché si possa applicare il teorema di Coase?",
+      "options": [
+        "Non ci sono diritti di proprietà sul bene che genera esternalità",
+        "Non ci sono esternalità positive",
+        "Non ci sono esternalità negative",
+        "I costi di transazione sono nulli, ossia le parti possono contrattare a costo zero"
+      ],
+      "answer": "I costi di transazione sono nulli, ossia le parti possono contrattare a costo zero",
+      "explanation": "Il teorema di Coase afferma che, in presenza di diritti di proprietà ben definiti e costi di transazione nulli, le parti possono negoziare privatamente e raggiungere un risultato efficiente, indipendentemente da chi detiene i diritti."
+    },
+  {
+    "question": "Data la curva di domanda rappresentata in figura, l’elasticità della domanda al prezzo:",
+    "options": [
+      "Vale zero in C e cresce se ci si sposta verso A o verso B",
+      "Vale zero in B e cresce se ci si sposta verso sinistra (verso A)",
+      "Vale zero in A e cresce se ci si sposta verso destra (verso B)",
+      "È costante lungo tutta la curva"
+    ],
+    "answer": "Vale zero in B e cresce se ci si sposta verso sinistra (verso A)",
+    "explanation": "L’elasticità è nulla nel punto B (quantità massima, prezzo minimo), e cresce man mano che ci si sposta verso A (prezzo alto, quantità bassa), dove la domanda diventa più elastica."
+  },
+    {
+      "question": "Il vincolo di bilancio nero è il vincolo di bilancio al tempo t1, il vincolo di bilancio arancione quello al tempo t2. Cosa è accaduto tra t1 e t2?",
+      "options": [
+        "È aumentato il reddito del consumatore",
+        "È diminuito il prezzo del bene y",
+        "È diminuito il reddito del consumatore",
+        "È diminuito il prezzo del bene x"
+      ],
+      "answer": "È aumentato il reddito del consumatore",
+      "explanation": "Il vincolo di bilancio si è spostato parallelamente verso l’esterno, il che indica un aumento del reddito a parità di prezzi. Se fosse cambiato il prezzo, l’inclinazione della retta sarebbe cambiata."
+    },
+    {
+      "question": "Considerate il grafico sottostante riferito ad un mercato monopolistico. L’area che rappresenta la perdita secca dovuta al monopolio è:",
+      "options": [
+        "CDE",
+        "BGEC",
+        "EFG",
+        "ABG"
+      ],
+      "answer": "EFG",
+      "explanation": "Nel grafico del monopolio, la perdita secca (deadweight loss) è l’area tra la curva di domanda e il costo marginale, compresa tra la quantità prodotta dal monopolista e quella di concorrenza perfetta. Questa è rappresentata dall’area EFG."
+    },
+    {
+      "question": "Considerate il grafico sottostante riferito ad un mercato monopolistico. L’area che rappresenta il surplus del produttore è:",
+      "options": [
+        "ABG",
+        "CDE",
+        "BGED",
+        "EFG"
+      ],
+      "answer": "BGED",
+      "explanation": "Il surplus del produttore in un mercato monopolistico è rappresentato dall’area compresa tra il prezzo di vendita (ricavo marginale) e il costo marginale, fino alla quantità prodotta. In questo grafico, tale area è BGED."
+    },
+    {
+      "question": "Considerati i dati riportati in tabella. Che valore deve essere sostituito nella casella contrassegnata con X?",
+      "options": [
+        "70",
+        "8.33",
+        "7",
+        "9"
+      ],
+      "answer": "7",
+      "explanation": "Il prodotto marginale si calcola come variazione della quantità prodotta diviso la variazione dell’input. Tra 180 e 250 abbiamo un incremento di 70 unità di output su 10 unità di lavoro: 70 / 10 = 7."
+    },
+    {
+      "question": "Nella teoria del consumatore “SMS” si riferisce:",
+      "options": [
+        "Alla produttività marginale",
+        "Alla pendenza del vincolo di bilancio",
+        "Al rapporto fra i prezzi dei due beni"
+      ],
+      "answer": "Al rapporto fra i prezzi dei due beni",
+      "explanation": "SMS è il Saggio Marginale di Sostituzione e rappresenta il tasso al quale un consumatore è disposto a scambiare un bene con un altro, mantenendo la stessa utilità. In equilibrio, coincide con il rapporto tra i prezzi dei due beni."
+    },
+    {
+      "question": "Adalberto può produrre 15 unità di bene X o 10 unità di bene Y in un giorno. Beatrice può produrre 7 unità di bene X o 14 unità di bene Y in un giorno. Quale delle seguenti affermazioni è giusta?",
+      "options": [
+        "Beatrice ha un vantaggio assoluto nella produzione del bene X",
+        "Adalberto ha un vantaggio comparato nella produzione del bene Y",
+        "Adalberto ha un vantaggio assoluto nella produzione del bene Y",
+        "Adalberto ha un vantaggio assoluto nella produzione del bene X"
+      ],
+      "answer": "Adalberto ha un vantaggio assoluto nella produzione del bene X",
+      "explanation": "Adalberto può produrre 15 unità di bene X, mentre Beatrice solo 7: quindi Adalberto ha un vantaggio assoluto nella produzione di X."
+    },
+    {
+      "question": "La produttività marginale di un fattore è:",
+      "options": [
+        "L’output totale, meno i costi degli altri fattori",
+        "L’aumento della produzione conseguente all’utilizzo di una unità in più del fattore",
+        "Il prodotto totale, diviso le unità utilizzate di quell’output",
+        "Sempre uguale al costo unitario del fattore"
+      ],
+      "answer": "L’aumento della produzione conseguente all’utilizzo di una unità in più del fattore",
+      "explanation": "Per definizione, la produttività marginale è il contributo di una unità aggiuntiva del fattore produttivo in termini di output prodotto."
+    },
+    {
+      "question": "La produttività marginale di un fattore è il rapporto tra:",
+      "options": [
+        "L’output totale e i costi fissi",
+        "La quantità totale prodotta e il numero di lavoratori impiegati",
+        "L’aumento dell’impiego di un fattore e la produttività media",
+        "L’aumento dell’impiego di un fattore e l’aumento dell’output"
+      ],
+      "answer": "L’aumento dell’impiego di un fattore e l’aumento dell’output",
+      "explanation": "La produttività marginale si misura come il rapporto tra la variazione dell’output e la variazione dell’input: ΔQ/ΔL."
+    },
+    {
+      "question": "In un mercato come quello qui sotto rappresentato si ha simultaneamente un aumento nel numero di consumatori a causa di un flusso migratorio e un progresso tecnologico nella produzione. Come cambiano il prezzo e la quantità di equilibrio?",
+      "options": [
+        "Diminuisce il prezzo, ma l’effetto sulla quantità è incerto",
+        "Diminuiscono sia la quantità scambiata che il prezzo",
+        "La quantità scambiata aumenta, ma l’effetto sul prezzo è incerto",
+        "Aumentano sia la quantità scambiata che il prezzo"
+      ],
+      "answer": "La quantità scambiata aumenta, ma l’effetto sul prezzo è incerto",
+      "explanation": "Un aumento simultaneo di domanda e offerta comporta un sicuro aumento della quantità scambiata, ma l’effetto sul prezzo dipende dall’entità relativa dei due spostamenti."
+    },
+    {
+      "question": "In un mercato in cui la curva di offerta è perfettamente elastica (elasticità infinita) e la curva di domanda ha una inclinazione negativa viene introdotta una tassa di importo fisso (accisa). Il prezzo incassato dai produttori dopo la tassa:",
+      "options": [
+        "Diminuisce di un ammontare esattamente pari alla tassa",
+        "Rimane invariato",
+        "Aumenta della tassa",
+        "Dipende dall’elasticità della domanda"
+      ],
+      "answer": "Diminuisce di un ammontare esattamente pari alla tassa",
+      "explanation": "Con offerta perfettamente elastica, i produttori ricevono sempre lo stesso prezzo netto. Se viene introdotta una tassa, il prezzo pagato dai consumatori aumenta e quello incassato dai produttori scende esattamente di quell’importo."
+    },
+    {
+      "question": "In un mercato in cui la curva di domanda è perfettamente elastica (elasticità infinita) e la curva di offerta ha una inclinazione positiva, viene introdotta una tassa di importo fisso (accisa). La tassa genera una perdita secca?",
+      "options": [
+        "No",
+        "Non ci sono gli elementi per rispondere",
+        "Solo se la tassa è molto alta",
+        "Sì"
+      ],
+      "answer": "Sì",
+      "explanation": "In presenza di una curva di domanda perfettamente elastica, l’introduzione di una tassa genera una perdita secca perché riduce la quantità scambiata, senza benefici per nessuno."
+    },
+    {
+      "question": "In un mercato in cui la curva di domanda è perfettamente elastica (elasticità infinita) e la curva di offerta ha una inclinazione positiva, viene introdotta una tassa di importo fisso (accisa). Il prezzo incassato dai produttori dopo la tassa:",
+      "options": [
+        "Diminuisce di un ammontare esattamente pari alla tassa",
+        "Diminuisce, ma meno dell’ammontare della tassa",
+        "Non varia",
+        "Aumenta perché la tassa la pagano solo i consumatori"
+      ],
+      "answer": "Diminuisce di un ammontare esattamente pari alla tassa",
+      "explanation": "Con domanda perfettamente elastica, i produttori devono abbassare il prezzo di vendita netto esattamente quanto la tassa per mantenere le vendite."
+    },
+    {
+      "question": "In un mercato in cui la curva di domanda è perfettamente elastica (elasticità infinita) e la curva di offerta ha una inclinazione positiva, su chi ricade la tassa?",
+      "options": [
+        "Esclusivamente sui consumatori",
+        "Prevalentemente sui consumatori",
+        "Prevalentemente sui produttori",
+        "Esclusivamente sui produttori"
+      ],
+      "answer": "Esclusivamente sui consumatori",
+      "explanation": "Con domanda perfettamente elastica, il prezzo non cambia: tutto il peso della tassa ricade sui produttori che ricevono meno per unità venduta."
+    },
+    {
+      "question": "In un mercato in cui la curva di domanda è perfettamente anelastica (rigida) e la curva di offerta ha una inclinazione positiva, viene introdotta una tassa di importo fisso (accisa). Il prezzo incassato dai produttori dopo la tassa:",
+      "options": [
+        "Diminuisce di un ammontare pari alla tassa",
+        "Aumenta perché la tassa la pagano solo i consumatori",
+        "Non varia",
+        "Diminuisce, ma meno dell’ammontare della tassa"
+      ],
+      "answer": "Non varia",
+      "explanation": "Con domanda perfettamente rigida, i consumatori sopportano completamente il peso della tassa: il prezzo pagato aumenta, ma quello ricevuto dai produttori resta invariato."
+    },
+    {
+      "question": "Osservate il vincolo di bilancio qui osservato. A quali valori corrisponde?",
+      "options": [
+        "Reddito R=1000, px=10, py=20",
+        "Reddito R=1000, px=20, py=10",
+        "Reddito R=1000, px=50, py=100",
+        "Reddito R=2000, px=20, py=10"
+      ],
+      "answer": "Reddito R=1000, px=20, py=10",
+      "explanation": "Il vincolo di bilancio ha intercette 50 sull'asse x (bene x) e 100 sull'asse y (bene y). Questo corrisponde a R=1000, px=20, py=10 perché 1000/20 = 50 e 1000/10 = 100."
+    },
+    {
+      "question": "Il grafico rappresenta un’impresa in un mercato di concorrenza perfetta, dove C′ è il costo marginale e CMT il costo medio totale. Supponete che sul mercato ci sia una riduzione nella domanda del bene. Cosa accade nel breve periodo?",
+      "options": [
+        "Il prezzo diminuisce, l’impresa produce q*, ma non fa più profitti",
+        "Il prezzo diminuisce, l’impresa fa perdite e esce dal mercato",
+        "Il prezzo aumenta per poter compensare la minore quantità venduta",
+        "Non cambia nulla per l’impresa perché l’uscita di alcune imprese dal mercato riporta il prezzo al suo valore iniziale"
+      ],
+      "answer": "Non cambia nulla per l’impresa perché l’uscita di alcune imprese dal mercato riporta il prezzo al suo valore iniziale",
+      "explanation": "Nel lungo periodo, in concorrenza perfetta, il prezzo si stabilizza al livello del costo medio minimo grazie all’entrata e uscita di imprese dal mercato. Se la domanda cala, alcune imprese escono, ma il prezzo resta invariato per chi resta."
+    },
+    {
+      "question": "Per indurre un’industria a produrre il livello socialmente ottimale di un bene che genera esternalità negative, il governo introduce una tassa. Questa imposta dovrebbe essere uguale:",
+      "options": [
+        "Al costo marginale privato di produzione",
+        "Al costo medio per la società della produzione",
+        "Al costo esterno (sociale) marginale della produzione",
+        "Al costo di ridurre l’esternalità a zero"
+      ],
+      "answer": "Al costo esterno (sociale) marginale della produzione",
+      "explanation": "Secondo la teoria di Pigou, una tassa correttiva (Pigouviana) dovrebbe essere pari al costo marginale sociale dell’esternalità, per internalizzare l’esternalità negativa."
+    },
+    {
+      "question": "In concorrenza monopolistica, la curva della domanda individuale (per l’impresa) è più piatta (elastica) della curva della domanda del mercato. Perché?",
+      "options": [
+        "Falso, perché i produttori possono vendere i loro prodotti solo a prezzi e quantità predefiniti",
+        "È vero, perché i consumatori possono facilmente cambiare prodotto all’interno dello stesso mercato",
+        "È vero, perché i produttori in concorrenza monopolistica sono molto reattivi alle variazioni dei prezzi",
+        "Falso, perché la curva della domanda individuale in concorrenza monopolistica non è necessariamente più piatta della curva della domanda del mercato"
+      ],
+      "answer": "È vero, perché i consumatori possono facilmente cambiare prodotto all’interno dello stesso mercato",
+      "explanation": "In concorrenza monopolistica i prodotti sono simili ma differenziati. I consumatori, avendo alternative vicine, rendono la domanda per la singola impresa più elastica."
+    },
+    {
+      "question": "Quando vi è collusione le imprese hanno incentivo ad attuare comportamenti opportunistici, ossia a tradire l’accordo collusivo?",
+      "options": [
+        "Solo se hanno costi marginali maggiori delle altre imprese del cartello",
+        "Sì, se la 'punizione' non è troppo grande",
+        "Mai",
+        "Sempre, in qualunque condizione"
+      ],
+      "answer": "Sì, se la 'punizione' non è troppo grande",
+      "explanation": "Nel gioco ripetuto della collusione, le imprese hanno incentivo a deviare se il guadagno immediato dalla deviazione è maggiore rispetto alla punizione futura attesa. La credibilità della punizione è fondamentale."
+    },
+    {
+      "question": "Un bene pubblico è:",
+      "options": [
+        "Rivale e non esclusivo (escludibile) nel consumo",
+        "Non rivale ed esclusivo (escludibile) nel consumo",
+        "Rivale ed esclusivo (escludibile) nel consumo",
+        "Non rivale e non esclusivo (non escludibile) nel consumo"
+      ],
+      "answer": "Non rivale e non esclusivo (non escludibile) nel consumo",
+      "explanation": "Un bene pubblico è un bene non rivale (il consumo da parte di una persona non riduce la disponibilità per altri) e non escludibile (non si può impedire a nessuno di utilizzarlo)."
+    },
+    {
+      "question": "La pay TV è un bene pubblico?",
+      "options": [
+        "No, perché anche se non rivale, non è non esclusiva (non escludibile)",
+        "No, perché se è sia rivale che esclusiva (escludibile)",
+        "Sì",
+        "No, perché sebbene sia non esclusiva (non escludibile), non è non rivale"
+      ],
+      "answer": "No, perché anche se non rivale, non è non esclusiva (non escludibile)",
+      "explanation": "La pay TV non è un bene pubblico perché, anche se non rivale (più persone possono guardare contemporaneamente), è escludibile tramite abbonamento."
+    },
+    {
+      "question": "Supponiamo che un’impresa raddoppi l’uso di tutti i fattori. Se l’output aumenta ma meno del doppio si hanno:",
+      "options": [
+        "Rendimenti di scala costanti",
+        "Rendimenti del lavoro decrescenti",
+        "Rendimenti di scala decrescenti",
+        "Rendimenti di scala crescenti"
+      ],
+      "answer": "Rendimenti di scala decrescenti",
+      "explanation": "Si parla di rendimenti di scala decrescenti quando aumentando tutti i fattori produttivi in proporzione, l’output aumenta in misura minore."
+    },
+    {
+      "question": "Considerate il grafico sottostante riferito ad un mercato monopolistico. Il punto che rappresenta l’equilibrio (prezzo e quantità prodotta) di monopolio è:",
+      "options": [
+        "E",
+        "B",
+        "G",
+        "F"
+      ],
+      "answer": "G",
+      "explanation": "Nel monopolio l’equilibrio si trova nel punto in cui il ricavo marginale (RM) è uguale al costo marginale (CM). Il prezzo viene poi determinato sulla curva di domanda: in questo grafico è indicato come punto G."
+    },
+    {
+      "question": "I fattori di produzione che si possono aumentare o diminuire nel breve periodo sono:",
+      "options": [
+        "Tutti i fattori",
+        "Solo quelli fissi",
+        "Solo quelli variabili",
+        "Nessuno"
+      ],
+      "answer": "Solo quelli variabili",
+      "explanation": "Nel breve periodo alcuni fattori (come il capitale) sono fissi, mentre altri (come il lavoro) possono essere variati. Solo i fattori variabili si possono quindi modificare."
+    },
+    {
+      "question": "Il vincolo di bilancio nero è il vincolo di bilancio al tempo t1, il vincolo di bilancio arancione quello al tempo t2. Cosa è accaduto tra t1 e t2?",
+      "image": "/img/vincolo-bilancio-t1-t2.png",
+      "options": [
+        "È aumentato il reddito del consumatore",
+        "È diminuito il prezzo del bene y",
+        "È diminuito il reddito del consumatore",
+        "È diminuito il prezzo del bene x"
+      ],
+      "answer": "È diminuito il prezzo del bene y",
+      "explanation": "Il vincolo ruota verso l’esterno lungo l’asse y, il che indica una diminuzione del prezzo del bene y: con lo stesso reddito, si può acquistare una quantità maggiore di y."
+    },
+    {
+      "question": "Quale delle seguenti NON costituisce un ostacolo all’ingresso di nuove imprese sul mercato?",
+      "options": [
+        "Economie di scala",
+        "Licenze",
+        "Bassi profitti",
+        "Controllo di una risorsa essenziale"
+      ],
+      "answer": "Bassi profitti",
+      "explanation": "I bassi profitti scoraggiano l’ingresso, ma non sono un ostacolo strutturale. Gli ostacoli reali sono barriere legali, tecnologiche o di costo."
+    },
+    {
+      "question": "Due oligopolisti producono un bene omogeneo e competono fissando il prezzo dopo aver osservato il prezzo fissato dall’altro. Questo tipo di mercato è definito:",
+      "options": [
+        "Concorrenza monopolistica",
+        "Modello di Bertrand",
+        "Modello di Cournot",
+        "Collusione"
+      ],
+      "answer": "Modello di Bertrand",
+      "explanation": "Nel modello di Bertrand, le imprese fissano i prezzi e non le quantità. Con prodotti omogenei, anche una piccola riduzione di prezzo di un'impresa può spostare tutta la domanda verso di essa."
+    },
+    {
+      "question": "Qual è la curva di offerta di un’impresa che opera in un mercato perfettamente concorrenziale?",
+      "options": [
+        "È la sua curva di costo marginale al di sopra del prezzo di mercato",
+        "Non esiste una curva di offerta individuale nel breve periodo",
+        "È la sua curva di costo marginale al di sopra della curva di costo medio",
+        "È la sua curva di costo medio al di sopra del prezzo di mercato"
+      ],
+      "answer": "È la sua curva di costo marginale al di sopra della curva di costo medio",
+      "explanation": "In concorrenza perfetta, l’offerta di breve periodo coincide con la parte della curva di costo marginale che si trova al di sopra del costo medio variabile (o medio totale nel lungo periodo)."
+    },
+    {
+      "question": "Il vincolo di bilancio:",
+      "options": [
+        "È una curva inclinata positivamente",
+        "Indica la relazione tra prezzo e quantità scambiata",
+        "È una retta, perché il reddito è preso come dato",
+        "È una retta, perché i prezzi sono presi come dati"
+      ],
+      "answer": "È una retta, perché i prezzi sono presi come dati",
+      "explanation": "Nel modello base del consumatore, i prezzi sono dati e costanti: il vincolo è quindi una retta con intercetta R/px e R/py."
+    },
+    {
+      "question": "Quale delle seguenti formule definisce l’elasticità della domanda di un bene rispetto al proprio prezzo?",
+      "options": [
+        "ΔQ/ΔP",
+        "(ΔQ/Q) / (ΔP/P)",
+        "(ΔQ/P) / (ΔP/Q)",
+        "(Q/ΔQ) / (P/ΔP)"
+      ],
+      "answer": "(ΔQ/Q) / (ΔP/P)",
+      "explanation": "L’elasticità della domanda rispetto al prezzo misura la variazione percentuale della quantità domandata rispetto alla variazione percentuale del prezzo."
+    },
+    {
+      "question": "Quale dei seguenti fatti sposta la curva di offerta verso destra?",
+      "options": [
+        "Un aumento del reddito dei consumatori, se il bene è inferiore",
+        "Una riduzione del costo di un fattore produttivo",
+        "Una riduzione del numero di imprese sul mercato",
+        "Una riduzione del prezzo del bene"
+      ],
+      "answer": "Una riduzione del costo di un fattore produttivo",
+      "explanation": "Costi di produzione più bassi permettono alle imprese di offrire più prodotto a ogni livello di prezzo → curva si sposta verso destra."
+    },
+    {
+      "question": "La curva di domanda di mercato quando il mercato è perfettamente concorrenziale è tipicamente:",
+      "options": [
+        "Orizzontale",
+        "Inclinata positivamente",
+        "Inclinata negativamente",
+        "Verticale"
+      ],
+      "answer": "Orizzontale",
+      "explanation": "Per ogni impresa singola, la domanda è perfettamente elastica (orizzontale), perché il prezzo è determinato dal mercato."
+    },
+    {
+      "question": "Considerate un generico modello di domanda e offerta di un bene. Un aumento del reddito dei consumatori nel caso di un bene inferiore conduce a:",
+      "options": [
+        "Un incremento della produzione e una riduzione del prezzo del bene",
+        "Una riduzione della produzione e un incremento del prezzo del bene",
+        "Un incremento della produzione e un incremento del prezzo del bene",
+        "Una riduzione della produzione e una riduzione del prezzo del bene"
+      ],
+      "answer": "Una riduzione della produzione e una riduzione del prezzo del bene",
+      "explanation": "Nel caso di un bene inferiore, l’aumento di reddito riduce la domanda: calano prezzo ed equilibrio di quantità."
+    },
+    {
+      "question": "La curva di domanda di un monopolista:",
+      "options": [
+        "Coincide con la curva di domanda di mercato",
+        "È minore della curva di domanda di mercato",
+        "Prima cresce, poi decresce",
+        "È perfettamente elastica"
+      ],
+      "answer": "Coincide con la curva di domanda di mercato",
+      "explanation": "Il monopolista è l’unico venditore: affronta tutta la domanda del mercato, quindi la sua curva di domanda è quella di mercato."
+    },
+    {
+      "question": "Per un’impresa in un mercato perfettamente concorrenziale la produzione ottimale nel breve periodo è dove:",
+      "options": [
+        "Il costo marginale è uguale al prezzo nel tratto in cui la curva di costo marginale è inclinata verso il basso",
+        "Il costo marginale è uguale al prezzo nel tratto in cui la curva di costo marginale è inclinata verso l’alto",
+        "Non esiste un punto di ottimo nel breve periodo",
+        "Il prezzo è uguale al costo medio totale"
+      ],
+      "answer": "Il costo marginale è uguale al prezzo nel tratto in cui la curva di costo marginale è inclinata verso l’alto",
+      "explanation": "La condizione di massimizzazione del profitto è P = MC, ma va soddisfatta nel tratto crescente (altrimenti si ha minimo, non massimo)."
+    },
+    {
+      "question": "Carlo può produrre 30 unità di bene X o 40 unità di bene Y in un giorno. Daniela può produrre 14 unità di bene X o 28 unità di bene Y in un giorno. Quale delle seguenti affermazioni è giusta?",
+      "options": [
+        "Daniela ha un vantaggio assoluto nella produzione del bene X",
+        "Daniela ha un vantaggio comparato nella produzione del bene Y",
+        "Daniela ha un vantaggio assoluto nella produzione del bene Y",
+        "Daniela ha un vantaggio comparato nella produzione del bene X"
+      ],
+      "answer": "Daniela ha un vantaggio comparato nella produzione del bene Y",
+      "explanation": "Daniela ha un vantaggio comparato nel bene Y perché il suo costo opportunità per produrre una unità di Y (14/28 = 0,5 X) è inferiore a quello di Carlo (30/40 = 0,75 X)."
+    },
+    {
+      "question": "Un’impresa utilizza 20 unità di lavoro (L) e 20 unità di capitale (K) e produce 400 unità di output (Q). Supponendo ora che raddoppia l’uso di tutti i fattori produttivi e siano rendimenti di scala decrescenti, quale delle seguenti quantità di output è compatibile con la situazione descritta?",
+      "options": [
+        "800",
+        "200",
+        "600",
+        "Nessuna delle altre alternative"
+      ],
+      "answer": "600",
+      "explanation": "Con rendimenti di scala decrescenti, il raddoppio dei fattori produttivi (da L=20 a 40 e K=20 a 40) genera un aumento dell’output inferiore al doppio. Quindi, da 400 si passa a meno di 800. L’unico valore coerente tra le opzioni è 600."
+    },
+    {
+      "question": "Un’esternalità richiede l’intervento statale?",
+      "options": [
+        "No",
+        "Sì, se non ci sono le condizioni per applicare il teorema di Coase",
+        "Sì, se ci sono le condizioni per applicare il teorema di Coase",
+        "Solo se il governo vuole incassare più tasse"
+      ],
+      "answer": "Sì, se non ci sono le condizioni per applicare il teorema di Coase",
+      "explanation": "Il teorema di Coase mostra che, in assenza di costi di transazione, i privati possono negoziare soluzioni efficienti. Ma se tali condizioni non sono presenti, è necessario l’intervento pubblico per correggere l’esternalità."
+    },
+    {
+      "question": "È vero che la quantità prodotta da un monopolista \"è troppo alta\"?",
+      "options": [
+        "No, in monopolio la quantità prodotta è bassa",
+        "No, è inferiore al livello di produzione che massimizza il profitto",
+        "Sì, è superiore al livello che minimizza i costi totali",
+        "Sì, perché soddisfa anche persone che non sono suoi clienti"
+      ],
+      "answer": "No, in monopolio la quantità prodotta è bassa",
+      "explanation": "Il monopolista riduce la quantità prodotta rispetto alla concorrenza perfetta per aumentare i prezzi e massimizzare i profitti, causando un’inefficienza allocativa (perdita secca)."
+    },
+    {
+      "question": "Si ipotizzi un mercato con due sole imprese identiche tra loro. Se queste due imprese competono nella determinazione del prezzo, quale prezzo di equilibrio risulterà nel lungo periodo?",
+      "options": [
+        "Inferiore a quello di monopolio, ma superiore a quello di concorrenza perfetta",
+        "Lo stesso di un monopolio",
+        "Il risultato non può essere determinato a priori",
+        "Lo stesso della concorrenza perfetta"
+      ],
+      "answer": "Lo stesso della concorrenza perfetta",
+      "explanation": "Nel modello di Bertrand, con due imprese che competono sul prezzo e beni omogenei, il prezzo tende a scendere fino al costo marginale, proprio come in concorrenza perfetta."
+    },
+    {
+      "question": "Uno spostamento della curva di domanda di un bene verso l’esterno (destra) può essere dovuto",
+      "options": [
+        "A un aumento del prezzo di un bene sostituto",
+        "A una variazione dei gusti dei consumatori che li porta a preferire altri beni",
+        "All’aumento del suo prezzo",
+        "All’aumento dei costi di produzione di quel bene"
+      ],
+      "answer": "A un aumento del prezzo di un bene sostituto",
+      "explanation": "Se il prezzo di un bene sostituto aumenta, i consumatori si spostano verso il bene in esame, facendo aumentare la domanda di quest’ultimo. Questo sposta la curva di domanda verso destra."
+    },
+    {
+      "question": "La curva di domanda di mercato di un bene privato è:",
+      "options": [
+        "La somma verticale delle curve di domande dei consumatori presenti nel mercato",
+        "La somma orizzontale delle curve di domande dei consumatori presenti nel mercato",
+        "La somma verticale dei vincoli di bilancio dei consumatori presenti nel mercato",
+        "La somma orizzontale dei vincoli di bilancio dei consumatori presenti nel mercato"
+      ],
+      "answer": "La somma orizzontale delle curve di domande dei consumatori presenti nel mercato",
+      "explanation": "Per ottenere la domanda di mercato, si sommano orizzontalmente le quantità domandate da ogni consumatore a ogni livello di prezzo."
+    },
+    {
+      "question": "Considerate un generico modello di domanda e offerta di un bene. Un aumento nel numero di consumatori dovuta a una ondata migratoria e un contemporaneo aumento nel costo di un fattore produttivo provoca:",
+      "options": [
+        "Diminuiscono sia la quantità scambiata che il prezzo",
+        "Diminuisce la quantità scambiata, ma l’effetto sul prezzo è incerto",
+        "Aumentano sia la quantità scambiata che il prezzo",
+        "Il prezzo cambia, ma l’effetto sulla quantità scambiata è incerto"
+      ],
+      "answer": "Il prezzo cambia, ma l’effetto sulla quantità scambiata è incerto",
+      "explanation": "L’aumento della domanda spinge quantità e prezzo verso l’alto, ma l’aumento dei costi di produzione riduce l’offerta. L’effetto complessivo sul prezzo dipende dalla forza relativa dei due effetti; l’effetto sulla quantità scambiata è quindi incerto."
+    },
+    {
+      "question": "Una tassa sulle vendite ricade soprattutto sui consumatori quando:",
+      "options": [
+        "L’elasticità della domanda rispetto al prezzo è uguale all’elasticità dell’offerta rispetto al prezzo",
+        "L’elasticità della domanda rispetto al prezzo è inferiore a uno",
+        "L’elasticità della domanda rispetto al prezzo è superiore all’elasticità dell’offerta rispetto al prezzo",
+        "L’elasticità della domanda rispetto al prezzo è inferiore all’elasticità dell’offerta rispetto al prezzo"
+      ],
+      "answer": "L’elasticità della domanda rispetto al prezzo è inferiore all’elasticità dell’offerta rispetto al prezzo",
+      "explanation": "Quando i consumatori sono meno elastici degli offerenti, hanno meno possibilità di evitare la tassa e ne sopportano quindi il peso maggiore."
+    },
+    {
+      "question": "Se il prezzo diminuisce del 10% e la quantità domandata aumenta del 20%, la domanda è:",
+      "options": [
+        "Anelastica, con elasticità pari a -2",
+        "Elastica, con elasticità pari a -2",
+        "Elastica, con elasticità pari a 50",
+        "Anelastica, con elasticità pari a -0,5"
+      ],
+      "answer": "Elastica, con elasticità pari a -2",
+      "explanation": "L’elasticità si calcola come variazione percentuale della quantità divisa per la variazione percentuale del prezzo: -20% / -10% = 2. Il valore assoluto maggiore di 1 indica domanda elastica."
+    },
+    {
+      "question": "Il vincolo di bilancio del consumatore rappresenta:",
+      "options": [
+        "Tutti i panieri (combinazioni di quantità di bene x e di quantità di bene y) che il consumatore può consumare dato il suo reddito a qualsiasi prezzo del bene x e y",
+        "Tutti i panieri (combinazioni di quantità di bene x e di quantità di bene y) che danno al consumatore lo stesso livello di utilità",
+        "Tutti i panieri (combinazioni di quantità di bene x e di quantità di bene y) che il consumatore può consumare dato il suo reddito e il prezzo dei due beni",
+        "Le preferenze per il bene x e per il bene y"
+      ],
+      "answer": "Tutti i panieri (combinazioni di quantità di bene x e di quantità di bene y) che il consumatore può consumare dato il suo reddito e il prezzo dei due beni",
+      "explanation": "Il vincolo di bilancio rappresenta tutte le combinazioni di beni che il consumatore può permettersi, dati i suoi vincoli di reddito e i prezzi."
+    },
+    {
+      "question": "Se l’elasticità della domanda al prezzo è pari a 1,4 in valore assoluto, una riduzione del prezzo che effetto ha sul ricavo totale?",
+      "options": [
+        "Il ricavo totale aumenta",
+        "Il ricavo totale resta invariato",
+        "Non ci sono elementi sufficienti per rispondere",
+        "Il ricavo totale diminuisce"
+      ],
+      "answer": "Il ricavo totale aumenta",
+      "explanation": "Quando la domanda è elastica (elasticità > 1 in valore assoluto), una riduzione del prezzo aumenta la quantità domandata in proporzione maggiore, facendo quindi crescere il ricavo totale."
+    },
+    {
+      "question": "La curva di domanda rappresentata in figura (linea retta a metà):",
+      "options": [
+        "Ha elasticità unitaria",
+        "È perfettamente anelastica (rigida)",
+        "È perfettamente elastica",
+        "Ha elasticità crescente al diminuire del prezzo"
+      ],
+      "answer": "È perfettamente elastica",
+      "explanation": "Una linea orizzontale rappresenta una curva di domanda perfettamente elastica: una minima variazione di prezzo comporta una variazione infinita della quantità domandata."
+    },
+    {
+      "question": "Per quale valore (assoluto) dell’elasticità della domanda al prezzo il ricavo totale diminuisce quando il prezzo aumenta?",
+      "options": [
+        "0.8",
+        "Zero",
+        "1.2",
+        "Se il prezzo aumenta il ricavo totale non diminuisce mai"
+      ],
+      "answer": "1.2",
+      "explanation": "Quando l’elasticità della domanda è maggiore di 1 (domanda elastica), un aumento del prezzo comporta una riduzione del ricavo totale, perché la diminuzione della quantità domandata è proporzionalmente maggiore."
+    },
+    {
+      "question": "Considerate il grafico sottostante riferito ad un mercato monopolistico. Il punto F rappresenta:",
+      "options": [
+        "Un punto impossibile da raggiungere",
+        "La massima quantità che il mercato riesce a produrre",
+        "L’equilibrio del mercato monopolistico",
+        "L’equilibrio del mercato concorrenziale"
+      ],
+      "answer": "L’equilibrio del mercato concorrenziale",
+      "explanation": "Nel grafico, il punto F si trova all’intersezione tra curva di domanda e curva di costo marginale (MC). Questo rappresenta l’equilibrio in concorrenza perfetta, dove P = MC, a differenza del monopolio che produce una quantità minore (Qm) a un prezzo più alto."
+    },
+    {
+      "question": "Supponiamo che un bene G generi un’esternalità positiva. Un mercato perfettamente competitivo:",
+      "options": [
+        "Produce la giusta quantità di bene G",
+        "Nessuna delle opzioni",
+        "Produce troppo del bene G",
+        "Produce troppo poco del bene G"
+      ],
+      "answer": "Produce troppo poco del bene G",
+      "explanation": "Con un’esternalità positiva, il beneficio sociale è maggiore di quello privato, quindi in concorrenza perfetta si produce meno del livello socialmente ottimale."
+    },
+    {
+      "question": "Supponiamo che due produttori identici abbiano uno stesso costo marginale costante pari a 60. Supponendo un duopolio di Bertrand, qual è il prezzo al quale i due produttori venderanno i loro beni?",
+      "options": [
+        "Dipende dalla quantità prodotta",
+        "60",
+        "100",
+        "40"
+      ],
+      "answer": "60",
+      "explanation": "Nel modello di Bertrand con beni omogenei e costi marginali uguali, il prezzo scende fino al costo marginale, poiché ogni impresa ha incentivo a sottoprezzare l’altra."
+    },
+    {
+      "question": "L’automobile è un bene pubblico?",
+      "options": [
+        "No, perché è sia rivale che esclusiva (escludibile)",
+        "No, perché anche se non rivale, non è esclusiva (non escludibile)",
+        "No, perché sebbene non sia esclusiva (escludibile), non è rivale",
+        "Sì"
+      ],
+      "answer": "No, perché è sia rivale che esclusiva (escludibile)",
+      "explanation": "Un bene pubblico è non rivale e non escludibile. L’automobile è rivale (se la uso io, non puoi usarla tu) ed escludibile (serve possesso e controllo), quindi non è pubblica."
+    },
+    {
+      "question": "Per un produttore monopolista:",
+      "options": [
+        "Il prezzo a cui vende il bene è uguale al prezzo di mercato di concorrenza perfetta",
+        "Il prezzo a cui vende il bene è inferiore al costo marginale",
+        "Il prezzo a cui vende il bene è superiore al costo marginale",
+        "Il prezzo a cui vende il bene è uguale al costo marginale"
+      ],
+      "answer": "Il prezzo a cui vende il bene è superiore al costo marginale",
+      "explanation": "Il monopolista massimizza il profitto producendo dove RMg = CMg, ma il prezzo è fissato sulla curva di domanda, che si trova sopra il CMg."
+    },
+    {
+      "question": "Due beni sono tra di loro complementari se:",
+      "options": [
+        "L’elasticità della domanda di uno dei due beni rispetto al prezzo dell’altro è positiva",
+        "Entrambi hanno un’elasticità della domanda rispetto al proprio prezzo superiore all’unità",
+        "L’elasticità della domanda di uno dei due beni rispetto al prezzo dell’altro è negativa",
+        "Entrambi hanno un’elasticità della domanda rispetto al proprio prezzo inferiore all’unità"
+      ],
+      "answer": "L’elasticità della domanda di uno dei due beni rispetto al prezzo dell’altro è negativa",
+      "explanation": "Se due beni sono complementari, un aumento del prezzo di uno riduce la domanda dell’altro → elasticità incrociata negativa."
+    },
+    {
+      "question": "Quali dei seguenti fatti sposta la curva di domanda verso sinistra (o verso il basso)?",
+      "options": [
+        "Una riduzione del numero di imprese sul mercato",
+        "Una riduzione del prezzo del bene",
+        "Una riduzione del reddito dei consumatori, se il bene è inferiore",
+        "Una riduzione del reddito dei consumatori, se il bene è normale"
+      ],
+      "answer": "Una riduzione del reddito dei consumatori, se il bene è normale",
+      "explanation": "Per beni normali, una riduzione del reddito porta a una riduzione della domanda, spostando la curva verso sinistra."
+    },
+    {
+      "question": "Quali delle seguenti affermazioni NON È un’ipotesi di concorrenza perfetta?",
+      "options": [
+        "Tutte le imprese sono price-taker",
+        "C’è libertà di entrata e uscita dal mercato delle imprese",
+        "La curva dei costi marginali è a forma di U",
+        "Tutte le imprese producono beni identici"
+      ],
+      "answer": "La curva dei costi marginali è a forma di U",
+      "explanation": "La forma della curva dei costi marginali dipende dalla tecnologia produttiva e **non** è un’ipotesi necessaria per la concorrenza perfetta."
+    },
+    {
+      "question": "Se CT= costo totale, CV= costo variabile, CF= costo fisso, q= quantità prodotta, il costo medio variabile è dato da:",
+      "options": [
+        "CV/q",
+        "CF/q",
+        "CT/q",
+        "ΔCT/Δq"
+      ],
+      "answer": "CV/q",
+      "explanation": "Il costo medio variabile (CMV) è calcolato dividendo il costo variabile (CV) per la quantità prodotta: CMV = CV/q."
+    },
+    {
+      "question": "Osservate il vincolo di bilancio qui osservato. A quali valori corrisponde?",
+      "options": [
+        "Reddito R=1000, px=10, py=20",
+        "Reddito R=1000, px=20, py=10",
+        "Reddito R=1000, px=50, py=100",
+        "Reddito R=2000, px=20, py=10"
+      ],
+      "answer": "Reddito R=1000, px=20, py=10",
+      "explanation": "Il vincolo parte da 100 sull’asse Y e da 50 sull’asse X. Se py=10 e px=20, allora: 100·10 = 1000 e 50·20 = 1000 → reddito 1000, coerente con le coordinate osservate sul grafico."
+    },
+    {
+      "question": "Il grafico rappresenta un’impresa in un mercato di concorrenza perfetta, dove C' è il costo marginale e CMT è il costo medio totale. Supponete che sul mercato ci sia una riduzione nella domanda del bene. Cosa accade nel breve periodo?",
+      "options": [
+        "Il costo medio scende al di sotto del costo marginale",
+        "L’impresa aumenta la produzione per assorbire la minore domanda",
+        "L’impresa è costretta a operare in perdita nel breve periodo",
+        "Il prezzo aumenta per mantenere i profitti"
+      ],
+      "answer": "L’impresa è costretta a operare in perdita nel breve periodo",
+      "explanation": "In concorrenza perfetta, una diminuzione della domanda riduce il prezzo. Se il nuovo prezzo è inferiore al CMT ma superiore al CMg, l’impresa continua a produrre nel breve periodo, anche se in perdita (copre almeno i costi variabili)."
+    },
+    {
+      "question": "Il grafico rappresenta un’impresa in un mercato di concorrenza perfetta, dove C' è il costo marginale e CMT è il costo medio totale. Supponete che sul mercato ci sia una riduzione nella domanda del bene. Cosa accade nel breve periodo?",
+      "options": [
+        "Il prezzo diminuisce, l’impresa produce q*, ma non fa più profitti",
+        "Il prezzo diminuisce, l’impresa fa perdite e esce dal mercato",
+        "Il prezzo aumenta per poter compensare la minore quantità venduta",
+        "Non cambia nulla per l’impresa perché l’uscita di alcune imprese dal mercato riporta il prezzo al suo valore iniziale"
+      ],
+      "answer": "Non cambia nulla per l’impresa perché l’uscita di alcune imprese dal mercato riporta il prezzo al suo valore iniziale",
+      "explanation": "Nel lungo periodo, in concorrenza perfetta, se la domanda scende, il prezzo inizialmente cala. Tuttavia, le imprese inefficienti escono, riducendo l’offerta, e il prezzo torna al livello di equilibrio iniziale, annullando gli effetti negativi per le imprese rimaste."
+    },
+    {
+      "question": "Supponiamo che un’impresa raddoppi l’uso di tutti i fattori. Se l’output aumenta ma meno del doppio si hanno:",
+      "options": [
+        "Rendimenti di scala costanti",
+        "Rendimenti del lavoro decrescenti",
+        "Rendimenti di scala decrescenti",
+        "Rendimenti di scala crescenti"
+      ],
+      "answer": "Rendimenti di scala decrescenti",
+      "explanation": "Quando tutti gli input aumentano in proporzione ma l’output cresce meno che proporzionalmente, l’impresa sperimenta rendimenti di scala decrescenti."
+    },
+    {
+      "question": "Qual è la curva di offerta di un’impresa che opera in un mercato perfettamente concorrenziale?",
+      "options": [
+        "È la sua curva di costo marginale al di sopra del prezzo di mercato",
+        "Non esiste una curva di offerta individuale nel breve periodo",
+        "È la sua curva di costo marginale al di sopra della curva di costo medio",
+        "È la sua curva di costo medio al di sopra del prezzo di mercato"
+      ],
+      "answer": "È la sua curva di costo marginale al di sopra della curva di costo medio",
+      "explanation": "In concorrenza perfetta, l’impresa offre quantità positive solo se il prezzo di mercato è almeno pari al costo medio. La curva di offerta coincide quindi con il tratto della curva del costo marginale che si trova al di sopra del costo medio."
+    },
+    {
+      "question": "Nel lungo periodo la concorrenza monopolistica assomiglia alla concorrenza perfetta in quanto:",
+      "options": [
+        "L’equilibrio è efficiente",
+        "Le imprese hanno profitti nulli",
+        "Il prezzo corrisponde al costo marginale",
+        "Il prezzo è uguale al costo totale medio"
+      ],
+      "answer": "Le imprese hanno profitti nulli",
+      "explanation": "Nel lungo periodo, in concorrenza monopolistica, l’ingresso di nuove imprese erode i profitti. Si raggiunge un equilibrio con profitti economici nulli, come nella concorrenza perfetta, anche se l'efficienza allocativa non è garantita."
+    },
+    {
+      "question": "Quale delle seguenti affermazioni sul vincolo di bilancio è sbagliata?",
+      "options": [
+        "La sua inclinazione cresce all’aumentare del prezzo di uno dei due beni",
+        "Non cambia la sua inclinazione al variare del prezzo di uno dei due beni",
+        "La sua pendenza è il rapporto, con segno negativo, tra il prezzo del bene sull’asse orizzontale e quello del bene sull’asse verticale",
+        "La sua inclinazione dipende dal rapporto tra i prezzi"
+      ],
+      "answer": "Non cambia la sua inclinazione al variare del prezzo di uno dei due beni",
+      "explanation": "Il vincolo di bilancio ha una pendenza pari al rapporto (negativo) tra i prezzi dei beni. Se cambia il prezzo di un bene, cambia anche l’inclinazione. L’affermazione è quindi sbagliata."
+    },
+    {
+      "question": "Quale delle seguenti NON è una caratteristica della concorrenza monopolistica?",
+      "options": [
+        "Barriere all’ingresso per altre imprese",
+        "L’esistenza di un certo potere di mercato",
+        "Un gran numero di imprese",
+        "Differenziazione del prodotto"
+      ],
+      "answer": "Barriere all’ingresso per altre imprese",
+      "explanation": "La concorrenza monopolistica prevede libertà di entrata e uscita. Le barriere all’ingresso sono tipiche del monopolio o oligopolio, non della concorrenza monopolistica."
+    },
+    {
+      "question": "In un mercato perfettamente concorrenziale il prezzo di mercato del bene è di 60€. In corrispondenza di quale quantità si verifica la condizione di ottimo in base alla quale l’impresa vende il suo prodotto? E qual è il suo profitto (o perdita)?",
+      "options": [
+        "Q=1, profitto=10",
+        "Q=3, profitto=10",
+        "Q=4, profitto=10",
+        "Q=2, profitto=20"
+      ],
+      "answer": "Q=3, profitto=10",
+      "explanation": "La condizione di ottimo si ha quando P = Costo marginale (CM). Dalla rappresentazione grafica, ciò avviene in corrispondenza di Q = 3. Il profitto è dato da (P - CMT) * Q = (60 - 56.67) * 3 ≈ 10."
+    },
+    {
+      "question": "Se l’utilità totale del consumo di un bene è rappresentata in tabella, qual è l’utilità marginale della quinta unità del bene?",
+      "options": [
+        "2",
+        "4",
+        "40",
+        "28"
+      ],
+      "answer": "4",
+      "explanation": "L’utilità marginale (UM) è la variazione dell’utilità totale tra due quantità. UM(5) = UT(5) - UT(4) = 40 - 36 = 4."
+    },
+    {
+      "question": "Con il prezzo sull’asse delle ordinate (verticale) e quantità sull’asse delle ascisse (orizzontale), la curva di domanda viene definita perfettamente anelastica se è:",
+      "options": [
+        "Verticale",
+        "Inclinata negativamente",
+        "Orizzontale"
+      ],
+      "answer": "Verticale",
+      "explanation": "Una curva di domanda perfettamente anelastica indica che la quantità domandata non varia al variare del prezzo. Questo si rappresenta con una curva verticale."
+    },
+    {
+      "question": "Per un’azienda perfettamente competitiva, la produzione ottimale a lungo termine è dove:",
+      "options": [
+        "Il costo medio è il suo valore minimo",
+        "Il costo marginale è al suo valore minimo",
+        "Nessuna delle alternative",
+        "Il costo totale è al suo valore minimo"
+      ],
+      "answer": "Il costo medio è il suo valore minimo",
+      "explanation": "Nel lungo periodo in concorrenza perfetta, l’impresa produce dove il costo medio è minimo, condizione che garantisce l’efficienza produttiva e l’assenza di extraprofitti."
+    },
+    {
+      "question": "L’elasticità della domanda al prezzo misura:",
+      "options": [
+        "Di quanto un produttore può aumentare il prezzo senza che cali la domanda",
+        "Di quanto varia la domanda di un bene al variare del suo prezzo",
+        "Di quanto la domanda di bene quando aumenta il reddito dei consumatori",
+        "Il rapporto tra il prezzo e la quantità venduta di un bene in equilibrio"
+      ],
+      "answer": "Di quanto varia la domanda di un bene al variare del suo prezzo",
+      "explanation": "L’elasticità della domanda al prezzo misura la sensibilità della quantità domandata rispetto a variazioni di prezzo."
+    },
+    {
+      "question": "Nell’equilibrio di breve periodo in un mercato perfettamente concorrenziale un’impresa continua a produrre anche se subisce perdite se:",
+      "options": [
+        "I ricavi sono maggiori dei costi fissi",
+        "I ricavi sono maggiori dei costi totali",
+        "I ricavi sono maggiori dei costi variabili",
+        "In caso di perdite nel breve periodo, l’impresa chiude"
+      ],
+      "answer": "I ricavi sono maggiori dei costi variabili",
+      "explanation": "Nel breve periodo, l’impresa continua a produrre se riesce almeno a coprire i costi variabili, anche se non riesce a coprire tutti i costi fissi."
+    },
+    {
+      "question": "Per quali beni si ha perfetta complementarietà?",
+      "options": [
+        "Caffè e tè",
+        "Lampadina e candela",
+        "Guardia da portiere e pallone da pallavolo",
+        "Lampadario e lampadina"
+      ],
+      "answer": "Lampadario e lampadina",
+      "explanation": "Due beni sono perfetti complementi quando sono consumati insieme in proporzioni fisse, come lampadario e lampadina."
+    },
+    {
+      "question": "In presenza di rendimenti di scala costanti, il costo medio di lungo periodo:",
+      "options": [
+        "È costante nel tempo",
+        "Cresce all’aumentare della quantità prodotta",
+        "Decresce all’aumentare della quantità prodotta",
+        "È costante all’aumentare della quantità prodotta"
+      ],
+      "answer": "È costante all’aumentare della quantità prodotta",
+      "explanation": "Con rendimenti di scala costanti, l’output raddoppia se raddoppiano tutti gli input: quindi il costo medio resta invariato."
+    },
+    {
+      "question": "Cosa succede alle imprese in un mercato di concorrenza monopolistica se una nuova impresa entra nel mercato?",
+      "options": [
+        "La quantità venduta diminuisce ma il prezzo rimane invariato",
+        "Il prezzo a cui vendono il bene diminuisce ma la quantità rimane invariata",
+        "Il prezzo a cui vendono il bene e la quantità venduta diminuisce",
+        "Niente"
+      ],
+      "answer": "Il prezzo a cui vendono il bene e la quantità venduta diminuisce",
+      "explanation": "L’ingresso di nuove imprese aumenta la competizione, riducendo sia la quota di mercato per ciascuna impresa sia il prezzo praticabile."
+    },
+    {
+      "question": "Supponiamo che un’impresa utilizzi 20 unità di lavoro (L) e 20 unità di capitale (K) e produca 400 unità di output (Y). Sapendo che ha rendimenti di scala decrescenti, quanto produrrà se raddoppia l’uso di tutti i fattori produttivi?",
+      "options": [
+        "800",
+        "600",
+        "Non si può dire senza conoscere la funzione di produzione",
+        "200"
+      ],
+      "answer": "600",
+      "explanation": "Con rendimenti di scala decrescenti, l’output aumenta di meno rispetto all’aumento degli input. Raddoppiando gli input, l’output sarà inferiore a 800, quindi 600 è l’unica risposta compatibile."
+    },
+    {
+      "question": "Supponiamo che un’impresa utilizzi 20 unità di lavoro (L) e 20 unità di capitale (K) e produca 400 unità di output (Y). Sapendo che ha rendimenti di scala costanti, quanto produrrà se raddoppia l’uso di tutti i fattori produttivi?",
+      "options": [
+        "800",
+        "Non si può dire senza conoscere la funzione di produzione",
+        "1600",
+        "600"
+      ],
+      "answer": "800",
+      "explanation": "Con rendimenti di scala costanti, se si raddoppiano tutti gli input, anche l’output raddoppia: da 400 a 800."
+    },
+    {
+      "question": "Considerate un generico modello di domanda e offerta di un bene. Un aumento del reddito dei consumatori conduce a:",
+      "options": [
+        "Un incremento della produzione e un incremento del prezzo del bene",
+        "Una riduzione della produzione e un incremento del prezzo del bene",
+        "Una riduzione della produzione e una riduzione del prezzo del bene",
+        "Un incremento della produzione e una riduzione del prezzo del bene"
+      ],
+      "answer": "Un incremento della produzione e un incremento del prezzo del bene",
+      "explanation": "Un aumento del reddito porta a un aumento della domanda. Questo genera un aumento del prezzo e, in risposta, un incremento della produzione."
+    },
+    {
+      "question": "Immagina che il governo voglia regolare una situazione di monopolio naturale. Quale prezzo dovrebbe fissare il governo per evitare che il monopolista subisca perdite e smetta di produrre?",
+      "options": [
+        "Un prezzo pari al ricavo marginale dell’impresa",
+        "Un prezzo uguale al costo totale medio dell’impresa",
+        "Un prezzo uguale al prezzo che si avrebbe in concorrenza perfetta",
+        "Un prezzo uguale al costo marginale dell’impresa"
+      ],
+      "answer": "Un prezzo uguale al costo totale medio dell’impresa",
+      "explanation": "Per evitare perdite, un monopolista naturale deve vendere almeno al prezzo che copre il costo totale medio."
+    },
+    {
+      "question": "Quale dei seguenti è un buon esempio di esternalità negativa nella produzione?",
+      "options": [
+        "Emissioni",
+        "Fumo di sigaretta",
+        "Innovazione tecnologica non brevettabile",
+        "Istruzione universitaria"
+      ],
+      "answer": "Emissioni",
+      "explanation": "Le emissioni inquinanti sono un tipico esempio di esternalità negativa nella produzione, poiché danneggiano terzi senza essere considerate nei costi privati."
+    },
+    {
+      "question": "I costi che dipendono dalla quantità prodotta:",
+      "options": [
+        "Sono nulli",
+        "Sono i costi variabili",
+        "Provocano una rotazione della retta di bilancio",
+        "Sono fissi"
+      ],
+      "answer": "Sono i costi variabili",
+      "explanation": "I costi variabili sono quelli che variano con la quantità prodotta (es. materie prime, manodopera variabile)."
+    },
+    {
+      "question": "Supponendo che la collusione non sia possibile, perché un equilibrio di Cournot è stabile?",
+      "options": [
+        "Un equilibrio di Cournot non è mai stabile",
+        "Perché ogni impresa sta massimizzando i propri profitti data la produzione del concorrente",
+        "Perché i concorrenti stanno massimizzando i profitti del mercato",
+        "Perché il numero di imprese è"
+      ],
+      "answer": "Perché ogni impresa sta massimizzando i propri profitti data la produzione del concorrente",
+      "explanation": "L’equilibrio di Cournot è stabile perché ogni impresa sceglie la quantità ottimale data la quantità scelta dagli altri: nessuna impresa ha incentivo a cambiare unilateramente."
+    },
+  {
+    "question": "Il surplus del consumatore è:",
+    "options": [
+      "La differenza tra la disponibilità a pagare le unità acquistate e il loro prezzo di mercato",
+      "Il prezzo di mercato moltiplicato per le unità acquistate di un bene o servizio",
+      "L’area che si trova al di sotto della curva di domanda",
+      "Una misura dei costi associati al partecipare a un mercato perfettamente concorrenziale"
+    ],
+    "answer": "La differenza tra la disponibilità a pagare le unità acquistate e il loro prezzo di mercato",
+    "explanation": "Il surplus del consumatore rappresenta il beneficio netto che un consumatore ottiene acquistando un bene a un prezzo inferiore rispetto alla propria disponibilità a pagare. È graficamente l’area tra la curva di domanda e il prezzo di mercato fino alla quantità acquistata."
+  }
+]
